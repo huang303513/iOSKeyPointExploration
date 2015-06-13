@@ -35,6 +35,17 @@
         NSLog(@"done");
     });
     
+    
+    //
+    dispatch_time_t time = dispatch_time(DISPATCH_TIME_NOW, 1ull * NSEC_PER_SEC);
+    //这个函数用于判断经过指定时间以后，group里面的任务是否完成，如果完成，返回0，如果不等于0，则是没有完成。
+    //这里的等待的意思是，当前线程会处于阻塞状态且dispatch_group_wait方法处于调用状态，知道group任务完成或者指定时间结束。
+    long result = dispatch_group_wait(group, time);
+    if (result == 0) {
+        //属于Dispatch Group的全部处理执行结束
+    }else{
+        //属于Dispatch Group的有处理没有执行结束
+    }
 }
 
 - (void)didReceiveMemoryWarning {
