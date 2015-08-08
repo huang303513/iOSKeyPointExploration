@@ -15,6 +15,9 @@
 		4D8A43611B75653E00C7DA1B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D8A435F1B75653E00C7DA1B /* LaunchScreen.xib */; };
 		4D8A436D1B75653E00C7DA1B /* OprerationQueueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8A436C1B75653E00C7DA1B /* OprerationQueueTests.m */; };
 		4D8A437B1B75698700C7DA1B /* HCDCreateInvocationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8A437A1B75698700C7DA1B /* HCDCreateInvocationOperation.m */; };
+		DDCA84721B75B27F00F162A6 /* HCDCreateBlockOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCA84711B75B27F00F162A6 /* HCDCreateBlockOperation.m */; };
+		DDCA84771B75B6E100F162A6 /* HCDNonConcurrentOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCA84761B75B6E100F162A6 /* HCDNonConcurrentOperation.m */; };
+		DDCA847A1B75B6F500F162A6 /* HCDConcurrentOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCA84791B75B6F500F162A6 /* HCDConcurrentOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,12 @@
 		4D8A436C1B75653E00C7DA1B /* OprerationQueueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OprerationQueueTests.m; sourceTree = "<group>"; };
 		4D8A43791B75698700C7DA1B /* HCDCreateInvocationOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCreateInvocationOperation.h; sourceTree = "<group>"; };
 		4D8A437A1B75698700C7DA1B /* HCDCreateInvocationOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCreateInvocationOperation.m; sourceTree = "<group>"; };
+		DDCA84701B75B27F00F162A6 /* HCDCreateBlockOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCreateBlockOperation.h; sourceTree = "<group>"; };
+		DDCA84711B75B27F00F162A6 /* HCDCreateBlockOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCreateBlockOperation.m; sourceTree = "<group>"; };
+		DDCA84751B75B6E100F162A6 /* HCDNonConcurrentOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDNonConcurrentOperation.h; sourceTree = "<group>"; };
+		DDCA84761B75B6E100F162A6 /* HCDNonConcurrentOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDNonConcurrentOperation.m; sourceTree = "<group>"; };
+		DDCA84781B75B6F500F162A6 /* HCDConcurrentOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDConcurrentOperation.h; sourceTree = "<group>"; };
+		DDCA84791B75B6F500F162A6 /* HCDConcurrentOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDConcurrentOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +146,8 @@
 		4D8A43771B75694000C7DA1B /* BlockOperation */ = {
 			isa = PBXGroup;
 			children = (
+				DDCA84701B75B27F00F162A6 /* HCDCreateBlockOperation.h */,
+				DDCA84711B75B27F00F162A6 /* HCDCreateBlockOperation.m */,
 			);
 			name = BlockOperation;
 			sourceTree = "<group>";
@@ -144,8 +155,28 @@
 		4D8A43781B75695500C7DA1B /* CustomOperation */ = {
 			isa = PBXGroup;
 			children = (
+				DDCA84741B75B6AB00F162A6 /* 并发 */,
+				DDCA84731B75B69F00F162A6 /* 非并发 */,
 			);
 			name = CustomOperation;
+			sourceTree = "<group>";
+		};
+		DDCA84731B75B69F00F162A6 /* 非并发 */ = {
+			isa = PBXGroup;
+			children = (
+				DDCA84751B75B6E100F162A6 /* HCDNonConcurrentOperation.h */,
+				DDCA84761B75B6E100F162A6 /* HCDNonConcurrentOperation.m */,
+			);
+			name = "非并发";
+			sourceTree = "<group>";
+		};
+		DDCA84741B75B6AB00F162A6 /* 并发 */ = {
+			isa = PBXGroup;
+			children = (
+				DDCA84781B75B6F500F162A6 /* HCDConcurrentOperation.h */,
+				DDCA84791B75B6F500F162A6 /* HCDConcurrentOperation.m */,
+			);
+			name = "并发";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,8 +280,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D8A43591B75653E00C7DA1B /* ViewController.m in Sources */,
+				DDCA847A1B75B6F500F162A6 /* HCDConcurrentOperation.m in Sources */,
 				4D8A43561B75653E00C7DA1B /* AppDelegate.m in Sources */,
+				DDCA84721B75B27F00F162A6 /* HCDCreateBlockOperation.m in Sources */,
 				4D8A43531B75653E00C7DA1B /* main.m in Sources */,
+				DDCA84771B75B6E100F162A6 /* HCDNonConcurrentOperation.m in Sources */,
 				4D8A437B1B75698700C7DA1B /* HCDCreateInvocationOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,6 +480,7 @@
 				4D8A43721B75653E00C7DA1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D8A43731B75653E00C7DA1B /* Build configuration list for PBXNativeTarget "OprerationQueueTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +489,7 @@
 				4D8A43751B75653E00C7DA1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
