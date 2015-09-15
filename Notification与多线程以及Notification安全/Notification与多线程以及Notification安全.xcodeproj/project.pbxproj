@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD219A441BA8199100BCB442 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD219A431BA8199100BCB442 /* main.m */; };
+		DD219A471BA8199100BCB442 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD219A461BA8199100BCB442 /* AppDelegate.m */; };
+		DD219A4A1BA8199100BCB442 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD219A491BA8199100BCB442 /* ViewController.m */; };
+		DD219A4D1BA8199100BCB442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD219A4B1BA8199100BCB442 /* Main.storyboard */; };
+		DD219A4F1BA8199100BCB442 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD219A4E1BA8199100BCB442 /* Images.xcassets */; };
+		DD219A521BA8199100BCB442 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD219A501BA8199100BCB442 /* LaunchScreen.xib */; };
+		DD219A5E1BA8199100BCB442 /* Notification______Notification__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD219A5D1BA8199100BCB442 /* Notification______Notification__Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD219A581BA8199100BCB442 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD219A361BA8199100BCB442 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD219A3D1BA8199100BCB442;
+			remoteInfo = "Notification与多线程以及Notification安全";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD219A3E1BA8199100BCB442 /* Notification与多线程以及Notification安全.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notification与多线程以及Notification安全.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD219A421BA8199100BCB442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD219A431BA8199100BCB442 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD219A451BA8199100BCB442 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD219A461BA8199100BCB442 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD219A481BA8199100BCB442 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD219A491BA8199100BCB442 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD219A4C1BA8199100BCB442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD219A4E1BA8199100BCB442 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DD219A511BA8199100BCB442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DD219A571BA8199100BCB442 /* Notification与多线程以及Notification安全Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Notification与多线程以及Notification安全Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD219A5C1BA8199100BCB442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD219A5D1BA8199100BCB442 /* Notification______Notification__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Notification______Notification__Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD219A3B1BA8199100BCB442 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD219A541BA8199100BCB442 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD219A351BA8199100BCB442 = {
+			isa = PBXGroup;
+			children = (
+				DD219A401BA8199100BCB442 /* Notification与多线程以及Notification安全 */,
+				DD219A5A1BA8199100BCB442 /* Notification与多线程以及Notification安全Tests */,
+				DD219A3F1BA8199100BCB442 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD219A3F1BA8199100BCB442 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD219A3E1BA8199100BCB442 /* Notification与多线程以及Notification安全.app */,
+				DD219A571BA8199100BCB442 /* Notification与多线程以及Notification安全Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD219A401BA8199100BCB442 /* Notification与多线程以及Notification安全 */ = {
+			isa = PBXGroup;
+			children = (
+				DD219A451BA8199100BCB442 /* AppDelegate.h */,
+				DD219A461BA8199100BCB442 /* AppDelegate.m */,
+				DD219A481BA8199100BCB442 /* ViewController.h */,
+				DD219A491BA8199100BCB442 /* ViewController.m */,
+				DD219A4B1BA8199100BCB442 /* Main.storyboard */,
+				DD219A4E1BA8199100BCB442 /* Images.xcassets */,
+				DD219A501BA8199100BCB442 /* LaunchScreen.xib */,
+				DD219A411BA8199100BCB442 /* Supporting Files */,
+			);
+			path = "Notification与多线程以及Notification安全";
+			sourceTree = "<group>";
+		};
+		DD219A411BA8199100BCB442 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD219A421BA8199100BCB442 /* Info.plist */,
+				DD219A431BA8199100BCB442 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD219A5A1BA8199100BCB442 /* Notification与多线程以及Notification安全Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DD219A5D1BA8199100BCB442 /* Notification______Notification__Tests.m */,
+				DD219A5B1BA8199100BCB442 /* Supporting Files */,
+			);
+			path = "Notification与多线程以及Notification安全Tests";
+			sourceTree = "<group>";
+		};
+		DD219A5B1BA8199100BCB442 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD219A5C1BA8199100BCB442 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD219A3D1BA8199100BCB442 /* Notification与多线程以及Notification安全 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD219A611BA8199100BCB442 /* Build configuration list for PBXNativeTarget "Notification与多线程以及Notification安全" */;
+			buildPhases = (
+				DD219A3A1BA8199100BCB442 /* Sources */,
+				DD219A3B1BA8199100BCB442 /* Frameworks */,
+				DD219A3C1BA8199100BCB442 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Notification与多线程以及Notification安全";
+			productName = "Notification与多线程以及Notification安全";
+			productReference = DD219A3E1BA8199100BCB442 /* Notification与多线程以及Notification安全.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD219A561BA8199100BCB442 /* Notification与多线程以及Notification安全Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD219A641BA8199100BCB442 /* Build configuration list for PBXNativeTarget "Notification与多线程以及Notification安全Tests" */;
+			buildPhases = (
+				DD219A531BA8199100BCB442 /* Sources */,
+				DD219A541BA8199100BCB442 /* Frameworks */,
+				DD219A551BA8199100BCB442 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD219A591BA8199100BCB442 /* PBXTargetDependency */,
+			);
+			name = "Notification与多线程以及Notification安全Tests";
+			productName = "Notification与多线程以及Notification安全Tests";
+			productReference = DD219A571BA8199100BCB442 /* Notification与多线程以及Notification安全Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD219A361BA8199100BCB442 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "黄成都";
+				TargetAttributes = {
+					DD219A3D1BA8199100BCB442 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DD219A561BA8199100BCB442 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DD219A3D1BA8199100BCB442;
+					};
+				};
+			};
+			buildConfigurationList = DD219A391BA8199100BCB442 /* Build configuration list for PBXProject "Notification与多线程以及Notification安全" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD219A351BA8199100BCB442;
+			productRefGroup = DD219A3F1BA8199100BCB442 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD219A3D1BA8199100BCB442 /* Notification与多线程以及Notification安全 */,
+				DD219A561BA8199100BCB442 /* Notification与多线程以及Notification安全Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD219A3C1BA8199100BCB442 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD219A4D1BA8199100BCB442 /* Main.storyboard in Resources */,
+				DD219A521BA8199100BCB442 /* LaunchScreen.xib in Resources */,
+				DD219A4F1BA8199100BCB442 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD219A551BA8199100BCB442 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD219A3A1BA8199100BCB442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD219A4A1BA8199100BCB442 /* ViewController.m in Sources */,
+				DD219A471BA8199100BCB442 /* AppDelegate.m in Sources */,
+				DD219A441BA8199100BCB442 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD219A531BA8199100BCB442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD219A5E1BA8199100BCB442 /* Notification______Notification__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD219A591BA8199100BCB442 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD219A3D1BA8199100BCB442 /* Notification与多线程以及Notification安全 */;
+			targetProxy = DD219A581BA8199100BCB442 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD219A4B1BA8199100BCB442 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD219A4C1BA8199100BCB442 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD219A501BA8199100BCB442 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD219A511BA8199100BCB442 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD219A5F1BA8199100BCB442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD219A601BA8199100BCB442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD219A621BA8199100BCB442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Notification与多线程以及Notification安全/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD219A631BA8199100BCB442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Notification与多线程以及Notification安全/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD219A651BA8199100BCB442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Notification与多线程以及Notification安全Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notification与多线程以及Notification安全.app/Notification与多线程以及Notification安全";
+			};
+			name = Debug;
+		};
+		DD219A661BA8199100BCB442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Notification与多线程以及Notification安全Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notification与多线程以及Notification安全.app/Notification与多线程以及Notification安全";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD219A391BA8199100BCB442 /* Build configuration list for PBXProject "Notification与多线程以及Notification安全" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD219A5F1BA8199100BCB442 /* Debug */,
+				DD219A601BA8199100BCB442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD219A611BA8199100BCB442 /* Build configuration list for PBXNativeTarget "Notification与多线程以及Notification安全" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD219A621BA8199100BCB442 /* Debug */,
+				DD219A631BA8199100BCB442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD219A641BA8199100BCB442 /* Build configuration list for PBXNativeTarget "Notification与多线程以及Notification安全Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD219A651BA8199100BCB442 /* Debug */,
+				DD219A661BA8199100BCB442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD219A361BA8199100BCB442 /* Project object */;
+}
