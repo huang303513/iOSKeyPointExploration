@@ -16,8 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //[self test_dispatch_semaphore];
     
+    //[self test_dispatch_semaphore];
+    [self test_dispatch_apply];
     
 }
 

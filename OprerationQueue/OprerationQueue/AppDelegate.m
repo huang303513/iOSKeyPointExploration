@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 
+#warning 参考博客地址：http://blog.leichunfeng.com/blog/2015/07/29/ios-concurrency-programming-operation-queues/
 @interface AppDelegate ()
 
 @end

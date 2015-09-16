@@ -6,8 +6,6 @@
 //  Copyright (c) 2015年 黄成都. All rights reserved.
 //
 
-#warning 参考博客地址：http://southpeak.github.io/blog/2015/03/14/nsnotificationyu-duo-xian-cheng/
-
 
 
 #import "ViewController.h"
