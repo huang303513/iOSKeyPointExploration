@@ -70,14 +70,14 @@ static NSString *TEST_NOTIFICATION = @"TEST_NOTIFICATION";
         [self.notificationLock lock];
         [self.notifications addObject:notification];
         [self.notificationLock unlock];
-        //会调用代理方法
+        //发送一条Mach消息、会调用代理方法
         [self.notificationPort sendBeforeDate:[NSDate date]
                                    components:nil
                                          from:nil
                                      reserved:0];
     }
     else {
-        // Process the notification here;
+        // 处理通知
         NSLog(@"current thread = %@", [NSThread currentThread]);
         NSLog(@"process notification");
     }

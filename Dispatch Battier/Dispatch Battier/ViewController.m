@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self test_dispatch_barrier_async];
     
 }
 

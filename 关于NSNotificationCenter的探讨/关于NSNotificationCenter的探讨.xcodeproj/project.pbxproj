@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD6F63011BA9311000C74F35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6F63001BA9311000C74F35 /* main.m */; };
+		DD6F63041BA9311000C74F35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6F63031BA9311000C74F35 /* AppDelegate.m */; };
+		DD6F63071BA9311000C74F35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6F63061BA9311000C74F35 /* ViewController.m */; };
+		DD6F630A1BA9311000C74F35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6F63081BA9311000C74F35 /* Main.storyboard */; };
+		DD6F630C1BA9311000C74F35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6F630B1BA9311000C74F35 /* Images.xcassets */; };
+		DD6F630F1BA9311000C74F35 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD6F630D1BA9311000C74F35 /* LaunchScreen.xib */; };
+		DD6F631B1BA9311000C74F35 /* __NSNotificationCenter___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6F631A1BA9311000C74F35 /* __NSNotificationCenter___Tests.m */; };
+		DD6F63261BA9372700C74F35 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6F63251BA9372700C74F35 /* SecondViewController.m */; };
+		DD6F63291BA938C500C74F35 /* Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6F63281BA938C500C74F35 /* Observer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD6F63151BA9311000C74F35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD6F62F31BA9311000C74F35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD6F62FA1BA9311000C74F35;
+			remoteInfo = "关于NSNotificationCenter的探讨";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD6F62FB1BA9311000C74F35 /* 关于NSNotificationCenter的探讨.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "关于NSNotificationCenter的探讨.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6F62FF1BA9311000C74F35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD6F63001BA9311000C74F35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD6F63021BA9311000C74F35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD6F63031BA9311000C74F35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD6F63051BA9311000C74F35 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD6F63061BA9311000C74F35 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD6F63091BA9311000C74F35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD6F630B1BA9311000C74F35 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DD6F630E1BA9311000C74F35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DD6F63141BA9311000C74F35 /* 关于NSNotificationCenter的探讨Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "关于NSNotificationCenter的探讨Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6F63191BA9311000C74F35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD6F631A1BA9311000C74F35 /* __NSNotificationCenter___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__NSNotificationCenter___Tests.m"; sourceTree = "<group>"; };
+		DD6F63241BA9372700C74F35 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		DD6F63251BA9372700C74F35 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		DD6F63271BA938C500C74F35 /* Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
+		DD6F63281BA938C500C74F35 /* Observer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Observer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD6F62F81BA9311000C74F35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6F63111BA9311000C74F35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD6F62F21BA9311000C74F35 = {
+			isa = PBXGroup;
+			children = (
+				DD6F62FD1BA9311000C74F35 /* 关于NSNotificationCenter的探讨 */,
+				DD6F63171BA9311000C74F35 /* 关于NSNotificationCenter的探讨Tests */,
+				DD6F62FC1BA9311000C74F35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD6F62FC1BA9311000C74F35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD6F62FB1BA9311000C74F35 /* 关于NSNotificationCenter的探讨.app */,
+				DD6F63141BA9311000C74F35 /* 关于NSNotificationCenter的探讨Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD6F62FD1BA9311000C74F35 /* 关于NSNotificationCenter的探讨 */ = {
+			isa = PBXGroup;
+			children = (
+				DD6F63021BA9311000C74F35 /* AppDelegate.h */,
+				DD6F63031BA9311000C74F35 /* AppDelegate.m */,
+				DD6F63051BA9311000C74F35 /* ViewController.h */,
+				DD6F63061BA9311000C74F35 /* ViewController.m */,
+				DD6F63081BA9311000C74F35 /* Main.storyboard */,
+				DD6F630B1BA9311000C74F35 /* Images.xcassets */,
+				DD6F630D1BA9311000C74F35 /* LaunchScreen.xib */,
+				DD6F62FE1BA9311000C74F35 /* Supporting Files */,
+				DD6F63241BA9372700C74F35 /* SecondViewController.h */,
+				DD6F63251BA9372700C74F35 /* SecondViewController.m */,
+				DD6F63271BA938C500C74F35 /* Observer.h */,
+				DD6F63281BA938C500C74F35 /* Observer.m */,
+			);
+			path = "关于NSNotificationCenter的探讨";
+			sourceTree = "<group>";
+		};
+		DD6F62FE1BA9311000C74F35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD6F62FF1BA9311000C74F35 /* Info.plist */,
+				DD6F63001BA9311000C74F35 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD6F63171BA9311000C74F35 /* 关于NSNotificationCenter的探讨Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DD6F631A1BA9311000C74F35 /* __NSNotificationCenter___Tests.m */,
+				DD6F63181BA9311000C74F35 /* Supporting Files */,
+			);
+			path = "关于NSNotificationCenter的探讨Tests";
+			sourceTree = "<group>";
+		};
+		DD6F63181BA9311000C74F35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD6F63191BA9311000C74F35 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD6F62FA1BA9311000C74F35 /* 关于NSNotificationCenter的探讨 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD6F631E1BA9311000C74F35 /* Build configuration list for PBXNativeTarget "关于NSNotificationCenter的探讨" */;
+			buildPhases = (
+				DD6F62F71BA9311000C74F35 /* Sources */,
+				DD6F62F81BA9311000C74F35 /* Frameworks */,
+				DD6F62F91BA9311000C74F35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "关于NSNotificationCenter的探讨";
+			productName = "关于NSNotificationCenter的探讨";
+			productReference = DD6F62FB1BA9311000C74F35 /* 关于NSNotificationCenter的探讨.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD6F63131BA9311000C74F35 /* 关于NSNotificationCenter的探讨Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD6F63211BA9311000C74F35 /* Build configuration list for PBXNativeTarget "关于NSNotificationCenter的探讨Tests" */;
+			buildPhases = (
+				DD6F63101BA9311000C74F35 /* Sources */,
+				DD6F63111BA9311000C74F35 /* Frameworks */,
+				DD6F63121BA9311000C74F35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD6F63161BA9311000C74F35 /* PBXTargetDependency */,
+			);
+			name = "关于NSNotificationCenter的探讨Tests";
+			productName = "关于NSNotificationCenter的探讨Tests";
+			productReference = DD6F63141BA9311000C74F35 /* 关于NSNotificationCenter的探讨Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD6F62F31BA9311000C74F35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "黄成都";
+				TargetAttributes = {
+					DD6F62FA1BA9311000C74F35 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DD6F63131BA9311000C74F35 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DD6F62FA1BA9311000C74F35;
+					};
+				};
+			};
+			buildConfigurationList = DD6F62F61BA9311000C74F35 /* Build configuration list for PBXProject "关于NSNotificationCenter的探讨" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD6F62F21BA9311000C74F35;
+			productRefGroup = DD6F62FC1BA9311000C74F35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD6F62FA1BA9311000C74F35 /* 关于NSNotificationCenter的探讨 */,
+				DD6F63131BA9311000C74F35 /* 关于NSNotificationCenter的探讨Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD6F62F91BA9311000C74F35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6F630A1BA9311000C74F35 /* Main.storyboard in Resources */,
+				DD6F630F1BA9311000C74F35 /* LaunchScreen.xib in Resources */,
+				DD6F630C1BA9311000C74F35 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6F63121BA9311000C74F35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD6F62F71BA9311000C74F35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6F63261BA9372700C74F35 /* SecondViewController.m in Sources */,
+				DD6F63071BA9311000C74F35 /* ViewController.m in Sources */,
+				DD6F63291BA938C500C74F35 /* Observer.m in Sources */,
+				DD6F63041BA9311000C74F35 /* AppDelegate.m in Sources */,
+				DD6F63011BA9311000C74F35 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6F63101BA9311000C74F35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6F631B1BA9311000C74F35 /* __NSNotificationCenter___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD6F63161BA9311000C74F35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD6F62FA1BA9311000C74F35 /* 关于NSNotificationCenter的探讨 */;
+			targetProxy = DD6F63151BA9311000C74F35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD6F63081BA9311000C74F35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD6F63091BA9311000C74F35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD6F630D1BA9311000C74F35 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD6F630E1BA9311000C74F35 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD6F631C1BA9311000C74F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD6F631D1BA9311000C74F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD6F631F1BA9311000C74F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "关于NSNotificationCenter的探讨/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD6F63201BA9311000C74F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "关于NSNotificationCenter的探讨/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD6F63221BA9311000C74F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "关于NSNotificationCenter的探讨Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/关于NSNotificationCenter的探讨.app/关于NSNotificationCenter的探讨";
+			};
+			name = Debug;
+		};
+		DD6F63231BA9311000C74F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "关于NSNotificationCenter的探讨Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/关于NSNotificationCenter的探讨.app/关于NSNotificationCenter的探讨";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD6F62F61BA9311000C74F35 /* Build configuration list for PBXProject "关于NSNotificationCenter的探讨" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6F631C1BA9311000C74F35 /* Debug */,
+				DD6F631D1BA9311000C74F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD6F631E1BA9311000C74F35 /* Build configuration list for PBXNativeTarget "关于NSNotificationCenter的探讨" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6F631F1BA9311000C74F35 /* Debug */,
+				DD6F63201BA9311000C74F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD6F63211BA9311000C74F35 /* Build configuration list for PBXNativeTarget "关于NSNotificationCenter的探讨Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6F63221BA9311000C74F35 /* Debug */,
+				DD6F63231BA9311000C74F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD6F62F31BA9311000C74F35 /* Project object */;
+}
