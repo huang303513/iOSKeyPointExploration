@@ -12,7 +12,7 @@
 
 //=================Dispatch Group Demo==========
 
-[Dispatch Group](https://github.com/huang303513/GCD-OperationQueue-Exploration/tree/master/Dispatch%20Group)可以用dispatch_group_notify、dispatch_group_wait来监听一组任务是否完成。参考自Objective-C高级编程这本书。
+[Dispatch Group](https://github.com/huang303513/GCD-OperationQueue-Exploration/tree/master/%E5%85%B3%E4%BA%8ENSNotificationCenter%E7%9A%84%E6%8E%A2%E8%AE%A8)可以用dispatch_group_notify、dispatch_group_wait来监听一组任务是否完成。参考自Objective-C高级编程这本书。
 
 //=================OprerationQueue Demo==========
 
