@@ -23,9 +23,13 @@
 
 [Notification与多线程以及Notification安全](https://github.com/huang303513/GCD-OperationQueue-Exploration/tree/master/Notification%E4%B8%8E%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%BB%A5%E5%8F%8ANotification%E5%AE%89%E5%85%A8)涉及iOS中通知的安全和线程处理。参考地址Demo中AppDelegate有。参考博客地址:[参考博客地址](http://southpeak.github.io/blog/2015/03/14/nsnotificationyu-duo-xian-cheng/)
 
+//=================关于NSNotificationCenter的探讨 Demo==========
+
 [关于NSNotificationCenter的探讨](https://github.com/huang303513/GCD-OperationQueue-Exploration/tree/master/Notification%E4%B8%8E%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%BB%A5%E5%8F%8ANotification%E5%AE%89%E5%85%A8)涉及通知的各种操作和需要注意的问题。参考地址Demo中AppDelegate有。参考博客地址:[参考博客地址](http://southpeak.github.io/blog/2015/03/20/nsnotificationcenter/)
 
+//=================手动实现KVO、注册依赖键、集合属性监听 Demo==========
 
+[手动实现KVO、注册依赖键、集合属性监听](https://github.com/huang303513/GCD-OperationQueue-Exploration/tree/master/%E6%89%8B%E5%8A%A8%E5%AE%9E%E7%8E%B0KVO%E3%80%81%E6%B3%A8%E5%86%8C%E4%BE%9D%E8%B5%96%E9%94%AE%E3%80%81%E9%9B%86%E5%90%88%E5%B1%9E%E6%80%A7%E7%9B%91%E5%90%AC)涉及到手动设置kvo、kvo依赖键实现、kvo数组属性改变监听等。参考地址Demo中AppDelegate有。参考博客地址:[参考博客地址](http://southpeak.github.io/blog/2015/04/23/nskeyvalueobserving-kvo/)
 
 
 
