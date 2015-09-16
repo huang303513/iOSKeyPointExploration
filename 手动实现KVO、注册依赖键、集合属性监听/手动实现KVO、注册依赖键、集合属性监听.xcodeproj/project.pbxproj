@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D59C2C21BA9A953003888E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D59C2C11BA9A953003888E7 /* main.m */; };
+		4D59C2C51BA9A953003888E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D59C2C41BA9A953003888E7 /* AppDelegate.m */; };
+		4D59C2C81BA9A953003888E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D59C2C71BA9A953003888E7 /* ViewController.m */; };
+		4D59C2CB1BA9A953003888E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D59C2C91BA9A953003888E7 /* Main.storyboard */; };
+		4D59C2CD1BA9A953003888E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D59C2CC1BA9A953003888E7 /* Images.xcassets */; };
+		4D59C2D01BA9A953003888E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D59C2CE1BA9A953003888E7 /* LaunchScreen.xib */; };
+		4D59C2DC1BA9A953003888E7 /* ____KVO_____________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D59C2DB1BA9A953003888E7 /* ____KVO_____________Tests.m */; };
+		4D59C2E71BA9A991003888E7 /* PersonObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D59C2E61BA9A991003888E7 /* PersonObject.m */; };
+		4D59C2EA1BA9A9BE003888E7 /* BankObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D59C2E91BA9A9BE003888E7 /* BankObject.m */; };
+		4D59C2F21BA9AB0F003888E7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D59C2F11BA9AB0F003888E7 /* FirstViewController.m */; };
+		4D59C2F51BA9AB1A003888E7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D59C2F41BA9AB1A003888E7 /* SecondViewController.m */; };
+		4D59C2F81BA9AB27003888E7 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D59C2F71BA9AB27003888E7 /* ThirdViewController.m */; };
+		4D59C2FB1BA9AB35003888E7 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D59C2FA1BA9AB35003888E7 /* FourViewController.m */; };
+		4D59C3001BA9B744003888E7 /* BankObject1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D59C2FF1BA9B744003888E7 /* BankObject1.m */; };
+		4D59C3041BA9B909003888E7 /* BankObject2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D59C3031BA9B909003888E7 /* BankObject2.m */; };
+		4D59C3081BA9BAEC003888E7 /* BankObject3.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D59C3071BA9BAEC003888E7 /* BankObject3.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D59C2D61BA9A953003888E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D59C2B41BA9A953003888E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D59C2BB1BA9A953003888E7;
+			remoteInfo = "手动实现KVO、注册依赖键、集合属性监听";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D59C2BC1BA9A953003888E7 /* 手动实现KVO、注册依赖键、集合属性监听.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "手动实现KVO、注册依赖键、集合属性监听.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D59C2C01BA9A953003888E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D59C2C11BA9A953003888E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D59C2C31BA9A953003888E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D59C2C41BA9A953003888E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D59C2C61BA9A953003888E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4D59C2C71BA9A953003888E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4D59C2CA1BA9A953003888E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D59C2CC1BA9A953003888E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4D59C2CF1BA9A953003888E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4D59C2D51BA9A953003888E7 /* 手动实现KVO、注册依赖键、集合属性监听Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "手动实现KVO、注册依赖键、集合属性监听Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D59C2DA1BA9A953003888E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D59C2DB1BA9A953003888E7 /* ____KVO_____________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____KVO_____________Tests.m"; sourceTree = "<group>"; };
+		4D59C2E51BA9A991003888E7 /* PersonObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonObject.h; sourceTree = "<group>"; };
+		4D59C2E61BA9A991003888E7 /* PersonObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonObject.m; sourceTree = "<group>"; };
+		4D59C2E81BA9A9BE003888E7 /* BankObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankObject.h; sourceTree = "<group>"; };
+		4D59C2E91BA9A9BE003888E7 /* BankObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankObject.m; sourceTree = "<group>"; };
+		4D59C2F01BA9AB0F003888E7 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		4D59C2F11BA9AB0F003888E7 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		4D59C2F31BA9AB1A003888E7 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		4D59C2F41BA9AB1A003888E7 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		4D59C2F61BA9AB27003888E7 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		4D59C2F71BA9AB27003888E7 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		4D59C2F91BA9AB35003888E7 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		4D59C2FA1BA9AB35003888E7 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		4D59C2FE1BA9B744003888E7 /* BankObject1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankObject1.h; sourceTree = "<group>"; };
+		4D59C2FF1BA9B744003888E7 /* BankObject1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankObject1.m; sourceTree = "<group>"; };
+		4D59C3021BA9B909003888E7 /* BankObject2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankObject2.h; sourceTree = "<group>"; };
+		4D59C3031BA9B909003888E7 /* BankObject2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankObject2.m; sourceTree = "<group>"; };
+		4D59C3061BA9BAEC003888E7 /* BankObject3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankObject3.h; sourceTree = "<group>"; };
+		4D59C3071BA9BAEC003888E7 /* BankObject3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankObject3.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D59C2B91BA9A953003888E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D59C2D21BA9A953003888E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D59C2B31BA9A953003888E7 = {
+			isa = PBXGroup;
+			children = (
+				4D59C2BE1BA9A953003888E7 /* 手动实现KVO、注册依赖键、集合属性监听 */,
+				4D59C2D81BA9A953003888E7 /* 手动实现KVO、注册依赖键、集合属性监听Tests */,
+				4D59C2BD1BA9A953003888E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D59C2BD1BA9A953003888E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D59C2BC1BA9A953003888E7 /* 手动实现KVO、注册依赖键、集合属性监听.app */,
+				4D59C2D51BA9A953003888E7 /* 手动实现KVO、注册依赖键、集合属性监听Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D59C2BE1BA9A953003888E7 /* 手动实现KVO、注册依赖键、集合属性监听 */ = {
+			isa = PBXGroup;
+			children = (
+				4D59C3051BA9BA46003888E7 /* kvo集合属性的监听 */,
+				4D59C3011BA9B8E1003888E7 /* kvo注册依赖键 */,
+				4D59C2FD1BA9B6F0003888E7 /* 手动实现kvo */,
+				4D59C2FC1BA9B6CF003888E7 /* kvo使用 */,
+				4D59C2C31BA9A953003888E7 /* AppDelegate.h */,
+				4D59C2C41BA9A953003888E7 /* AppDelegate.m */,
+				4D59C2C61BA9A953003888E7 /* ViewController.h */,
+				4D59C2C71BA9A953003888E7 /* ViewController.m */,
+				4D59C2C91BA9A953003888E7 /* Main.storyboard */,
+				4D59C2CC1BA9A953003888E7 /* Images.xcassets */,
+				4D59C2CE1BA9A953003888E7 /* LaunchScreen.xib */,
+				4D59C2BF1BA9A953003888E7 /* Supporting Files */,
+				4D59C2E51BA9A991003888E7 /* PersonObject.h */,
+				4D59C2E61BA9A991003888E7 /* PersonObject.m */,
+			);
+			path = "手动实现KVO、注册依赖键、集合属性监听";
+			sourceTree = "<group>";
+		};
+		4D59C2BF1BA9A953003888E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D59C2C01BA9A953003888E7 /* Info.plist */,
+				4D59C2C11BA9A953003888E7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D59C2D81BA9A953003888E7 /* 手动实现KVO、注册依赖键、集合属性监听Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4D59C2DB1BA9A953003888E7 /* ____KVO_____________Tests.m */,
+				4D59C2D91BA9A953003888E7 /* Supporting Files */,
+			);
+			path = "手动实现KVO、注册依赖键、集合属性监听Tests";
+			sourceTree = "<group>";
+		};
+		4D59C2D91BA9A953003888E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D59C2DA1BA9A953003888E7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D59C2FC1BA9B6CF003888E7 /* kvo使用 */ = {
+			isa = PBXGroup;
+			children = (
+				4D59C2E81BA9A9BE003888E7 /* BankObject.h */,
+				4D59C2E91BA9A9BE003888E7 /* BankObject.m */,
+				4D59C2F01BA9AB0F003888E7 /* FirstViewController.h */,
+				4D59C2F11BA9AB0F003888E7 /* FirstViewController.m */,
+			);
+			name = "kvo使用";
+			sourceTree = "<group>";
+		};
+		4D59C2FD1BA9B6F0003888E7 /* 手动实现kvo */ = {
+			isa = PBXGroup;
+			children = (
+				4D59C2F31BA9AB1A003888E7 /* SecondViewController.h */,
+				4D59C2F41BA9AB1A003888E7 /* SecondViewController.m */,
+				4D59C2FE1BA9B744003888E7 /* BankObject1.h */,
+				4D59C2FF1BA9B744003888E7 /* BankObject1.m */,
+			);
+			name = "手动实现kvo";
+			sourceTree = "<group>";
+		};
+		4D59C3011BA9B8E1003888E7 /* kvo注册依赖键 */ = {
+			isa = PBXGroup;
+			children = (
+				4D59C2F61BA9AB27003888E7 /* ThirdViewController.h */,
+				4D59C2F71BA9AB27003888E7 /* ThirdViewController.m */,
+				4D59C3021BA9B909003888E7 /* BankObject2.h */,
+				4D59C3031BA9B909003888E7 /* BankObject2.m */,
+			);
+			name = "kvo注册依赖键";
+			sourceTree = "<group>";
+		};
+		4D59C3051BA9BA46003888E7 /* kvo集合属性的监听 */ = {
+			isa = PBXGroup;
+			children = (
+				4D59C2F91BA9AB35003888E7 /* FourViewController.h */,
+				4D59C2FA1BA9AB35003888E7 /* FourViewController.m */,
+				4D59C3061BA9BAEC003888E7 /* BankObject3.h */,
+				4D59C3071BA9BAEC003888E7 /* BankObject3.m */,
+			);
+			name = "kvo集合属性的监听";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D59C2BB1BA9A953003888E7 /* 手动实现KVO、注册依赖键、集合属性监听 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D59C2DF1BA9A953003888E7 /* Build configuration list for PBXNativeTarget "手动实现KVO、注册依赖键、集合属性监听" */;
+			buildPhases = (
+				4D59C2B81BA9A953003888E7 /* Sources */,
+				4D59C2B91BA9A953003888E7 /* Frameworks */,
+				4D59C2BA1BA9A953003888E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "手动实现KVO、注册依赖键、集合属性监听";
+			productName = "手动实现KVO、注册依赖键、集合属性监听";
+			productReference = 4D59C2BC1BA9A953003888E7 /* 手动实现KVO、注册依赖键、集合属性监听.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D59C2D41BA9A953003888E7 /* 手动实现KVO、注册依赖键、集合属性监听Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D59C2E21BA9A953003888E7 /* Build configuration list for PBXNativeTarget "手动实现KVO、注册依赖键、集合属性监听Tests" */;
+			buildPhases = (
+				4D59C2D11BA9A953003888E7 /* Sources */,
+				4D59C2D21BA9A953003888E7 /* Frameworks */,
+				4D59C2D31BA9A953003888E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D59C2D71BA9A953003888E7 /* PBXTargetDependency */,
+			);
+			name = "手动实现KVO、注册依赖键、集合属性监听Tests";
+			productName = "手动实现KVO、注册依赖键、集合属性监听Tests";
+			productReference = 4D59C2D51BA9A953003888E7 /* 手动实现KVO、注册依赖键、集合属性监听Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D59C2B41BA9A953003888E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "黄成都";
+				TargetAttributes = {
+					4D59C2BB1BA9A953003888E7 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					4D59C2D41BA9A953003888E7 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 4D59C2BB1BA9A953003888E7;
+					};
+				};
+			};
+			buildConfigurationList = 4D59C2B71BA9A953003888E7 /* Build configuration list for PBXProject "手动实现KVO、注册依赖键、集合属性监听" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D59C2B31BA9A953003888E7;
+			productRefGroup = 4D59C2BD1BA9A953003888E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D59C2BB1BA9A953003888E7 /* 手动实现KVO、注册依赖键、集合属性监听 */,
+				4D59C2D41BA9A953003888E7 /* 手动实现KVO、注册依赖键、集合属性监听Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D59C2BA1BA9A953003888E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D59C2CB1BA9A953003888E7 /* Main.storyboard in Resources */,
+				4D59C2D01BA9A953003888E7 /* LaunchScreen.xib in Resources */,
+				4D59C2CD1BA9A953003888E7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D59C2D31BA9A953003888E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D59C2B81BA9A953003888E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D59C2C81BA9A953003888E7 /* ViewController.m in Sources */,
+				4D59C2F21BA9AB0F003888E7 /* FirstViewController.m in Sources */,
+				4D59C3041BA9B909003888E7 /* BankObject2.m in Sources */,
+				4D59C2F81BA9AB27003888E7 /* ThirdViewController.m in Sources */,
+				4D59C2FB1BA9AB35003888E7 /* FourViewController.m in Sources */,
+				4D59C3001BA9B744003888E7 /* BankObject1.m in Sources */,
+				4D59C2EA1BA9A9BE003888E7 /* BankObject.m in Sources */,
+				4D59C2F51BA9AB1A003888E7 /* SecondViewController.m in Sources */,
+				4D59C2C51BA9A953003888E7 /* AppDelegate.m in Sources */,
+				4D59C2C21BA9A953003888E7 /* main.m in Sources */,
+				4D59C3081BA9BAEC003888E7 /* BankObject3.m in Sources */,
+				4D59C2E71BA9A991003888E7 /* PersonObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D59C2D11BA9A953003888E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D59C2DC1BA9A953003888E7 /* ____KVO_____________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D59C2D71BA9A953003888E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D59C2BB1BA9A953003888E7 /* 手动实现KVO、注册依赖键、集合属性监听 */;
+			targetProxy = 4D59C2D61BA9A953003888E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D59C2C91BA9A953003888E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D59C2CA1BA9A953003888E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D59C2CE1BA9A953003888E7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D59C2CF1BA9A953003888E7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D59C2DD1BA9A953003888E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D59C2DE1BA9A953003888E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D59C2E01BA9A953003888E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "手动实现KVO、注册依赖键、集合属性监听/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D59C2E11BA9A953003888E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "手动实现KVO、注册依赖键、集合属性监听/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4D59C2E31BA9A953003888E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "手动实现KVO、注册依赖键、集合属性监听Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/手动实现KVO、注册依赖键、集合属性监听.app/手动实现KVO、注册依赖键、集合属性监听";
+			};
+			name = Debug;
+		};
+		4D59C2E41BA9A953003888E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "手动实现KVO、注册依赖键、集合属性监听Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/手动实现KVO、注册依赖键、集合属性监听.app/手动实现KVO、注册依赖键、集合属性监听";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D59C2B71BA9A953003888E7 /* Build configuration list for PBXProject "手动实现KVO、注册依赖键、集合属性监听" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D59C2DD1BA9A953003888E7 /* Debug */,
+				4D59C2DE1BA9A953003888E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D59C2DF1BA9A953003888E7 /* Build configuration list for PBXNativeTarget "手动实现KVO、注册依赖键、集合属性监听" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D59C2E01BA9A953003888E7 /* Debug */,
+				4D59C2E11BA9A953003888E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D59C2E21BA9A953003888E7 /* Build configuration list for PBXNativeTarget "手动实现KVO、注册依赖键、集合属性监听Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D59C2E31BA9A953003888E7 /* Debug */,
+				4D59C2E41BA9A953003888E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D59C2B41BA9A953003888E7 /* Project object */;
+}
