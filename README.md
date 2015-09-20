@@ -4,6 +4,10 @@
 
 ##我会持续更新这个仓库、欢迎关注和start
 
+//=================HCDExtension Demo==========
+
+[HCDExtension](https://github.com/huang303513/GCD-OperationQueue-Exploration/tree/master/HCDExtension)，让你一步一步学会实现自己的MJExtension。非常经典。参考地址Demo中AppDelegate有。参考博客地址:[参考博客地址](http://www.jianshu.com/p/d2ecef03f19e)
+
 //=================OprerationQueue Demo==========
 
 [OprerationQueue](https://github.com/huang303513/GCD-OperationQueue-Exploration/tree/master/OprerationQueue)涉及带InvocationOperation、BlockOperation和自定义的的并发和非并发队列的创建和使用。参考地址Demo中AppDelegate有。参考博客地址:[参考博客地址](http://blog.leichunfeng.com/blog/2015/07/29/ios-concurrency-programming-operation-queues/)
