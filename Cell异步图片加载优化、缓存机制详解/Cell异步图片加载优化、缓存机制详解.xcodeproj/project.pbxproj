@@ -7,17 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DEB3DA41BB0229F00EF63F7 /* appModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEB3DA31BB0229F00EF63F7 /* appModel.m */; };
 		DDC390F71BB00850008F693A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC390F61BB00850008F693A /* main.m */; };
 		DDC390FA1BB00850008F693A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC390F91BB00850008F693A /* AppDelegate.m */; };
 		DDC390FD1BB00850008F693A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC390FC1BB00850008F693A /* ViewController.m */; };
 		DDC391001BB00850008F693A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC390FE1BB00850008F693A /* Main.storyboard */; };
 		DDC391021BB00850008F693A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC391011BB00850008F693A /* Assets.xcassets */; };
 		DDC391051BB00850008F693A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC391031BB00850008F693A /* LaunchScreen.storyboard */; };
-		DDC3910E1BB00969008F693A /* apps.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDC3910C1BB00969008F693A /* apps.plist */; settings = {ASSET_TAGS = (); }; };
-		DDC3910F1BB00969008F693A /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC3910D1BB00969008F693A /* placeholder.png */; settings = {ASSET_TAGS = (); }; };
+		DDC3910E1BB00969008F693A /* apps.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDC3910C1BB00969008F693A /* apps.plist */; };
+		DDC3910F1BB00969008F693A /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC3910D1BB00969008F693A /* placeholder.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4DEB3DA21BB0229F00EF63F7 /* appModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = appModel.h; sourceTree = "<group>"; };
+		4DEB3DA31BB0229F00EF63F7 /* appModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = appModel.m; sourceTree = "<group>"; };
 		DDC390F21BB00850008F693A /* Cell异步图片加载优化、缓存机制详解.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cell异步图片加载优化、缓存机制详解.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC390F61BB00850008F693A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DDC390F81BB00850008F693A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -71,6 +74,8 @@
 				DDC391031BB00850008F693A /* LaunchScreen.storyboard */,
 				DDC391061BB00850008F693A /* Info.plist */,
 				DDC390F51BB00850008F693A /* Supporting Files */,
+				4DEB3DA21BB0229F00EF63F7 /* appModel.h */,
+				4DEB3DA31BB0229F00EF63F7 /* appModel.m */,
 			);
 			path = "Cell异步图片加载优化、缓存机制详解";
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 				DDC390FD1BB00850008F693A /* ViewController.m in Sources */,
 				DDC390FA1BB00850008F693A /* AppDelegate.m in Sources */,
 				DDC390F71BB00850008F693A /* main.m in Sources */,
+				4DEB3DA41BB0229F00EF63F7 /* appModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +314,7 @@
 				DDC3910B1BB00850008F693A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

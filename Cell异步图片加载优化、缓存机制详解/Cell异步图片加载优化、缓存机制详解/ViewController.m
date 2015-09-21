@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "appModel.h"
 @interface ViewController ()
 @property(nonatomic,strong)UITableView *tableview;
 
@@ -19,20 +19,24 @@
 
 -(NSArray *)dataListArray{
     if (nil == _dataListArray) {
-        
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"apps.plist" ofType:nil];
+        NSArray *modelArray = [NSArray arrayWithContentsOfFile:path];
+        for (NSDictionary *dic in modelArray) {
+            
+        }
     }
-    return nil;
+    return _dataListArray;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.tableview = [[UITableView alloc]initWithFrame:self.view.frame];
-    self.tableview.delegate = self;
-    self.tableview.dataSource = self;
+    self.tableview = [[UITableView alloc]initWithFrame:self.view.frame style:UITableViewStylePlain];
+    //self.tableview.delegate = self;
+    //self.tableview.dataSource = self;
     self.tableview.rowHeight = 44;
-    self.tableview.style = UITableViewStylePlain;
     [self.view addSubview:self.tableview];
+    NSLog(@"%@",self.dataListArray);
 }
 
 - (void)didReceiveMemoryWarning {
