@@ -1,8 +1,12 @@
-## 这个仓库是关于iOS开发多线程方面的知识讨论意见基本的用法。主要包括GCD和Operation、KVO、通知中心、事件传递机制等几部分。demo中有完整的注释、保存在此、方便使用。
+### 这个仓库是关于iOS开发多线程方面的知识讨论意见基本的用法。主要包括GCD和Operation、KVO、通知中心、事件传递机制等几部分。demo中有完整的注释、保存在此、方便使用。
 
 ##强烈推荐配合demo中的博客一起看。都是经典。
 
-##我会持续更新这个仓库、欢迎关注和start
+###我会持续更新这个仓库、欢迎关注和start
+
+//=================底层并发API之最佳实践及原理 Demo==========
+
+[底层并发API之最佳实践及原理](https://github.com/huang303513/GCD-OperationQueue-Exploration/tree/master/%E5%BA%95%E5%B1%82%E5%B9%B6%E5%8F%91API%E4%B9%8B%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%E5%8F%8A%E5%8E%9F%E7%90%86)，讲了GCD的各种最佳实践原则、一写多读控制、多个异步网络请求结束通知、原子操作等各种操作。参考地址Demo中AppDelegate有。参考博客地址:[参考博客地址](http://objccn.io/issue-2-3/#watching_files)
 
 //=================Cell异步图片加载优化、缓存机制详解 Demo==========
 
