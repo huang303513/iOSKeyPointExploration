@@ -6,7 +6,7 @@
 
 //=================Cell异步图片加载优化、缓存机制详解 Demo==========
 
-[Cell异步图片加载优化、缓存机制详解](https://github.com/huang303513/GCD-OperationQueue-Exploration/tree/master/Cell%E5%BC%82%E6%AD%A5%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E4%BC%98%E5%8C%96%E3%80%81%E7%BC%93%E5%AD%98%E6%9C%BA%E5%88%B6%E8%AF%A6%E8%A7%A3)，实现了一个图片异步加载、本地缓存、队列下载等功能、通过内存缓存、磁盘缓存来实现对图片的缓存、SDWebImage的分析等。参考地址Demo中AppDelegate有。参考博客地址:[参考博客地址](http://www.jianshu.com/p/3b2c95e1404f)[参考博客地址](http://www.jianshu.com/p/02ab2b74c451)
+[Cell异步图片加载优化、缓存机制详解(需要Xcode 7打开)](https://github.com/huang303513/GCD-OperationQueue-Exploration/tree/master/Cell%E5%BC%82%E6%AD%A5%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E4%BC%98%E5%8C%96%E3%80%81%E7%BC%93%E5%AD%98%E6%9C%BA%E5%88%B6%E8%AF%A6%E8%A7%A3)，实现了一个图片异步加载、本地缓存、队列下载等功能、通过内存缓存、磁盘缓存来实现对图片的缓存、SDWebImage的分析等。参考地址Demo中AppDelegate有。参考博客地址:[参考博客地址](http://www.jianshu.com/p/3b2c95e1404f)[参考博客地址](http://www.jianshu.com/p/02ab2b74c451)
 
 //=================HCDExtension Demo==========
 
