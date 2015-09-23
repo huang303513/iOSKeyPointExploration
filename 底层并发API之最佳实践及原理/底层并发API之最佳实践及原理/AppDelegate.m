@@ -5,7 +5,7 @@
 //  Created by yifan on 15/9/22.
 //  Copyright © 2015年 黄成都. All rights reserved.
 //
-#warning 参考博客地址 http://objccn.io/issue-2-3/#watching_files
+#warning 参考博客地址 http://objccn.io/issue-2-3/#watching_files    http://objccn.io/issue-2-1/#priority_inversion
 
 #import "AppDelegate.h"
 
