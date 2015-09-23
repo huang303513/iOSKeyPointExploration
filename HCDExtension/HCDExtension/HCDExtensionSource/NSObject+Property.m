@@ -63,7 +63,7 @@ static NSMutableDictionary *cachedProperties_;
 +(NSArray *)properties{
      NSMutableArray *cachedProperties = cachedProperties_[NSStringFromClass(self)];
     if (!cachedProperties) {//没有找到缓存、则初始化
-        NSLog(@"%@调用了properties方法",[self class]);
+        //NSLog(@"%@调用了properties方法",[self class]);
         cachedProperties = [NSMutableArray array];
         //1 获取所有的属性
         unsigned int outCount = 0;

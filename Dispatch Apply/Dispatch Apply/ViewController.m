@@ -20,6 +20,8 @@
     //[self test_dispatch_semaphore];
     [self test_dispatch_apply];
     
+    
+    
 }
 
 
@@ -33,8 +35,38 @@
 
 }
 
-
-
+/**
+ *
+ 1创建一个信号量。参数指定信号量的起始值。这个数字是你可以访问的信号量，不需要有人先去增加它的数量。（注意到增加信号量也被叫做发射信号量）。译者注：这里初始化为0，也就是说，有人想使用信号量必然会被阻塞，直到有人增加信号量。
+ 2在 Completion Block 里你告诉信号量你不再需要资源了。这就会增加信号量的计数并告知其他想使用此资源的线程。
+ 3这会在超时之前等待信号量。这个调用阻塞了当前线程直到信号量被发射。这个函数的一个非零返回值表示到达超时了。在这个例子里，测试将会失败因为它以为网络请求不会超过 10 秒钟就会返回——一个平衡点！
+ */
+#warning 这个方法的理解好像有问题
+- (void)downloadImageURLWithString:(NSString *)URLString
+{
+    // 1
+    dispatch_semaphore_t semaphore = dispatch_semaphore_create(0);
+    
+    NSURL *url = [NSURL URLWithString:URLString];
+    
+    [NSURLConnection sendAsynchronousRequest:[NSURLRequest requestWithURL:url] queue:[[NSOperationQueue alloc]init] completionHandler:^(NSURLResponse * _Nullable response, NSData * _Nullable data, NSError * _Nullable connectionError) {
+        // 2
+        sleep(10);
+        NSLog(@"不需要信号量了1111");
+        dispatch_semaphore_signal(semaphore);
+    }];
+    
+    [NSURLConnection sendAsynchronousRequest:[NSURLRequest requestWithURL:url] queue:[[NSOperationQueue alloc]init] completionHandler:^(NSURLResponse * _Nullable response, NSData * _Nullable data, NSError * _Nullable connectionError) {
+        // 2
+        NSLog(@"不需要信号量了2222");
+        dispatch_semaphore_signal(semaphore);
+    }];
+    // 3
+    dispatch_time_t timeoutTime = dispatch_time(DISPATCH_TIME_NOW, 50);
+    if (dispatch_semaphore_wait(semaphore, timeoutTime)) {
+        NSLog(@"可以了");
+    }
+}
 
 -(void)test_dispatch_semaphore{
 //    //dispatch_semaphore的计数为0时等待，计数大于等于1时不等待减一

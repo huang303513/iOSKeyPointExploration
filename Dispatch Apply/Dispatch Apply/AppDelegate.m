@@ -6,6 +6,8 @@
 //  Copyright (c) 2015年 黄成都. All rights reserved.
 //
 
+#warning 参考博客地址：https://github.com/nixzhu/dev-blog/blob/master/2014-05-14-grand-central-dispatch-in-depth-part-2.md
+
 #import "AppDelegate.h"
 
 @interface AppDelegate ()

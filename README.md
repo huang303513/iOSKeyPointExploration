@@ -45,7 +45,7 @@
 
 //=================Dispatch Apply Demo==========
 
-[Dispatch Apply](https://github.com/huang303513/GCD-OperationQueue-Exploration/tree/master/Dispatch%20Apply)包含dispatch_semaphore、dispatch_suspend、dispatch_apply三种情况的基本用法。参考自Objective-C高级编程这本书。
+[Dispatch Apply](https://github.com/huang303513/GCD-OperationQueue-Exploration/tree/master/Dispatch%20Apply)包含dispatch_semaphore、dispatch_suspend、dispatch_apply三种情况的基本用法。参考自Objective-C高级编程这本书和[GCD 深入理解：第二部分](https://github.com/nixzhu/dev-blog/blob/master/2014-05-14-grand-central-dispatch-in-depth-part-2.md)
 
 //=================Dispatch Battier Demo==========
 
