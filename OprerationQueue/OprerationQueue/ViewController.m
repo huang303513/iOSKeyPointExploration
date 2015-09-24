@@ -22,7 +22,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
+    /**
+     *  在默认情况下，operation 是同步执行的，也就是说在调用它的 start 方法的线程中执行它们的任务。而在 operation 和 operation queue 结合使用时，operation queue 可以为非并发的 operation 提供线程，只有自定义的并发operation是支持并发的。
+     
+     串行和并发的主要区别在于允许同时执行的任务数量。串行，指的是一次只能执行一个任务，必须等一个任务执行完成后才能执行下一个任务；并发，则指的是允许多个任务同时执行。
+     
+     只有第四种operaiton可以手动启动。
+     */
     //================================================
     //[self FVC_excuteInvocationOperation];
     //================================================
@@ -32,8 +38,11 @@
     //==========================================
     [self FVC_executeCurrentOperation];
 }
-/*
- 在默认情况下，operation 是同步执行的，也就是说在调用它的 start 方法的线程中执行它们的任务。而在 operation 和 operation queue 结合使用时，operation queue 可以为非并发的 operation 提供线程，因此，大部分的 operation 仍然可以异步执行。但是，如果你想要手动地执行一个 operation ，又想这个 operation 能够异步执行的话，你需要做一些额外的配置来让你的 operation 支持并发执行。
+
+/**
+ *  ，如果你想要手动地执行一个 operation ，又想这个 operation 能够异步执行的话，你需要做一些额外的配置来让你的 operation 支持并发执行。
+ *
+ *  @return nil
  */
 #pragma mark 执行并发执行的operation,并且可以手动启动
 - (void)FVC_executeCurrentOperation{
@@ -76,11 +85,11 @@
     
     NSData *data = [@"hello world" dataUsingEncoding:NSUTF8StringEncoding];
     NSInvocationOperation *invocationOperation = [createInvocationOperation invocationOperationWithData:data];
-    NSInvocationOperation *invocationOperationWithSelecter = [createInvocationOperation invocationOperationWithData:data userInput:@"myTaskMethod2"];
+    //NSInvocationOperation *invocationOperationWithSelecter = [createInvocationOperation invocationOperationWithData:data userInput:@"myTaskMethod2"];
     
     NSOperationQueue *queue = [[NSOperationQueue alloc]init];
     [queue addOperation:invocationOperation];
-    [queue addOperation:invocationOperationWithSelecter];
+    //[queue addOperation:invocationOperationWithSelecter];
     [queue addOperationWithBlock:^{
         NSLog(@"当前线程%@",[NSThread currentThread]);
     }];
