@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D80D9581BB6761700034780 /* WebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D80D9571BB6761700034780 /* WebImageDecoder.m */; };
 		4DEB3DA41BB0229F00EF63F7 /* appModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEB3DA31BB0229F00EF63F7 /* appModel.m */; };
-		DD945CFA1BB107A4003AA3D6 /* HCDImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD945CF71BB107A4003AA3D6 /* HCDImageManager.m */; settings = {ASSET_TAGS = (); }; };
-		DD945CFB1BB107A4003AA3D6 /* UIImageView+HCDWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DD945CF91BB107A4003AA3D6 /* UIImageView+HCDWebCache.m */; settings = {ASSET_TAGS = (); }; };
-		DD945D081BB107BC003AA3D6 /* HCDExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = DD945CFF1BB107BC003AA3D6 /* HCDExtensionConst.m */; settings = {ASSET_TAGS = (); }; };
-		DD945D091BB107BC003AA3D6 /* HCDProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = DD945D011BB107BC003AA3D6 /* HCDProperty.m */; settings = {ASSET_TAGS = (); }; };
-		DD945D0A1BB107BC003AA3D6 /* HCDPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = DD945D031BB107BC003AA3D6 /* HCDPropertyType.m */; settings = {ASSET_TAGS = (); }; };
-		DD945D0B1BB107BC003AA3D6 /* NSObject+HCDKeyValueObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DD945D051BB107BC003AA3D6 /* NSObject+HCDKeyValueObject.m */; settings = {ASSET_TAGS = (); }; };
-		DD945D0C1BB107BC003AA3D6 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = DD945D071BB107BC003AA3D6 /* NSObject+Property.m */; settings = {ASSET_TAGS = (); }; };
+		DD945CFA1BB107A4003AA3D6 /* HCDImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD945CF71BB107A4003AA3D6 /* HCDImageManager.m */; };
+		DD945CFB1BB107A4003AA3D6 /* UIImageView+HCDWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DD945CF91BB107A4003AA3D6 /* UIImageView+HCDWebCache.m */; };
+		DD945D081BB107BC003AA3D6 /* HCDExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = DD945CFF1BB107BC003AA3D6 /* HCDExtensionConst.m */; };
+		DD945D091BB107BC003AA3D6 /* HCDProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = DD945D011BB107BC003AA3D6 /* HCDProperty.m */; };
+		DD945D0A1BB107BC003AA3D6 /* HCDPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = DD945D031BB107BC003AA3D6 /* HCDPropertyType.m */; };
+		DD945D0B1BB107BC003AA3D6 /* NSObject+HCDKeyValueObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DD945D051BB107BC003AA3D6 /* NSObject+HCDKeyValueObject.m */; };
+		DD945D0C1BB107BC003AA3D6 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = DD945D071BB107BC003AA3D6 /* NSObject+Property.m */; };
 		DDC390F71BB00850008F693A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC390F61BB00850008F693A /* main.m */; };
 		DDC390FA1BB00850008F693A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC390F91BB00850008F693A /* AppDelegate.m */; };
 		DDC390FD1BB00850008F693A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC390FC1BB00850008F693A /* ViewController.m */; };
@@ -26,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D80D9561BB6761700034780 /* WebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebImageDecoder.h; sourceTree = "<group>"; };
+		4D80D9571BB6761700034780 /* WebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebImageDecoder.m; sourceTree = "<group>"; };
 		4DEB3DA21BB0229F00EF63F7 /* appModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = appModel.h; sourceTree = "<group>"; };
 		4DEB3DA31BB0229F00EF63F7 /* appModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = appModel.m; sourceTree = "<group>"; };
 		DD945CF61BB107A4003AA3D6 /* HCDImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDImageManager.h; sourceTree = "<group>"; };
@@ -71,6 +74,8 @@
 		DD945CF51BB107A4003AA3D6 /* HCDWebCache */ = {
 			isa = PBXGroup;
 			children = (
+				4D80D9561BB6761700034780 /* WebImageDecoder.h */,
+				4D80D9571BB6761700034780 /* WebImageDecoder.m */,
 				DD945CF61BB107A4003AA3D6 /* HCDImageManager.h */,
 				DD945CF71BB107A4003AA3D6 /* HCDImageManager.m */,
 				DD945CF81BB107A4003AA3D6 /* UIImageView+HCDWebCache.h */,
@@ -218,6 +223,7 @@
 				DDC390FD1BB00850008F693A /* ViewController.m in Sources */,
 				DDC390FA1BB00850008F693A /* AppDelegate.m in Sources */,
 				DD945CFA1BB107A4003AA3D6 /* HCDImageManager.m in Sources */,
+				4D80D9581BB6761700034780 /* WebImageDecoder.m in Sources */,
 				DD945D081BB107BC003AA3D6 /* HCDExtensionConst.m in Sources */,
 				DD945D091BB107BC003AA3D6 /* HCDProperty.m in Sources */,
 				DD945D0C1BB107BC003AA3D6 /* NSObject+Property.m in Sources */,

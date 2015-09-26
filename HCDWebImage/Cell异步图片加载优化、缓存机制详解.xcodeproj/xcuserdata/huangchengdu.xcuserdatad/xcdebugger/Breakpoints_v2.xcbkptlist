@@ -6,7 +6,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Cell&#x5f02;&#x6b65;&#x56fe;&#x7247;&#x52a0;&#x8f7d;&#x4f18;&#x5316;&#x3001;&#x7f13;&#x5b58;&#x673a;&#x5236;&#x8be6;&#x89e3;/ViewController.m"

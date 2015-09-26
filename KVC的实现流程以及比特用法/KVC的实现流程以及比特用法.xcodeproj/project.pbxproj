@@ -14,11 +14,11 @@
 		DD1BB72B1BB52F9800F1619C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD1BB72A1BB52F9800F1619C /* Assets.xcassets */; };
 		DD1BB72E1BB52F9800F1619C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD1BB72C1BB52F9800F1619C /* LaunchScreen.storyboard */; };
 		DD1BB7391BB52F9900F1619C /* KVC___________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1BB7381BB52F9900F1619C /* KVC___________Tests.m */; };
-		DD1BB7451BB52FCF00F1619C /* HCDText.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1BB7441BB52FCF00F1619C /* HCDText.m */; settings = {ASSET_TAGS = (); }; };
-		DD1BB7481BB5384800F1619C /* HCDText1.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1BB7471BB5384800F1619C /* HCDText1.m */; settings = {ASSET_TAGS = (); }; };
-		DD1BB74B1BB53E3F00F1619C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1BB74A1BB53E3F00F1619C /* FirstViewController.m */; settings = {ASSET_TAGS = (); }; };
-		DD1BB74E1BB53E4C00F1619C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1BB74D1BB53E4C00F1619C /* SecondViewController.m */; settings = {ASSET_TAGS = (); }; };
-		DD1BB7511BB53E5700F1619C /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1BB7501BB53E5700F1619C /* ThirdViewController.m */; settings = {ASSET_TAGS = (); }; };
+		DD1BB7451BB52FCF00F1619C /* HCDText.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1BB7441BB52FCF00F1619C /* HCDText.m */; };
+		DD1BB7481BB5384800F1619C /* HCDText1.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1BB7471BB5384800F1619C /* HCDText1.m */; };
+		DD1BB74B1BB53E3F00F1619C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1BB74A1BB53E3F00F1619C /* FirstViewController.m */; };
+		DD1BB74E1BB53E4C00F1619C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1BB74D1BB53E4C00F1619C /* SecondViewController.m */; };
+		DD1BB7511BB53E5700F1619C /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1BB7501BB53E5700F1619C /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -370,6 +370,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "KVC的实现流程以及比特用法/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "---.KVC-----------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -381,6 +382,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "KVC的实现流程以及比特用法/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "---.KVC-----------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +432,7 @@
 				DD1BB73F1BB52F9900F1619C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD1BB7401BB52F9900F1619C /* Build configuration list for PBXNativeTarget "KVC的实现流程以及比特用法Tests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +441,7 @@
 				DD1BB7421BB52F9900F1619C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

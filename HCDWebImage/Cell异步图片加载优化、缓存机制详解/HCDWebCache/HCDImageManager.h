@@ -21,7 +21,7 @@
 /**
  *  存放所有下载完成的图片，用于缓存
  */
-@property (nonatomic,strong) NSMutableDictionary* images;
+@property (nonatomic,strong) NSCache* images;
 
 
 

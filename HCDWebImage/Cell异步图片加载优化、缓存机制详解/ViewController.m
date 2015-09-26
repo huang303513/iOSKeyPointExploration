@@ -23,7 +23,10 @@
     if (nil == _dataListArray) {
         NSMutableArray *tempArray = [NSMutableArray array];
         NSString *path = [[NSBundle mainBundle] pathForResource:@"apps.plist" ofType:nil];
-        NSArray *modelArray = [NSArray arrayWithContentsOfFile:path];
+        NSMutableArray *modelArray = [NSMutableArray arrayWithContentsOfFile:path];
+        for (int i = 0; i < 100; i++) {
+            [modelArray addObjectsFromArray:[NSArray arrayWithContentsOfFile:path]];
+        }
         for (NSDictionary *dic in modelArray) {
             appModel *model = [appModel objectWithKeyValues:dic];
             [tempArray addObject:model];

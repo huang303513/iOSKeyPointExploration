@@ -36,12 +36,13 @@
     return _operations;
 }
 
-- (NSMutableDictionary *)images
+- (NSCache *)images
 {
     if (nil == _images) {
-        _images = [NSMutableDictionary dictionary];
+        _images = [NSCache new];
+        _images.countLimit = 100;
+        _images.totalCostLimit = 50 * 1024 *1024;
     }
-    
     return _images;
 }
 
