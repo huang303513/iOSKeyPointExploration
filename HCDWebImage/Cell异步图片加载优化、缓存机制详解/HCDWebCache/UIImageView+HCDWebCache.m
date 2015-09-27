@@ -43,9 +43,12 @@
                 //到子线程执行下载操作
                 //取出当前URL对应的下载下载操作
                 NSBlockOperation *operation = manager.operations[picurl];
+                __weak typeof(self) weakSelf = self;
                 if (nil == operation) {
+                    if (!weakSelf) {
+                        return;
+                    }
                     NSLog(@"从网络加载");
-                    __weak typeof(self) weakSelf = self;
                     operation = [NSBlockOperation blockOperationWithBlock:^{
                         NSData* data =  [NSData dataWithContentsOfURL:picurl];
                         UIImage* netimage = [UIImage imageWithData:data];
@@ -56,6 +59,9 @@
                             
                             // 从字典中移除下载操作 (防止operations越来越大，保证下载失败后，能重新下载)
                             [manager.operations removeObjectForKey:picurl];
+                            if (!weakSelf) {
+                                return;
+                            }
                             weakSelf.image = netimage;
                             complete(netimage);
                         }];
