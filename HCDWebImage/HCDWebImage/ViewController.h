@@ -1,8 +1,8 @@
 //
 //  ViewController.h
-//  Cell异步图片加载优化、缓存机制详解
+//  HCDWebImage
 //
-//  Created by yifan on 15/9/21.
+//  Created by yifan on 15/9/28.
 //  Copyright © 2015年 黄成都. All rights reserved.
 //
 

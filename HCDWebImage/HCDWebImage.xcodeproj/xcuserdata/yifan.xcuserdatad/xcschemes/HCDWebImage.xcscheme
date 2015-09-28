@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DDC390F11BB00850008F693A"
-               BuildableName = "Cell&#x5f02;&#x6b65;&#x56fe;&#x7247;&#x52a0;&#x8f7d;&#x4f18;&#x5316;&#x3001;&#x7f13;&#x5b58;&#x673a;&#x5236;&#x8be6;&#x89e3;.app"
-               BlueprintName = "Cell&#x5f02;&#x6b65;&#x56fe;&#x7247;&#x52a0;&#x8f7d;&#x4f18;&#x5316;&#x3001;&#x7f13;&#x5b58;&#x673a;&#x5236;&#x8be6;&#x89e3;"
-               ReferencedContainer = "container:Cell&#x5f02;&#x6b65;&#x56fe;&#x7247;&#x52a0;&#x8f7d;&#x4f18;&#x5316;&#x3001;&#x7f13;&#x5b58;&#x673a;&#x5236;&#x8be6;&#x89e3;.xcodeproj">
+               BlueprintIdentifier = "DDEE80341BB966870076F653"
+               BuildableName = "HCDWebImage.app"
+               BlueprintName = "HCDWebImage"
+               ReferencedContainer = "container:HCDWebImage.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,14 +28,24 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DDEE804D1BB966870076F653"
+               BuildableName = "HCDWebImageTests.xctest"
+               BlueprintName = "HCDWebImageTests"
+               ReferencedContainer = "container:HCDWebImage.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DDC390F11BB00850008F693A"
-            BuildableName = "Cell&#x5f02;&#x6b65;&#x56fe;&#x7247;&#x52a0;&#x8f7d;&#x4f18;&#x5316;&#x3001;&#x7f13;&#x5b58;&#x673a;&#x5236;&#x8be6;&#x89e3;.app"
-            BlueprintName = "Cell&#x5f02;&#x6b65;&#x56fe;&#x7247;&#x52a0;&#x8f7d;&#x4f18;&#x5316;&#x3001;&#x7f13;&#x5b58;&#x673a;&#x5236;&#x8be6;&#x89e3;"
-            ReferencedContainer = "container:Cell&#x5f02;&#x6b65;&#x56fe;&#x7247;&#x52a0;&#x8f7d;&#x4f18;&#x5316;&#x3001;&#x7f13;&#x5b58;&#x673a;&#x5236;&#x8be6;&#x89e3;.xcodeproj">
+            BlueprintIdentifier = "DDEE80341BB966870076F653"
+            BuildableName = "HCDWebImage.app"
+            BlueprintName = "HCDWebImage"
+            ReferencedContainer = "container:HCDWebImage.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +65,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DDC390F11BB00850008F693A"
-            BuildableName = "Cell&#x5f02;&#x6b65;&#x56fe;&#x7247;&#x52a0;&#x8f7d;&#x4f18;&#x5316;&#x3001;&#x7f13;&#x5b58;&#x673a;&#x5236;&#x8be6;&#x89e3;.app"
-            BlueprintName = "Cell&#x5f02;&#x6b65;&#x56fe;&#x7247;&#x52a0;&#x8f7d;&#x4f18;&#x5316;&#x3001;&#x7f13;&#x5b58;&#x673a;&#x5236;&#x8be6;&#x89e3;"
-            ReferencedContainer = "container:Cell&#x5f02;&#x6b65;&#x56fe;&#x7247;&#x52a0;&#x8f7d;&#x4f18;&#x5316;&#x3001;&#x7f13;&#x5b58;&#x673a;&#x5236;&#x8be6;&#x89e3;.xcodeproj">
+            BlueprintIdentifier = "DDEE80341BB966870076F653"
+            BuildableName = "HCDWebImage.app"
+            BlueprintName = "HCDWebImage"
+            ReferencedContainer = "container:HCDWebImage.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +84,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DDC390F11BB00850008F693A"
-            BuildableName = "Cell&#x5f02;&#x6b65;&#x56fe;&#x7247;&#x52a0;&#x8f7d;&#x4f18;&#x5316;&#x3001;&#x7f13;&#x5b58;&#x673a;&#x5236;&#x8be6;&#x89e3;.app"
-            BlueprintName = "Cell&#x5f02;&#x6b65;&#x56fe;&#x7247;&#x52a0;&#x8f7d;&#x4f18;&#x5316;&#x3001;&#x7f13;&#x5b58;&#x673a;&#x5236;&#x8be6;&#x89e3;"
-            ReferencedContainer = "container:Cell&#x5f02;&#x6b65;&#x56fe;&#x7247;&#x52a0;&#x8f7d;&#x4f18;&#x5316;&#x3001;&#x7f13;&#x5b58;&#x673a;&#x5236;&#x8be6;&#x89e3;.xcodeproj">
+            BlueprintIdentifier = "DDEE80341BB966870076F653"
+            BuildableName = "HCDWebImage.app"
+            BlueprintName = "HCDWebImage"
+            ReferencedContainer = "container:HCDWebImage.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Cell异步图片加载优化、缓存机制详解.xcscheme</key>
+		<key>HCDWebImage.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>DDC390F11BB00850008F693A</key>
+		<key>DDEE80341BB966870076F653</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DDEE804D1BB966870076F653</key>
 		<dict>
 			<key>primary</key>
 			<true/>
