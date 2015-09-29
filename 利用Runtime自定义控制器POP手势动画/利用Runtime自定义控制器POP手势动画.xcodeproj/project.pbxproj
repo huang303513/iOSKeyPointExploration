@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD12CD6D1BBA1FBF0054D410 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD12CD6C1BBA1FBF0054D410 /* main.m */; };
+		DD12CD701BBA1FBF0054D410 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD12CD6F1BBA1FBF0054D410 /* AppDelegate.m */; };
+		DD12CD731BBA1FBF0054D410 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD12CD721BBA1FBF0054D410 /* ViewController.m */; };
+		DD12CD761BBA1FBF0054D410 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD12CD741BBA1FBF0054D410 /* Main.storyboard */; };
+		DD12CD781BBA1FBF0054D410 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD12CD771BBA1FBF0054D410 /* Assets.xcassets */; };
+		DD12CD7B1BBA1FBF0054D410 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD12CD791BBA1FBF0054D410 /* LaunchScreen.storyboard */; };
+		DD12CD861BBA1FBF0054D410 /* __Runtime______POP____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD12CD851BBA1FBF0054D410 /* __Runtime______POP____Tests.m */; };
+		DD12CD931BBA2EB70054D410 /* HCDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD12CD921BBA2EB70054D410 /* HCDNavigationController.m */; settings = {ASSET_TAGS = (); }; };
+		DD12CD961BBA2EFF0054D410 /* NavigationInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = DD12CD951BBA2EFF0054D410 /* NavigationInteractiveTransition.m */; settings = {ASSET_TAGS = (); }; };
+		DD12CD991BBA2F580054D410 /* HCDPopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DD12CD981BBA2F580054D410 /* HCDPopAnimation.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD12CD821BBA1FBF0054D410 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD12CD601BBA1FBF0054D410 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD12CD671BBA1FBF0054D410;
+			remoteInfo = "利用Runtime自定义控制器POP手势动画";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD12CD681BBA1FBF0054D410 /* 利用Runtime自定义控制器POP手势动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "利用Runtime自定义控制器POP手势动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD12CD6C1BBA1FBF0054D410 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD12CD6E1BBA1FBF0054D410 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD12CD6F1BBA1FBF0054D410 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD12CD711BBA1FBF0054D410 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD12CD721BBA1FBF0054D410 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD12CD751BBA1FBF0054D410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD12CD771BBA1FBF0054D410 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD12CD7A1BBA1FBF0054D410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD12CD7C1BBA1FBF0054D410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD12CD811BBA1FBF0054D410 /* 利用Runtime自定义控制器POP手势动画Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "利用Runtime自定义控制器POP手势动画Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD12CD851BBA1FBF0054D410 /* __Runtime______POP____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__Runtime______POP____Tests.m"; sourceTree = "<group>"; };
+		DD12CD871BBA1FBF0054D410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD12CD911BBA2EB70054D410 /* HCDNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDNavigationController.h; sourceTree = "<group>"; };
+		DD12CD921BBA2EB70054D410 /* HCDNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDNavigationController.m; sourceTree = "<group>"; };
+		DD12CD941BBA2EFF0054D410 /* NavigationInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationInteractiveTransition.h; sourceTree = "<group>"; };
+		DD12CD951BBA2EFF0054D410 /* NavigationInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationInteractiveTransition.m; sourceTree = "<group>"; };
+		DD12CD971BBA2F580054D410 /* HCDPopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDPopAnimation.h; sourceTree = "<group>"; };
+		DD12CD981BBA2F580054D410 /* HCDPopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDPopAnimation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD12CD651BBA1FBF0054D410 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD12CD7E1BBA1FBF0054D410 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD12CD5F1BBA1FBF0054D410 = {
+			isa = PBXGroup;
+			children = (
+				DD12CD6A1BBA1FBF0054D410 /* 利用Runtime自定义控制器POP手势动画 */,
+				DD12CD841BBA1FBF0054D410 /* 利用Runtime自定义控制器POP手势动画Tests */,
+				DD12CD691BBA1FBF0054D410 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD12CD691BBA1FBF0054D410 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD12CD681BBA1FBF0054D410 /* 利用Runtime自定义控制器POP手势动画.app */,
+				DD12CD811BBA1FBF0054D410 /* 利用Runtime自定义控制器POP手势动画Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD12CD6A1BBA1FBF0054D410 /* 利用Runtime自定义控制器POP手势动画 */ = {
+			isa = PBXGroup;
+			children = (
+				DD12CD901BBA2E760054D410 /* 全局自定义转场动画 */,
+				DD12CD6E1BBA1FBF0054D410 /* AppDelegate.h */,
+				DD12CD6F1BBA1FBF0054D410 /* AppDelegate.m */,
+				DD12CD711BBA1FBF0054D410 /* ViewController.h */,
+				DD12CD721BBA1FBF0054D410 /* ViewController.m */,
+				DD12CD741BBA1FBF0054D410 /* Main.storyboard */,
+				DD12CD771BBA1FBF0054D410 /* Assets.xcassets */,
+				DD12CD791BBA1FBF0054D410 /* LaunchScreen.storyboard */,
+				DD12CD7C1BBA1FBF0054D410 /* Info.plist */,
+				DD12CD6B1BBA1FBF0054D410 /* Supporting Files */,
+			);
+			path = "利用Runtime自定义控制器POP手势动画";
+			sourceTree = "<group>";
+		};
+		DD12CD6B1BBA1FBF0054D410 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD12CD6C1BBA1FBF0054D410 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD12CD841BBA1FBF0054D410 /* 利用Runtime自定义控制器POP手势动画Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DD12CD851BBA1FBF0054D410 /* __Runtime______POP____Tests.m */,
+				DD12CD871BBA1FBF0054D410 /* Info.plist */,
+			);
+			path = "利用Runtime自定义控制器POP手势动画Tests";
+			sourceTree = "<group>";
+		};
+		DD12CD901BBA2E760054D410 /* 全局自定义转场动画 */ = {
+			isa = PBXGroup;
+			children = (
+				DD12CD911BBA2EB70054D410 /* HCDNavigationController.h */,
+				DD12CD921BBA2EB70054D410 /* HCDNavigationController.m */,
+				DD12CD941BBA2EFF0054D410 /* NavigationInteractiveTransition.h */,
+				DD12CD951BBA2EFF0054D410 /* NavigationInteractiveTransition.m */,
+				DD12CD971BBA2F580054D410 /* HCDPopAnimation.h */,
+				DD12CD981BBA2F580054D410 /* HCDPopAnimation.m */,
+			);
+			name = "全局自定义转场动画";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD12CD671BBA1FBF0054D410 /* 利用Runtime自定义控制器POP手势动画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD12CD8A1BBA1FBF0054D410 /* Build configuration list for PBXNativeTarget "利用Runtime自定义控制器POP手势动画" */;
+			buildPhases = (
+				DD12CD641BBA1FBF0054D410 /* Sources */,
+				DD12CD651BBA1FBF0054D410 /* Frameworks */,
+				DD12CD661BBA1FBF0054D410 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "利用Runtime自定义控制器POP手势动画";
+			productName = "利用Runtime自定义控制器POP手势动画";
+			productReference = DD12CD681BBA1FBF0054D410 /* 利用Runtime自定义控制器POP手势动画.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD12CD801BBA1FBF0054D410 /* 利用Runtime自定义控制器POP手势动画Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD12CD8D1BBA1FBF0054D410 /* Build configuration list for PBXNativeTarget "利用Runtime自定义控制器POP手势动画Tests" */;
+			buildPhases = (
+				DD12CD7D1BBA1FBF0054D410 /* Sources */,
+				DD12CD7E1BBA1FBF0054D410 /* Frameworks */,
+				DD12CD7F1BBA1FBF0054D410 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD12CD831BBA1FBF0054D410 /* PBXTargetDependency */,
+			);
+			name = "利用Runtime自定义控制器POP手势动画Tests";
+			productName = "利用Runtime自定义控制器POP手势动画Tests";
+			productReference = DD12CD811BBA1FBF0054D410 /* 利用Runtime自定义控制器POP手势动画Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD12CD601BBA1FBF0054D410 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "黄成都";
+				TargetAttributes = {
+					DD12CD671BBA1FBF0054D410 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					DD12CD801BBA1FBF0054D410 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DD12CD671BBA1FBF0054D410;
+					};
+				};
+			};
+			buildConfigurationList = DD12CD631BBA1FBF0054D410 /* Build configuration list for PBXProject "利用Runtime自定义控制器POP手势动画" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD12CD5F1BBA1FBF0054D410;
+			productRefGroup = DD12CD691BBA1FBF0054D410 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD12CD671BBA1FBF0054D410 /* 利用Runtime自定义控制器POP手势动画 */,
+				DD12CD801BBA1FBF0054D410 /* 利用Runtime自定义控制器POP手势动画Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD12CD661BBA1FBF0054D410 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD12CD7B1BBA1FBF0054D410 /* LaunchScreen.storyboard in Resources */,
+				DD12CD781BBA1FBF0054D410 /* Assets.xcassets in Resources */,
+				DD12CD761BBA1FBF0054D410 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD12CD7F1BBA1FBF0054D410 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD12CD641BBA1FBF0054D410 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD12CD991BBA2F580054D410 /* HCDPopAnimation.m in Sources */,
+				DD12CD731BBA1FBF0054D410 /* ViewController.m in Sources */,
+				DD12CD701BBA1FBF0054D410 /* AppDelegate.m in Sources */,
+				DD12CD6D1BBA1FBF0054D410 /* main.m in Sources */,
+				DD12CD961BBA2EFF0054D410 /* NavigationInteractiveTransition.m in Sources */,
+				DD12CD931BBA2EB70054D410 /* HCDNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD12CD7D1BBA1FBF0054D410 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD12CD861BBA1FBF0054D410 /* __Runtime______POP____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD12CD831BBA1FBF0054D410 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD12CD671BBA1FBF0054D410 /* 利用Runtime自定义控制器POP手势动画 */;
+			targetProxy = DD12CD821BBA1FBF0054D410 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD12CD741BBA1FBF0054D410 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD12CD751BBA1FBF0054D410 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD12CD791BBA1FBF0054D410 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD12CD7A1BBA1FBF0054D410 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD12CD881BBA1FBF0054D410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD12CD891BBA1FBF0054D410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD12CD8B1BBA1FBF0054D410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "利用Runtime自定义控制器POP手势动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.--Runtime------POP----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD12CD8C1BBA1FBF0054D410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "利用Runtime自定义控制器POP手势动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.--Runtime------POP----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD12CD8E1BBA1FBF0054D410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "利用Runtime自定义控制器POP手势动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.--Runtime------POP----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/利用Runtime自定义控制器POP手势动画.app/利用Runtime自定义控制器POP手势动画";
+			};
+			name = Debug;
+		};
+		DD12CD8F1BBA1FBF0054D410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "利用Runtime自定义控制器POP手势动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.--Runtime------POP----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/利用Runtime自定义控制器POP手势动画.app/利用Runtime自定义控制器POP手势动画";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD12CD631BBA1FBF0054D410 /* Build configuration list for PBXProject "利用Runtime自定义控制器POP手势动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD12CD881BBA1FBF0054D410 /* Debug */,
+				DD12CD891BBA1FBF0054D410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD12CD8A1BBA1FBF0054D410 /* Build configuration list for PBXNativeTarget "利用Runtime自定义控制器POP手势动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD12CD8B1BBA1FBF0054D410 /* Debug */,
+				DD12CD8C1BBA1FBF0054D410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD12CD8D1BBA1FBF0054D410 /* Build configuration list for PBXNativeTarget "利用Runtime自定义控制器POP手势动画Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD12CD8E1BBA1FBF0054D410 /* Debug */,
+				DD12CD8F1BBA1FBF0054D410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD12CD601BBA1FBF0054D410 /* Project object */;
+}
