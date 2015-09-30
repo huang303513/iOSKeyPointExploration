@@ -4,7 +4,7 @@
 
 ###我会持续更新这个仓库、欢迎关注和start
 
-//=================利用Runtime自定义控制器POP手势动画 Demo==========
+//=================KVC的实现流程以及比特用法 Demo==========
 
 [KVC的实现流程以及比特用法(需要Xcode 7打开)](https://github.com/huang303513/GCD-OperationQueue-Exploration/tree/master/KVC%E7%9A%84%E5%AE%9E%E7%8E%B0%E6%B5%81%E7%A8%8B%E4%BB%A5%E5%8F%8A%E6%AF%94%E7%89%B9%E7%94%A8%E6%B3%95)，讲了KVC的实现过程以及背后的函数调用、KVC的各种比特用法以及他们实现背后的原理。参考地址Demo中AppDelegate有。参考博客地址:[参考博客地址1](http://www.jianshu.com/p/d12dba8d686c)[参考博客地址2](http://www.jianshu.com/p/6b32f6279347)[参考博客地址3](http://www.jianshu.com/p/f8cdd075439d)
 
