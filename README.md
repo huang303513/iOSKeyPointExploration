@@ -1,4 +1,4 @@
-### 这个仓库是关于iOS开发多线程方面的知识讨论意见基本的用法。主要包括GCD和Operation、KVO、通知中心、事件传递机制等几部分。demo中有完整的注释、保存在此、方便使用。
+### 这个仓库是关于iOS开发多线程方面的知识讨论意见基本的用法。主要包括GCD和Operation、KVO、KVC、通知中心、事件传递机制等几部分。demo中有完整的注释、保存在此、方便使用。
 
 ##强烈推荐配合demo中的博客一起看。都是经典。
 
@@ -6,8 +6,12 @@
 
 //=================利用Runtime自定义控制器POP手势动画 Demo==========
 
-[利用Runtime自定义控制器POP手势动画(需要Xcode 7打开)](https://github.com/huang303513/GCD-OperationQueue-Exploration/tree/master/%E5%88%A9%E7%94%A8Runtime%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%A7%E5%88%B6%E5%99%A8POP%E6%89%8B%E5%8A%BF%E5%8A%A8%E7%94%BB)，用两种方式实现了全屏滑动返回、高度封装、其中第一种方式可以自定义pop动画。参考地址Demo中AppDelegate有。参考博客地址:[参考博客地址1](http://www.jianshu.com/p/d39f7d22db6c#fn_link_1)[参考博客地址2](https://github.com/forkingdog/FDFullscreenPopGesture)[参考博客地址3](https://github.com/huang303513/iOS-Study-Demo/tree/master/%E5%AF%BC%E8%88%AA%E6%8E%A7%E5%88%B6%E5%99%A8%E5%85%A8%E5%B1%8F%E6%BB%91%E5%8A%A8%E8%BF%94%E5%9B%9E)
+[KVC的实现流程以及比特用法(需要Xcode 7打开)](https://github.com/huang303513/GCD-OperationQueue-Exploration/tree/master/KVC%E7%9A%84%E5%AE%9E%E7%8E%B0%E6%B5%81%E7%A8%8B%E4%BB%A5%E5%8F%8A%E6%AF%94%E7%89%B9%E7%94%A8%E6%B3%95)，讲了KVC的实现过程以及背后的函数调用、KVC的各种比特用法以及他们实现背后的原理。参考地址Demo中AppDelegate有。参考博客地址:[参考博客地址1](http://www.jianshu.com/p/d12dba8d686c)[参考博客地址2](http://www.jianshu.com/p/6b32f6279347)[参考博客地址3](http://www.jianshu.com/p/f8cdd075439d)
 
+
+//=================利用Runtime自定义控制器POP手势动画 Demo==========
+
+[利用Runtime自定义控制器POP手势动画(需要Xcode 7打开)](https://github.com/huang303513/GCD-OperationQueue-Exploration/tree/master/%E5%88%A9%E7%94%A8Runtime%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8E%A7%E5%88%B6%E5%99%A8POP%E6%89%8B%E5%8A%BF%E5%8A%A8%E7%94%BB)，用两种方式实现了全屏滑动返回、高度封装、其中第一种方式可以自定义pop动画。参考地址Demo中AppDelegate有。参考博客地址:[参考博客地址1](http://www.jianshu.com/p/d39f7d22db6c#fn_link_1)[参考博客地址2](https://github.com/forkingdog/FDFullscreenPopGesture)[参考博客地址3](https://github.com/huang303513/iOS-Study-Demo/tree/master/%E5%AF%BC%E8%88%AA%E6%8E%A7%E5%88%B6%E5%99%A8%E5%85%A8%E5%B1%8F%E6%BB%91%E5%8A%A8%E8%BF%94%E5%9B%9E)
 
 
 //=================底层并发API之最佳实践及原理 Demo==========
