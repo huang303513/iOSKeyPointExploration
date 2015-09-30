@@ -19,6 +19,8 @@
 		DD1BB74B1BB53E3F00F1619C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1BB74A1BB53E3F00F1619C /* FirstViewController.m */; };
 		DD1BB74E1BB53E4C00F1619C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1BB74D1BB53E4C00F1619C /* SecondViewController.m */; };
 		DD1BB7511BB53E5700F1619C /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1BB7501BB53E5700F1619C /* ThirdViewController.m */; };
+		DD57465D1BBBDFFF000FA3FF /* HCDProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = DD57465C1BBBDFFF000FA3FF /* HCDProduct.m */; settings = {ASSET_TAGS = (); }; };
+		DD5746631BBBE640000FA3FF /* NSArray+HCDOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5746621BBBE640000FA3FF /* NSArray+HCDOperator.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,10 @@
 		DD1BB74D1BB53E4C00F1619C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		DD1BB74F1BB53E5700F1619C /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		DD1BB7501BB53E5700F1619C /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		DD57465B1BBBDFFF000FA3FF /* HCDProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDProduct.h; sourceTree = "<group>"; };
+		DD57465C1BBBDFFF000FA3FF /* HCDProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDProduct.m; sourceTree = "<group>"; };
+		DD5746611BBBE640000FA3FF /* NSArray+HCDOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HCDOperator.h"; sourceTree = "<group>"; };
+		DD5746621BBBE640000FA3FF /* NSArray+HCDOperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HCDOperator.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +102,9 @@
 		DD1BB71D1BB52F9800F1619C /* KVC的实现流程以及比特用法 */ = {
 			isa = PBXGroup;
 			children = (
-				DD1BB7461BB5384800F1619C /* HCDText1.h */,
-				DD1BB7471BB5384800F1619C /* HCDText1.m */,
+				DD5746601BBBE5AB000FA3FF /* third */,
+				DD57465F1BBBE5A4000FA3FF /* second */,
+				DD57465E1BBBE59E000FA3FF /* first */,
 				DD1BB7211BB52F9800F1619C /* AppDelegate.h */,
 				DD1BB7221BB52F9800F1619C /* AppDelegate.m */,
 				DD1BB7241BB52F9800F1619C /* ViewController.h */,
@@ -107,14 +114,6 @@
 				DD1BB72C1BB52F9800F1619C /* LaunchScreen.storyboard */,
 				DD1BB72F1BB52F9800F1619C /* Info.plist */,
 				DD1BB71E1BB52F9800F1619C /* Supporting Files */,
-				DD1BB7431BB52FCF00F1619C /* HCDText.h */,
-				DD1BB7441BB52FCF00F1619C /* HCDText.m */,
-				DD1BB7491BB53E3F00F1619C /* FirstViewController.h */,
-				DD1BB74A1BB53E3F00F1619C /* FirstViewController.m */,
-				DD1BB74C1BB53E4C00F1619C /* SecondViewController.h */,
-				DD1BB74D1BB53E4C00F1619C /* SecondViewController.m */,
-				DD1BB74F1BB53E5700F1619C /* ThirdViewController.h */,
-				DD1BB7501BB53E5700F1619C /* ThirdViewController.m */,
 			);
 			path = "KVC的实现流程以及比特用法";
 			sourceTree = "<group>";
@@ -134,6 +133,41 @@
 				DD1BB73A1BB52F9900F1619C /* Info.plist */,
 			);
 			path = "KVC的实现流程以及比特用法Tests";
+			sourceTree = "<group>";
+		};
+		DD57465E1BBBE59E000FA3FF /* first */ = {
+			isa = PBXGroup;
+			children = (
+				DD1BB7431BB52FCF00F1619C /* HCDText.h */,
+				DD1BB7441BB52FCF00F1619C /* HCDText.m */,
+				DD1BB7491BB53E3F00F1619C /* FirstViewController.h */,
+				DD1BB74A1BB53E3F00F1619C /* FirstViewController.m */,
+			);
+			name = first;
+			sourceTree = "<group>";
+		};
+		DD57465F1BBBE5A4000FA3FF /* second */ = {
+			isa = PBXGroup;
+			children = (
+				DD1BB7461BB5384800F1619C /* HCDText1.h */,
+				DD1BB7471BB5384800F1619C /* HCDText1.m */,
+				DD1BB74C1BB53E4C00F1619C /* SecondViewController.h */,
+				DD1BB74D1BB53E4C00F1619C /* SecondViewController.m */,
+			);
+			name = second;
+			sourceTree = "<group>";
+		};
+		DD5746601BBBE5AB000FA3FF /* third */ = {
+			isa = PBXGroup;
+			children = (
+				DD57465B1BBBDFFF000FA3FF /* HCDProduct.h */,
+				DD57465C1BBBDFFF000FA3FF /* HCDProduct.m */,
+				DD1BB74F1BB53E5700F1619C /* ThirdViewController.h */,
+				DD1BB7501BB53E5700F1619C /* ThirdViewController.m */,
+				DD5746611BBBE640000FA3FF /* NSArray+HCDOperator.h */,
+				DD5746621BBBE640000FA3FF /* NSArray+HCDOperator.m */,
+			);
+			name = third;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,9 +272,11 @@
 			files = (
 				DD1BB7451BB52FCF00F1619C /* HCDText.m in Sources */,
 				DD1BB74B1BB53E3F00F1619C /* FirstViewController.m in Sources */,
+				DD57465D1BBBDFFF000FA3FF /* HCDProduct.m in Sources */,
 				DD1BB7511BB53E5700F1619C /* ThirdViewController.m in Sources */,
 				DD1BB7261BB52F9800F1619C /* ViewController.m in Sources */,
 				DD1BB74E1BB53E4C00F1619C /* SecondViewController.m in Sources */,
+				DD5746631BBBE640000FA3FF /* NSArray+HCDOperator.m in Sources */,
 				DD1BB7231BB52F9800F1619C /* AppDelegate.m in Sources */,
 				DD1BB7481BB5384800F1619C /* HCDText1.m in Sources */,
 				DD1BB7201BB52F9800F1619C /* main.m in Sources */,

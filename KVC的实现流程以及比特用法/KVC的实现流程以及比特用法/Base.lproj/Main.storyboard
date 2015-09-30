@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="TcL-0o-OhC">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
@@ -13,27 +14,27 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ohu-li-LSN">
-                                <rect key="frame" x="114" y="230" width="51" height="30"/>
+                                <rect key="frame" x="138" y="214" width="45" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="second"/>
+                                <state key="normal" title="第二个"/>
                                 <connections>
                                     <segue destination="BJq-m2-VHM" kind="push" id="sRs-pG-E59"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="f7v-2h-tVv">
-                                <rect key="frame" x="131" y="369" width="32" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="third"/>
-                                <connections>
-                                    <segue destination="7Xv-2d-GDc" kind="push" id="naV-H5-77H"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GYz-Bu-e5c">
-                                <rect key="frame" x="114" y="136" width="30" height="30"/>
+                                <rect key="frame" x="90" y="137" width="141" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="first"/>
+                                <state key="normal" title="第一个"/>
                                 <connections>
                                     <segue destination="zLU-FB-JZu" kind="push" id="PZl-oD-9Yn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="f7v-2h-tVv">
+                                <rect key="frame" x="138" y="296" width="45" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="第三个"/>
+                                <connections>
+                                    <segue destination="7Xv-2d-GDc" kind="push" id="naV-H5-77H"/>
                                 </connections>
                             </button>
                         </subviews>

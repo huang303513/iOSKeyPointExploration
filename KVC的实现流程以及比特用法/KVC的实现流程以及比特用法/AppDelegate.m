@@ -9,6 +9,9 @@
 #import "AppDelegate.h"
 
 #warning 参考博客地址：http://www.jianshu.com/p/d12dba8d686c
+#warning http://www.jianshu.com/p/6b32f6279347
+
+#warning http://www.jianshu.com/p/f8cdd075439d
 
 @interface AppDelegate ()
 
