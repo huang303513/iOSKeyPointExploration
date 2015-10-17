@@ -61,6 +61,8 @@
 -(void)testHCDTest1_3{
     HCDText1 *test1 = [HCDText1 new];
     [test1 setValue:nil forKey:@"num"];
+    //[test1 setValue:@10 forKey:@"num"];
+    NSLog(@"%d",test1.num);
 }
 
 @end

@@ -20,7 +20,7 @@
 
 //=================HCDWebImage Demo==========
 
-[HCDWebImage(需要Xcode 7打开)](https://github.com/huang303513/GCD-OperationQueue-Exploration/tree/master/HCDWebImage)，实现了一个图片异步加载、本地缓存、队列下载等功能、通过内存缓存、磁盘缓存来实现对图片的缓存、SDWebImage的分析等。参考地址Demo中AppDelegate有。参考博客地址:[参考博客地址](http://www.jianshu.com/p/3b2c95e1404f)[参考博客地址](http://www.jianshu.com/p/02ab2b74c451)
+[HCDWebImage(需要Xcode 7打开)](https://github.com/huang303513/GCD-OperationQueue-Exploration/tree/master/HCDWebImage)，实现了一个图片异步加载、本地缓存、队列下载等功能、通过内存缓存、磁盘缓存来实现对图片的缓存、SDWebImage的分析等。参考地址Demo中AppDelegate有。参考博客地址:[参考博客地址](http://www.jianshu.com/p/3b2c95e1404f)[参考博客地址](http://www.jianshu.com/p/02ab2b74c451)[参考博客地址](http://mp.weixin.qq.com/s?plg_nld=1&plg_auth=1&plg_nld=1&plg_dev=1&plg_uin=1&plg_usr=1&plg_vkey=1&plg_nld=1&plg_uin=1&mid=207840007&plg_auth=1&plg_dev=1&sn=ce09553e5774f5581c696b5e28f0c7e8&plg_nld=1&idx=1&__biz=MzI1MTA1MzM2Nw%3D%3D&plg_usr=1&plg_vkey=1#rd)
 
 //=================HCDExtension Demo==========
 
@@ -43,9 +43,6 @@
 
 [手动实现KVO、注册依赖键、集合属性监听](https://github.com/huang303513/GCD-OperationQueue-Exploration/tree/master/%E6%89%8B%E5%8A%A8%E5%AE%9E%E7%8E%B0KVO%E3%80%81%E6%B3%A8%E5%86%8C%E4%BE%9D%E8%B5%96%E9%94%AE%E3%80%81%E9%9B%86%E5%90%88%E5%B1%9E%E6%80%A7%E7%9B%91%E5%90%AC)涉及到手动设置kvo、kvo依赖键实现、kvo数组属性改变监听等。参考地址Demo中AppDelegate有。参考博客地址:[参考博客地址](http://southpeak.github.io/blog/2015/04/23/nskeyvalueobserving-kvo/)
 
-//=================关于NSNotificationCenter的探讨==========
-
-[关于NSNotificationCenter的探讨](https://github.com/huang303513/GCD-OperationQueue-Exploration/tree/master/%E5%85%B3%E4%BA%8ENSNotificationCenter%E7%9A%84%E6%8E%A2%E8%AE%A8)涉及到通知中心的各种原理和注意事项、用法。参考地址Demo中AppDelegate有。参考博客地址:[参考博客地址](http://southpeak.github.io/blog/2015/03/20/nsnotificationcenter/)
 
 
 //=================iOS事件传递机制以及相应函数==========
