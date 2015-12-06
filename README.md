@@ -4,6 +4,9 @@
 
 ###我会持续更新这个仓库、欢迎关注和start
 
+[详解CALayer 和 UIView的区别和联系](http://www.jianshu.com/p/079e5cf0f014)
+
+
 //=================自定义并发Operation实现对大文件的下载 Demo==========
 
 [自定义并发Operation实现对大文件的下载](https://github.com/huang303513/GCD-OperationQueue-Exploration/tree/master/KVC%E7%9A%84%E5%AE%9E%E7%8E%B0%E6%B5%81%E7%A8%8B%E4%BB%A5%E5%8F%8A%E6%AF%94%E7%89%B9%E7%94%A8%E6%B3%95)，自定义一个并发operation、类似与AFN的处理。参考博客地址:[参考博客地址1](http://www.jianshu.com/p/ebb3e42049fd)
