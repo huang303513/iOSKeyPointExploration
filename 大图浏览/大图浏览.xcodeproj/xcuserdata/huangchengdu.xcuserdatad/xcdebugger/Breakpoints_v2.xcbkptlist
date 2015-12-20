@@ -10,43 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x5927;&#x56fe;&#x6d4f;&#x89c8;/HAIBigPictureView.m"
-            timestampString = "472219075.79212"
+            timestampString = "472276305.373528"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
-            landmarkName = "-layoutSubviews"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "&#x5927;&#x56fe;&#x6d4f;&#x89c8;/HAIBigPictureView.m"
-            timestampString = "472219075.79212"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
-            landmarkName = "-initWithBigPictureArray:currentIndex:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "&#x5927;&#x56fe;&#x6d4f;&#x89c8;/HAIBigPictureView.m"
-            timestampString = "472219075.79212"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
+            startingLineNumber = "217"
+            endingLineNumber = "217"
             landmarkName = "-startLoad"
             landmarkType = "5">
          </BreakpointContent>
@@ -58,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x5927;&#x56fe;&#x6d4f;&#x89c8;/HAIBigPictureView.m"
-            timestampString = "472219075.79212"
+            timestampString = "472269612.253798"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "74"
-            endingLineNumber = "74"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
             landmarkName = "-initWithBigPictureArray:currentIndex:"
             landmarkType = "5">
          </BreakpointContent>
@@ -74,75 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x5927;&#x56fe;&#x6d4f;&#x89c8;/HAIBigPictureView.m"
-            timestampString = "472216496.249084"
+            timestampString = "472277023.687883"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
-            landmarkName = "-initWithBigPictureArray:currentIndex:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "&#x5927;&#x56fe;&#x6d4f;&#x89c8;/HAIBigPictureView.m"
-            timestampString = "472219075.79212"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "96"
-            endingLineNumber = "96"
-            landmarkName = "-startLoad"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "&#x5927;&#x56fe;&#x6d4f;&#x89c8;/HAIBigPictureView.m"
-            timestampString = "472216496.249084"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "-initWithBigPictureArray:currentIndex:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "&#x5927;&#x56fe;&#x6d4f;&#x89c8;/HAIBigPictureView.m"
-            timestampString = "472216496.249084"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "-initWithBigPictureArray:currentIndex:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "&#x5927;&#x56fe;&#x6d4f;&#x89c8;/HAIBigPictureView.m"
-            timestampString = "472219075.79212"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "142"
-            endingLineNumber = "142"
+            startingLineNumber = "286"
+            endingLineNumber = "286"
             landmarkName = "-scrollViewDidEndDecelerating:"
             landmarkType = "5">
          </BreakpointContent>
@@ -154,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x5927;&#x56fe;&#x6d4f;&#x89c8;/HAIBigPictureView.m"
-            timestampString = "472219496.445461"
+            timestampString = "472277023.687883"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "145"
-            endingLineNumber = "145"
+            startingLineNumber = "288"
+            endingLineNumber = "288"
             landmarkName = "-scrollViewDidEndDecelerating:"
             landmarkType = "5">
          </BreakpointContent>
@@ -170,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x5927;&#x56fe;&#x6d4f;&#x89c8;/HAIBigPictureView.m"
-            timestampString = "472219496.445461"
+            timestampString = "472277023.687883"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "155"
-            endingLineNumber = "155"
+            startingLineNumber = "297"
+            endingLineNumber = "297"
             landmarkName = "-changLayoutToRight:"
             landmarkType = "5">
          </BreakpointContent>
@@ -186,11 +90,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x5927;&#x56fe;&#x6d4f;&#x89c8;/HAIBigPictureView.m"
-            timestampString = "472219498.842254"
+            timestampString = "472277023.687883"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "154"
-            endingLineNumber = "154"
+            startingLineNumber = "296"
+            endingLineNumber = "296"
             landmarkName = "-changLayoutToRight:"
             landmarkType = "5">
          </BreakpointContent>
@@ -202,11 +106,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x5927;&#x56fe;&#x6d4f;&#x89c8;/HAIBigPictureView.m"
-            timestampString = "472221114.020719"
+            timestampString = "472276644.942595"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "111"
-            endingLineNumber = "111"
+            startingLineNumber = "245"
+            endingLineNumber = "245"
             landmarkName = "-private_loadImages"
             landmarkType = "5">
          </BreakpointContent>
@@ -218,12 +122,92 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x5927;&#x56fe;&#x6d4f;&#x89c8;/HAIBigPictureView.m"
-            timestampString = "472221118.10934"
+            timestampString = "472276644.942595"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "116"
-            endingLineNumber = "116"
+            startingLineNumber = "253"
+            endingLineNumber = "253"
             landmarkName = "-private_loadImages"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x5927;&#x56fe;&#x6d4f;&#x89c8;/HAIBigPictureView.m"
+            timestampString = "472277023.687883"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "315"
+            endingLineNumber = "315"
+            landmarkName = "-changLayoutToRight:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[HAIBigPictureView changLayoutToRight:]"
+                  moduleName = "&#x5927;&#x56fe;&#x6d4f;&#x89c8;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huangchengdu/Desktop/github/GCD-OperationQueue-Exploration/%E5%A4%A7%E5%9B%BE%E6%B5%8F%E8%A7%88/%E5%A4%A7%E5%9B%BE%E6%B5%8F%E8%A7%88/HAIBigPictureView.m"
+                  timestampString = "472222749.278501"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "154"
+                  endingLineNumber = "154"
+                  offsetFromSymbolStart = "1101">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__40-[HAIBigPictureView changLayoutToRight:]_block_invoke140"
+                  moduleName = "&#x5927;&#x56fe;&#x6d4f;&#x89c8;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huangchengdu/Desktop/github/GCD-OperationQueue-Exploration/%E5%A4%A7%E5%9B%BE%E6%B5%8F%E8%A7%88/%E5%A4%A7%E5%9B%BE%E6%B5%8F%E8%A7%88/HAIBigPictureView.m"
+                  timestampString = "472222749.278712"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "154"
+                  endingLineNumber = "154"
+                  offsetFromSymbolStart = "39">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x5927;&#x56fe;&#x6d4f;&#x89c8;/HAIBigPictureView.m"
+            timestampString = "472276644.942595"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "268"
+            endingLineNumber = "268"
+            landmarkName = "-clickSmallImageView:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x5927;&#x56fe;&#x6d4f;&#x89c8;/HAIBigPictureView.m"
+            timestampString = "472276644.942595"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "270"
+            endingLineNumber = "270"
+            landmarkName = "-clickSmallImageView:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

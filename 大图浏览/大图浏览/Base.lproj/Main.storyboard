@@ -21,6 +21,15 @@
                                     <action selector="clickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Od-0c-20n"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="NoB-a1-cTX">
+                                <rect key="frame" x="30" y="264" width="237" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" title="点击多颜色图片浏览"/>
+                                <connections>
+                                    <action selector="clickMutablePictureArray:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dSf-ZK-lLS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -29,7 +38,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1187" y="360"/>
+            <point key="canvasLocation" x="953" y="371"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Ayh-9L-7Lp">
@@ -67,7 +76,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vym-Yv-k8Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="655" y="360"/>
+            <point key="canvasLocation" x="633" y="366"/>
         </scene>
     </scenes>
 </document>
