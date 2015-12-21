@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D8E4EA41C278A410077E07B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8E4EA31C278A410077E07B /* main.m */; };
+		4D8E4EA71C278A410077E07B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8E4EA61C278A410077E07B /* AppDelegate.m */; };
+		4D8E4EAA1C278A410077E07B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8E4EA91C278A410077E07B /* ViewController.m */; };
+		4D8E4EAD1C278A410077E07B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8E4EAB1C278A410077E07B /* Main.storyboard */; };
+		4D8E4EAF1C278A410077E07B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D8E4EAE1C278A410077E07B /* Assets.xcassets */; };
+		4D8E4EB21C278A410077E07B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8E4EB01C278A410077E07B /* LaunchScreen.storyboard */; };
+		4D8E4EBD1C278A420077E07B /* ____________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8E4EBC1C278A420077E07B /* ____________Tests.m */; };
+		4D8E4EC81C278A420077E07B /* ____________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8E4EC71C278A420077E07B /* ____________UITests.m */; };
+		4D8E4ED71C27929E0077E07B /* ImageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8E4ED61C27929E0077E07B /* ImageControl.m */; };
+		4D8E4ED91C27933A0077E07B /* blackboard1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D8E4ED81C27933A0077E07B /* blackboard1024.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D8E4EB91C278A420077E07B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D8E4E971C278A410077E07B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D8E4E9E1C278A410077E07B;
+			remoteInfo = "自定义控件的原理以及实现";
+		};
+		4D8E4EC41C278A420077E07B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D8E4E971C278A410077E07B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D8E4E9E1C278A410077E07B;
+			remoteInfo = "自定义控件的原理以及实现";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D8E4E9F1C278A410077E07B /* 自定义控件的原理以及实现.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义控件的原理以及实现.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D8E4EA31C278A410077E07B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D8E4EA51C278A410077E07B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D8E4EA61C278A410077E07B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D8E4EA81C278A410077E07B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4D8E4EA91C278A410077E07B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4D8E4EAC1C278A410077E07B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D8E4EAE1C278A410077E07B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D8E4EB11C278A410077E07B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D8E4EB31C278A410077E07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D8E4EB81C278A420077E07B /* 自定义控件的原理以及实现Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义控件的原理以及实现Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D8E4EBC1C278A420077E07B /* ____________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____________Tests.m"; sourceTree = "<group>"; };
+		4D8E4EBE1C278A420077E07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D8E4EC31C278A420077E07B /* 自定义控件的原理以及实现UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义控件的原理以及实现UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D8E4EC71C278A420077E07B /* ____________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____________UITests.m"; sourceTree = "<group>"; };
+		4D8E4EC91C278A420077E07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D8E4ED51C27929E0077E07B /* ImageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageControl.h; sourceTree = "<group>"; };
+		4D8E4ED61C27929E0077E07B /* ImageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageControl.m; sourceTree = "<group>"; };
+		4D8E4ED81C27933A0077E07B /* blackboard1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackboard1024.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D8E4E9C1C278A410077E07B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D8E4EB51C278A420077E07B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D8E4EC01C278A420077E07B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D8E4E961C278A410077E07B = {
+			isa = PBXGroup;
+			children = (
+				4D8E4EA11C278A410077E07B /* 自定义控件的原理以及实现 */,
+				4D8E4EBB1C278A420077E07B /* 自定义控件的原理以及实现Tests */,
+				4D8E4EC61C278A420077E07B /* 自定义控件的原理以及实现UITests */,
+				4D8E4EA01C278A410077E07B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D8E4EA01C278A410077E07B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D8E4E9F1C278A410077E07B /* 自定义控件的原理以及实现.app */,
+				4D8E4EB81C278A420077E07B /* 自定义控件的原理以及实现Tests.xctest */,
+				4D8E4EC31C278A420077E07B /* 自定义控件的原理以及实现UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D8E4EA11C278A410077E07B /* 自定义控件的原理以及实现 */ = {
+			isa = PBXGroup;
+			children = (
+				4D8E4EA51C278A410077E07B /* AppDelegate.h */,
+				4D8E4EA61C278A410077E07B /* AppDelegate.m */,
+				4D8E4EA81C278A410077E07B /* ViewController.h */,
+				4D8E4EA91C278A410077E07B /* ViewController.m */,
+				4D8E4EAB1C278A410077E07B /* Main.storyboard */,
+				4D8E4EAE1C278A410077E07B /* Assets.xcassets */,
+				4D8E4EB01C278A410077E07B /* LaunchScreen.storyboard */,
+				4D8E4EB31C278A410077E07B /* Info.plist */,
+				4D8E4EA21C278A410077E07B /* Supporting Files */,
+				4D8E4ED51C27929E0077E07B /* ImageControl.h */,
+				4D8E4ED61C27929E0077E07B /* ImageControl.m */,
+			);
+			path = "自定义控件的原理以及实现";
+			sourceTree = "<group>";
+		};
+		4D8E4EA21C278A410077E07B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D8E4ED81C27933A0077E07B /* blackboard1024.png */,
+				4D8E4EA31C278A410077E07B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D8E4EBB1C278A420077E07B /* 自定义控件的原理以及实现Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4D8E4EBC1C278A420077E07B /* ____________Tests.m */,
+				4D8E4EBE1C278A420077E07B /* Info.plist */,
+			);
+			path = "自定义控件的原理以及实现Tests";
+			sourceTree = "<group>";
+		};
+		4D8E4EC61C278A420077E07B /* 自定义控件的原理以及实现UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D8E4EC71C278A420077E07B /* ____________UITests.m */,
+				4D8E4EC91C278A420077E07B /* Info.plist */,
+			);
+			path = "自定义控件的原理以及实现UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D8E4E9E1C278A410077E07B /* 自定义控件的原理以及实现 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D8E4ECC1C278A420077E07B /* Build configuration list for PBXNativeTarget "自定义控件的原理以及实现" */;
+			buildPhases = (
+				4D8E4E9B1C278A410077E07B /* Sources */,
+				4D8E4E9C1C278A410077E07B /* Frameworks */,
+				4D8E4E9D1C278A410077E07B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自定义控件的原理以及实现";
+			productName = "自定义控件的原理以及实现";
+			productReference = 4D8E4E9F1C278A410077E07B /* 自定义控件的原理以及实现.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D8E4EB71C278A420077E07B /* 自定义控件的原理以及实现Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D8E4ECF1C278A420077E07B /* Build configuration list for PBXNativeTarget "自定义控件的原理以及实现Tests" */;
+			buildPhases = (
+				4D8E4EB41C278A420077E07B /* Sources */,
+				4D8E4EB51C278A420077E07B /* Frameworks */,
+				4D8E4EB61C278A420077E07B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D8E4EBA1C278A420077E07B /* PBXTargetDependency */,
+			);
+			name = "自定义控件的原理以及实现Tests";
+			productName = "自定义控件的原理以及实现Tests";
+			productReference = 4D8E4EB81C278A420077E07B /* 自定义控件的原理以及实现Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D8E4EC21C278A420077E07B /* 自定义控件的原理以及实现UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D8E4ED21C278A420077E07B /* Build configuration list for PBXNativeTarget "自定义控件的原理以及实现UITests" */;
+			buildPhases = (
+				4D8E4EBF1C278A420077E07B /* Sources */,
+				4D8E4EC01C278A420077E07B /* Frameworks */,
+				4D8E4EC11C278A420077E07B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D8E4EC51C278A420077E07B /* PBXTargetDependency */,
+			);
+			name = "自定义控件的原理以及实现UITests";
+			productName = "自定义控件的原理以及实现UITests";
+			productReference = 4D8E4EC31C278A420077E07B /* 自定义控件的原理以及实现UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D8E4E971C278A410077E07B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = huangchengdu;
+				TargetAttributes = {
+					4D8E4E9E1C278A410077E07B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					4D8E4EB71C278A420077E07B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4D8E4E9E1C278A410077E07B;
+					};
+					4D8E4EC21C278A420077E07B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4D8E4E9E1C278A410077E07B;
+					};
+				};
+			};
+			buildConfigurationList = 4D8E4E9A1C278A410077E07B /* Build configuration list for PBXProject "自定义控件的原理以及实现" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D8E4E961C278A410077E07B;
+			productRefGroup = 4D8E4EA01C278A410077E07B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D8E4E9E1C278A410077E07B /* 自定义控件的原理以及实现 */,
+				4D8E4EB71C278A420077E07B /* 自定义控件的原理以及实现Tests */,
+				4D8E4EC21C278A420077E07B /* 自定义控件的原理以及实现UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D8E4E9D1C278A410077E07B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8E4EB21C278A410077E07B /* LaunchScreen.storyboard in Resources */,
+				4D8E4ED91C27933A0077E07B /* blackboard1024.png in Resources */,
+				4D8E4EAF1C278A410077E07B /* Assets.xcassets in Resources */,
+				4D8E4EAD1C278A410077E07B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D8E4EB61C278A420077E07B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D8E4EC11C278A420077E07B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D8E4E9B1C278A410077E07B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8E4EAA1C278A410077E07B /* ViewController.m in Sources */,
+				4D8E4ED71C27929E0077E07B /* ImageControl.m in Sources */,
+				4D8E4EA71C278A410077E07B /* AppDelegate.m in Sources */,
+				4D8E4EA41C278A410077E07B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D8E4EB41C278A420077E07B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8E4EBD1C278A420077E07B /* ____________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D8E4EBF1C278A420077E07B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8E4EC81C278A420077E07B /* ____________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D8E4EBA1C278A420077E07B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D8E4E9E1C278A410077E07B /* 自定义控件的原理以及实现 */;
+			targetProxy = 4D8E4EB91C278A420077E07B /* PBXContainerItemProxy */;
+		};
+		4D8E4EC51C278A420077E07B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D8E4E9E1C278A410077E07B /* 自定义控件的原理以及实现 */;
+			targetProxy = 4D8E4EC41C278A420077E07B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D8E4EAB1C278A410077E07B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D8E4EAC1C278A410077E07B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D8E4EB01C278A410077E07B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D8E4EB11C278A410077E07B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D8E4ECA1C278A420077E07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D8E4ECB1C278A420077E07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D8E4ECD1C278A420077E07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自定义控件的原理以及实现/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D8E4ECE1C278A420077E07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自定义控件的原理以及实现/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4D8E4ED01C278A420077E07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "自定义控件的原理以及实现Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义控件的原理以及实现.app/自定义控件的原理以及实现";
+			};
+			name = Debug;
+		};
+		4D8E4ED11C278A420077E07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "自定义控件的原理以及实现Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义控件的原理以及实现.app/自定义控件的原理以及实现";
+			};
+			name = Release;
+		};
+		4D8E4ED31C278A420077E07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "自定义控件的原理以及实现UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "自定义控件的原理以及实现";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4D8E4ED41C278A420077E07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "自定义控件的原理以及实现UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "自定义控件的原理以及实现";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D8E4E9A1C278A410077E07B /* Build configuration list for PBXProject "自定义控件的原理以及实现" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8E4ECA1C278A420077E07B /* Debug */,
+				4D8E4ECB1C278A420077E07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D8E4ECC1C278A420077E07B /* Build configuration list for PBXNativeTarget "自定义控件的原理以及实现" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8E4ECD1C278A420077E07B /* Debug */,
+				4D8E4ECE1C278A420077E07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D8E4ECF1C278A420077E07B /* Build configuration list for PBXNativeTarget "自定义控件的原理以及实现Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8E4ED01C278A420077E07B /* Debug */,
+				4D8E4ED11C278A420077E07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D8E4ED21C278A420077E07B /* Build configuration list for PBXNativeTarget "自定义控件的原理以及实现UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8E4ED31C278A420077E07B /* Debug */,
+				4D8E4ED41C278A420077E07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D8E4E971C278A410077E07B /* Project object */;
+}
