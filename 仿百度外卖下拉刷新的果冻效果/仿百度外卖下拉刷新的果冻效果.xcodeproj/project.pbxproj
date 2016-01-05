@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D559C0F1C3B5A9200325D97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D559C0E1C3B5A9200325D97 /* main.m */; };
+		4D559C121C3B5A9200325D97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D559C111C3B5A9200325D97 /* AppDelegate.m */; };
+		4D559C151C3B5A9200325D97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D559C141C3B5A9200325D97 /* ViewController.m */; };
+		4D559C181C3B5A9200325D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D559C161C3B5A9200325D97 /* Main.storyboard */; };
+		4D559C1A1C3B5A9200325D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D559C191C3B5A9200325D97 /* Assets.xcassets */; };
+		4D559C1D1C3B5A9200325D97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D559C1B1C3B5A9200325D97 /* LaunchScreen.storyboard */; };
+		4D559C281C3B5A9300325D97 /* ______________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D559C271C3B5A9300325D97 /* ______________Tests.m */; };
+		4D559C331C3B5A9300325D97 /* ______________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D559C321C3B5A9300325D97 /* ______________UITests.m */; };
+		4D559C461C3B5F3800325D97 /* HCDCuteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D559C451C3B5F3800325D97 /* HCDCuteView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D559C241C3B5A9300325D97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D559C021C3B5A9200325D97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D559C091C3B5A9200325D97;
+			remoteInfo = "仿百度外卖下拉刷新的果冻效果";
+		};
+		4D559C2F1C3B5A9300325D97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D559C021C3B5A9200325D97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D559C091C3B5A9200325D97;
+			remoteInfo = "仿百度外卖下拉刷新的果冻效果";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D559C0A1C3B5A9200325D97 /* 仿百度外卖下拉刷新的果冻效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "仿百度外卖下拉刷新的果冻效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D559C0E1C3B5A9200325D97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D559C101C3B5A9200325D97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D559C111C3B5A9200325D97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D559C131C3B5A9200325D97 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4D559C141C3B5A9200325D97 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4D559C171C3B5A9200325D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D559C191C3B5A9200325D97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D559C1C1C3B5A9200325D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D559C1E1C3B5A9200325D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D559C231C3B5A9300325D97 /* 仿百度外卖下拉刷新的果冻效果Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿百度外卖下拉刷新的果冻效果Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D559C271C3B5A9300325D97 /* ______________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______________Tests.m"; sourceTree = "<group>"; };
+		4D559C291C3B5A9300325D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D559C2E1C3B5A9300325D97 /* 仿百度外卖下拉刷新的果冻效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿百度外卖下拉刷新的果冻效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D559C321C3B5A9300325D97 /* ______________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______________UITests.m"; sourceTree = "<group>"; };
+		4D559C341C3B5A9300325D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D559C401C3B5AB300325D97 /* CommonTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonTool.h; sourceTree = "<group>"; };
+		4D559C441C3B5F3800325D97 /* HCDCuteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCuteView.h; sourceTree = "<group>"; };
+		4D559C451C3B5F3800325D97 /* HCDCuteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCuteView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D559C071C3B5A9200325D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D559C201C3B5A9300325D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D559C2B1C3B5A9300325D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D559C011C3B5A9200325D97 = {
+			isa = PBXGroup;
+			children = (
+				4D559C0C1C3B5A9200325D97 /* 仿百度外卖下拉刷新的果冻效果 */,
+				4D559C261C3B5A9300325D97 /* 仿百度外卖下拉刷新的果冻效果Tests */,
+				4D559C311C3B5A9300325D97 /* 仿百度外卖下拉刷新的果冻效果UITests */,
+				4D559C0B1C3B5A9200325D97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D559C0B1C3B5A9200325D97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D559C0A1C3B5A9200325D97 /* 仿百度外卖下拉刷新的果冻效果.app */,
+				4D559C231C3B5A9300325D97 /* 仿百度外卖下拉刷新的果冻效果Tests.xctest */,
+				4D559C2E1C3B5A9300325D97 /* 仿百度外卖下拉刷新的果冻效果UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D559C0C1C3B5A9200325D97 /* 仿百度外卖下拉刷新的果冻效果 */ = {
+			isa = PBXGroup;
+			children = (
+				4D559C401C3B5AB300325D97 /* CommonTool.h */,
+				4D559C101C3B5A9200325D97 /* AppDelegate.h */,
+				4D559C111C3B5A9200325D97 /* AppDelegate.m */,
+				4D559C131C3B5A9200325D97 /* ViewController.h */,
+				4D559C141C3B5A9200325D97 /* ViewController.m */,
+				4D559C161C3B5A9200325D97 /* Main.storyboard */,
+				4D559C191C3B5A9200325D97 /* Assets.xcassets */,
+				4D559C1B1C3B5A9200325D97 /* LaunchScreen.storyboard */,
+				4D559C1E1C3B5A9200325D97 /* Info.plist */,
+				4D559C0D1C3B5A9200325D97 /* Supporting Files */,
+				4D559C441C3B5F3800325D97 /* HCDCuteView.h */,
+				4D559C451C3B5F3800325D97 /* HCDCuteView.m */,
+			);
+			path = "仿百度外卖下拉刷新的果冻效果";
+			sourceTree = "<group>";
+		};
+		4D559C0D1C3B5A9200325D97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D559C0E1C3B5A9200325D97 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D559C261C3B5A9300325D97 /* 仿百度外卖下拉刷新的果冻效果Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4D559C271C3B5A9300325D97 /* ______________Tests.m */,
+				4D559C291C3B5A9300325D97 /* Info.plist */,
+			);
+			path = "仿百度外卖下拉刷新的果冻效果Tests";
+			sourceTree = "<group>";
+		};
+		4D559C311C3B5A9300325D97 /* 仿百度外卖下拉刷新的果冻效果UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D559C321C3B5A9300325D97 /* ______________UITests.m */,
+				4D559C341C3B5A9300325D97 /* Info.plist */,
+			);
+			path = "仿百度外卖下拉刷新的果冻效果UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D559C091C3B5A9200325D97 /* 仿百度外卖下拉刷新的果冻效果 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D559C371C3B5A9300325D97 /* Build configuration list for PBXNativeTarget "仿百度外卖下拉刷新的果冻效果" */;
+			buildPhases = (
+				4D559C061C3B5A9200325D97 /* Sources */,
+				4D559C071C3B5A9200325D97 /* Frameworks */,
+				4D559C081C3B5A9200325D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "仿百度外卖下拉刷新的果冻效果";
+			productName = "仿百度外卖下拉刷新的果冻效果";
+			productReference = 4D559C0A1C3B5A9200325D97 /* 仿百度外卖下拉刷新的果冻效果.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D559C221C3B5A9300325D97 /* 仿百度外卖下拉刷新的果冻效果Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D559C3A1C3B5A9300325D97 /* Build configuration list for PBXNativeTarget "仿百度外卖下拉刷新的果冻效果Tests" */;
+			buildPhases = (
+				4D559C1F1C3B5A9300325D97 /* Sources */,
+				4D559C201C3B5A9300325D97 /* Frameworks */,
+				4D559C211C3B5A9300325D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D559C251C3B5A9300325D97 /* PBXTargetDependency */,
+			);
+			name = "仿百度外卖下拉刷新的果冻效果Tests";
+			productName = "仿百度外卖下拉刷新的果冻效果Tests";
+			productReference = 4D559C231C3B5A9300325D97 /* 仿百度外卖下拉刷新的果冻效果Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D559C2D1C3B5A9300325D97 /* 仿百度外卖下拉刷新的果冻效果UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D559C3D1C3B5A9300325D97 /* Build configuration list for PBXNativeTarget "仿百度外卖下拉刷新的果冻效果UITests" */;
+			buildPhases = (
+				4D559C2A1C3B5A9300325D97 /* Sources */,
+				4D559C2B1C3B5A9300325D97 /* Frameworks */,
+				4D559C2C1C3B5A9300325D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D559C301C3B5A9300325D97 /* PBXTargetDependency */,
+			);
+			name = "仿百度外卖下拉刷新的果冻效果UITests";
+			productName = "仿百度外卖下拉刷新的果冻效果UITests";
+			productReference = 4D559C2E1C3B5A9300325D97 /* 仿百度外卖下拉刷新的果冻效果UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D559C021C3B5A9200325D97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = huangchengdu;
+				TargetAttributes = {
+					4D559C091C3B5A9200325D97 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					4D559C221C3B5A9300325D97 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4D559C091C3B5A9200325D97;
+					};
+					4D559C2D1C3B5A9300325D97 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4D559C091C3B5A9200325D97;
+					};
+				};
+			};
+			buildConfigurationList = 4D559C051C3B5A9200325D97 /* Build configuration list for PBXProject "仿百度外卖下拉刷新的果冻效果" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D559C011C3B5A9200325D97;
+			productRefGroup = 4D559C0B1C3B5A9200325D97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D559C091C3B5A9200325D97 /* 仿百度外卖下拉刷新的果冻效果 */,
+				4D559C221C3B5A9300325D97 /* 仿百度外卖下拉刷新的果冻效果Tests */,
+				4D559C2D1C3B5A9300325D97 /* 仿百度外卖下拉刷新的果冻效果UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D559C081C3B5A9200325D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D559C1D1C3B5A9200325D97 /* LaunchScreen.storyboard in Resources */,
+				4D559C1A1C3B5A9200325D97 /* Assets.xcassets in Resources */,
+				4D559C181C3B5A9200325D97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D559C211C3B5A9300325D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D559C2C1C3B5A9300325D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D559C061C3B5A9200325D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D559C151C3B5A9200325D97 /* ViewController.m in Sources */,
+				4D559C121C3B5A9200325D97 /* AppDelegate.m in Sources */,
+				4D559C0F1C3B5A9200325D97 /* main.m in Sources */,
+				4D559C461C3B5F3800325D97 /* HCDCuteView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D559C1F1C3B5A9300325D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D559C281C3B5A9300325D97 /* ______________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D559C2A1C3B5A9300325D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D559C331C3B5A9300325D97 /* ______________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D559C251C3B5A9300325D97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D559C091C3B5A9200325D97 /* 仿百度外卖下拉刷新的果冻效果 */;
+			targetProxy = 4D559C241C3B5A9300325D97 /* PBXContainerItemProxy */;
+		};
+		4D559C301C3B5A9300325D97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D559C091C3B5A9200325D97 /* 仿百度外卖下拉刷新的果冻效果 */;
+			targetProxy = 4D559C2F1C3B5A9300325D97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D559C161C3B5A9200325D97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D559C171C3B5A9200325D97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D559C1B1C3B5A9200325D97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D559C1C1C3B5A9200325D97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D559C351C3B5A9300325D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D559C361C3B5A9300325D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D559C381C3B5A9300325D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "仿百度外卖下拉刷新的果冻效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.--------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D559C391C3B5A9300325D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "仿百度外卖下拉刷新的果冻效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.--------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4D559C3B1C3B5A9300325D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "仿百度外卖下拉刷新的果冻效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.--------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/仿百度外卖下拉刷新的果冻效果.app/仿百度外卖下拉刷新的果冻效果";
+			};
+			name = Debug;
+		};
+		4D559C3C1C3B5A9300325D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "仿百度外卖下拉刷新的果冻效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.--------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/仿百度外卖下拉刷新的果冻效果.app/仿百度外卖下拉刷新的果冻效果";
+			};
+			name = Release;
+		};
+		4D559C3E1C3B5A9300325D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "仿百度外卖下拉刷新的果冻效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.--------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "仿百度外卖下拉刷新的果冻效果";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4D559C3F1C3B5A9300325D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "仿百度外卖下拉刷新的果冻效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.--------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "仿百度外卖下拉刷新的果冻效果";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D559C051C3B5A9200325D97 /* Build configuration list for PBXProject "仿百度外卖下拉刷新的果冻效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D559C351C3B5A9300325D97 /* Debug */,
+				4D559C361C3B5A9300325D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D559C371C3B5A9300325D97 /* Build configuration list for PBXNativeTarget "仿百度外卖下拉刷新的果冻效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D559C381C3B5A9300325D97 /* Debug */,
+				4D559C391C3B5A9300325D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D559C3A1C3B5A9300325D97 /* Build configuration list for PBXNativeTarget "仿百度外卖下拉刷新的果冻效果Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D559C3B1C3B5A9300325D97 /* Debug */,
+				4D559C3C1C3B5A9300325D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D559C3D1C3B5A9300325D97 /* Build configuration list for PBXNativeTarget "仿百度外卖下拉刷新的果冻效果UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D559C3E1C3B5A9300325D97 /* Debug */,
+				4D559C3F1C3B5A9300325D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D559C021C3B5A9200325D97 /* Project object */;
+}
