@@ -11,18 +11,18 @@
 
 #import <UIKit/UIKit.h>
 
-#define kRefreshViewWidth  200
-#define kRefreshViewHeight 80
 
-#define kMaxPullDownDistance   84
-
+#define kMaxPullDownDistance   50
+#define kMaxPullUpDistance   50
 
 #define kRefreshViewWidth  200
-#define kRefreshViewHeight 80
-
-#define kMaxPullUpDistance   84
+#define kRefreshViewHeight 300
 
 
-extern
+
+typedef void(^RefreshingBlock)(void);
+
+
+
 
 #endif /* HCDRefresh_h */

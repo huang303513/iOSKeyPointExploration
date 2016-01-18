@@ -17,6 +17,9 @@
 		4D45B8931C49EE0B00E48A4B /* _________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D45B8921C49EE0B00E48A4B /* _________UITests.m */; };
 		4D45B8A51C4A4BD900E48A4B /* HCDRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D45B8A41C4A4BD900E48A4B /* HCDRefreshHeaderView.m */; };
 		4D45B8A81C4A4C0500E48A4B /* HCDRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D45B8A71C4A4C0500E48A4B /* HCDRefreshFooterView.m */; };
+		4D6B1B4D1C4C739E0092C4B3 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6B1B4C1C4C739E0092C4B3 /* FirstViewController.m */; };
+		4D6B1B501C4C73B00092C4B3 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6B1B4F1C4C73B00092C4B3 /* SecondViewController.m */; };
+		4D6B1B521C4C74CD0092C4B3 /* icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D6B1B511C4C74CD0092C4B3 /* icon.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,11 @@
 		4D45B8A61C4A4C0500E48A4B /* HCDRefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDRefreshFooterView.h; sourceTree = "<group>"; };
 		4D45B8A71C4A4C0500E48A4B /* HCDRefreshFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDRefreshFooterView.m; sourceTree = "<group>"; };
 		4D45B8A91C4A4C3500E48A4B /* HCDRefresh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCDRefresh.h; sourceTree = "<group>"; };
+		4D6B1B4B1C4C739E0092C4B3 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		4D6B1B4C1C4C739E0092C4B3 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		4D6B1B4E1C4C73B00092C4B3 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		4D6B1B4F1C4C73B00092C4B3 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		4D6B1B511C4C74CD0092C4B3 /* icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +126,10 @@
 				4D45B87B1C49EE0B00E48A4B /* LaunchScreen.storyboard */,
 				4D45B87E1C49EE0B00E48A4B /* Info.plist */,
 				4D45B86D1C49EE0B00E48A4B /* Supporting Files */,
+				4D6B1B4B1C4C739E0092C4B3 /* FirstViewController.h */,
+				4D6B1B4C1C4C739E0092C4B3 /* FirstViewController.m */,
+				4D6B1B4E1C4C73B00092C4B3 /* SecondViewController.h */,
+				4D6B1B4F1C4C73B00092C4B3 /* SecondViewController.m */,
 			);
 			path = "自定义刷新控件轮子";
 			sourceTree = "<group>";
@@ -125,6 +137,7 @@
 		4D45B86D1C49EE0B00E48A4B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4D6B1B511C4C74CD0092C4B3 /* icon.jpg */,
 				4D45B86E1C49EE0B00E48A4B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -263,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D6B1B521C4C74CD0092C4B3 /* icon.jpg in Resources */,
 				4D45B87D1C49EE0B00E48A4B /* LaunchScreen.storyboard in Resources */,
 				4D45B87A1C49EE0B00E48A4B /* Assets.xcassets in Resources */,
 				4D45B8781C49EE0B00E48A4B /* Main.storyboard in Resources */,
@@ -291,7 +305,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D45B8A81C4A4C0500E48A4B /* HCDRefreshFooterView.m in Sources */,
+				4D6B1B4D1C4C739E0092C4B3 /* FirstViewController.m in Sources */,
 				4D45B8751C49EE0B00E48A4B /* ViewController.m in Sources */,
+				4D6B1B501C4C73B00092C4B3 /* SecondViewController.m in Sources */,
 				4D45B8721C49EE0B00E48A4B /* AppDelegate.m in Sources */,
 				4D45B86F1C49EE0B00E48A4B /* main.m in Sources */,
 				4D45B8A51C4A4BD900E48A4B /* HCDRefreshHeaderView.m in Sources */,
@@ -520,6 +536,7 @@
 				4D45B8991C49EE0B00E48A4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D45B89A1C49EE0B00E48A4B /* Build configuration list for PBXNativeTarget "自定义刷新控件轮子Tests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +545,7 @@
 				4D45B89C1C49EE0B00E48A4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D45B89D1C49EE0B00E48A4B /* Build configuration list for PBXNativeTarget "自定义刷新控件轮子UITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +554,7 @@
 				4D45B89F1C49EE0B00E48A4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,5 +9,17 @@
 #import <UIKit/UIKit.h>
 
 @interface HCDRefreshFooterView : UIView
+- (instancetype)initWithScrollView:(UIScrollView *)scrollView;
 
+/**
+ *  Add refresh block to handle something when refreshing
+ *
+ *  @param block Refresh block
+ */
+- (void)addRefreshingBlock:(void(^)())block;
+
+/**
+ *  Stop Refresh
+ */
+- (void)stopRefresh;
 @end
