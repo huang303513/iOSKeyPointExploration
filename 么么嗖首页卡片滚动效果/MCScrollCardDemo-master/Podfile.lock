@@ -1,0 +1,18 @@
+PODS:
+  - Masonry (0.6.3)
+  - Reveal-iOS-SDK (1.6.2)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+
+DEPENDENCIES:
+  - Masonry (~> 0.6.2)
+  - Reveal-iOS-SDK
+  - SDWebImage (~> 3.7.3)
+
+SPEC CHECKSUMS:
+  Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
+  Reveal-iOS-SDK: e2250b3c155bcfac53ae223ddc1f76d08f206c33
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+
+COCOAPODS: 0.39.0

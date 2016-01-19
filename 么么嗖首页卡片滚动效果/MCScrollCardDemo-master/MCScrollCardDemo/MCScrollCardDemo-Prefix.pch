@@ -1,0 +1,85 @@
+//
+//  MCScrollCardDemo-Prefix.pch
+//  MCScrollCardDemo
+//
+//  Created by mac on 12/26/15.
+//  Copyright © 2015 mc. All rights reserved.
+//
+
+#import <Availability.h>
+#ifndef __IPHONE_7_0
+#warning "This project uses features only available in iOS SDK 7.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+//***************************************
+//        颜色RGB宏定义
+//***************************************
+#define UIColorFromHex(rgbValue) [UIColor \
+colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+green:((float)((rgbValue & 0xFF00) >> 8))/255.0 \
+blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+#define UIColorFromRGB(r,g,b) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
+
+#define UIColorFromRGBA(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
+
+//RGB 三个参数数值相同 带alpha
+#define UIColorFromSameRGBA(r,a) [UIColor colorWithRed:(r)/255.0f green:(r)/255.0f blue:(r)/255.0f alpha:(a)]
+
+//RGB 三个参数数值相同
+#define UIColorFromSameRGB(r) [UIColor colorWithRed:(r)/255.0f green:(r)/255.0f blue:(r)/255.0f alpha:1]
+
+
+//***********************************************
+//**********      日志输出宏定义      *************
+//***********************************************
+#ifdef DEBUG
+#define LSLog(...) NSLog(__VA_ARGS__)
+#else
+#define LSLog(...)
+#endif
+
+//***************************************
+//        字体颜色
+//***************************************
+
+//灰色1，一般为标题与内容颜色
+#define MC_FONT_COLOR_GRAY_I            UIColorFromSameRGB(64)
+//灰色2，一般为正文和次级内容颜色
+#define MC_FONT_COLOR_GRAY_II           UIColorFromSameRGB(128)
+//灰色3，一般为弱化内容
+#define MC_FONT_COLOR_GRAY_III          UIColorFromSameRGB(192)
+//白色
+#define MC_FONT_COLOR_WHITE             UIColorFromSameRGB(255)
+//黑色
+#define MC_FONT_COLOR_BLACK             UIColorFromSameRGB(0)
+//红色
+#define MC_FONT_COLOR_RED               UIColorFromRGB(240,20,0)
+//绿色
+#define MC_FONT_COLOR_GREEN             UIColorFromRGB(32,204,133)
+//蓝色
+#define MC_FONT_COLOR_BLUE              UIColorFromRGB(51,187,255)
+//***************************************
+//        字体大小
+//***************************************
+//1号字体大小，一般用于首页底部标签栏文字
+#define MC_FONT_SIZE_DEFAULE_I            10
+//2号字体大小
+#define MC_FONT_SIZE_DEFAULE_II           12
+//3号字体大小
+#define MC_FONT_SIZE_DEFAULE_III          14
+//4号字体大小
+#define MC_FONT_SIZE_DEFAULE_IV           16
+//5号字体大小
+#define MC_FONT_SIZE_DEFAULE_V            18
+//6号字体大小，一般用于宣传文字或标题
+#define MC_FONT_SIZE_DEFAULE_VI           22
+//7号字体大小，一般用于宣传文字或标题
+#define MC_FONT_SIZE_DEFAULE_VII          24
+
+#endif
+

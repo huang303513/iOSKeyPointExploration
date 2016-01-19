@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DB299191C4E44AF009CE0E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB299181C4E44AF009CE0E1 /* main.m */; };
+		4DB2991C1C4E44AF009CE0E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB2991B1C4E44AF009CE0E1 /* AppDelegate.m */; };
+		4DB2991F1C4E44AF009CE0E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB2991E1C4E44AF009CE0E1 /* ViewController.m */; };
+		4DB299221C4E44AF009CE0E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB299201C4E44AF009CE0E1 /* Main.storyboard */; };
+		4DB299241C4E44AF009CE0E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB299231C4E44AF009CE0E1 /* Assets.xcassets */; };
+		4DB299271C4E44AF009CE0E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB299251C4E44AF009CE0E1 /* LaunchScreen.storyboard */; };
+		4DB299321C4E44AF009CE0E1 /* ___________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB299311C4E44AF009CE0E1 /* ___________Tests.m */; };
+		4DB2993D1C4E44AF009CE0E1 /* ___________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB2993C1C4E44AF009CE0E1 /* ___________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DB2992E1C4E44AF009CE0E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DB2990C1C4E44AF009CE0E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DB299131C4E44AF009CE0E1;
+			remoteInfo = "么么嗖首页卡片滚动效果";
+		};
+		4DB299391C4E44AF009CE0E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DB2990C1C4E44AF009CE0E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DB299131C4E44AF009CE0E1;
+			remoteInfo = "么么嗖首页卡片滚动效果";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DB299141C4E44AF009CE0E1 /* 么么嗖首页卡片滚动效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "么么嗖首页卡片滚动效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DB299181C4E44AF009CE0E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DB2991A1C4E44AF009CE0E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4DB2991B1C4E44AF009CE0E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4DB2991D1C4E44AF009CE0E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4DB2991E1C4E44AF009CE0E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4DB299211C4E44AF009CE0E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DB299231C4E44AF009CE0E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DB299261C4E44AF009CE0E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DB299281C4E44AF009CE0E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DB2992D1C4E44AF009CE0E1 /* 么么嗖首页卡片滚动效果Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "么么嗖首页卡片滚动效果Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DB299311C4E44AF009CE0E1 /* ___________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___________Tests.m"; sourceTree = "<group>"; };
+		4DB299331C4E44AF009CE0E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DB299381C4E44AF009CE0E1 /* 么么嗖首页卡片滚动效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "么么嗖首页卡片滚动效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DB2993C1C4E44AF009CE0E1 /* ___________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___________UITests.m"; sourceTree = "<group>"; };
+		4DB2993E1C4E44AF009CE0E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DB299111C4E44AF009CE0E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DB2992A1C4E44AF009CE0E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DB299351C4E44AF009CE0E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DB2990B1C4E44AF009CE0E1 = {
+			isa = PBXGroup;
+			children = (
+				4DB299161C4E44AF009CE0E1 /* 么么嗖首页卡片滚动效果 */,
+				4DB299301C4E44AF009CE0E1 /* 么么嗖首页卡片滚动效果Tests */,
+				4DB2993B1C4E44AF009CE0E1 /* 么么嗖首页卡片滚动效果UITests */,
+				4DB299151C4E44AF009CE0E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DB299151C4E44AF009CE0E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DB299141C4E44AF009CE0E1 /* 么么嗖首页卡片滚动效果.app */,
+				4DB2992D1C4E44AF009CE0E1 /* 么么嗖首页卡片滚动效果Tests.xctest */,
+				4DB299381C4E44AF009CE0E1 /* 么么嗖首页卡片滚动效果UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DB299161C4E44AF009CE0E1 /* 么么嗖首页卡片滚动效果 */ = {
+			isa = PBXGroup;
+			children = (
+				4DB2991A1C4E44AF009CE0E1 /* AppDelegate.h */,
+				4DB2991B1C4E44AF009CE0E1 /* AppDelegate.m */,
+				4DB2991D1C4E44AF009CE0E1 /* ViewController.h */,
+				4DB2991E1C4E44AF009CE0E1 /* ViewController.m */,
+				4DB299201C4E44AF009CE0E1 /* Main.storyboard */,
+				4DB299231C4E44AF009CE0E1 /* Assets.xcassets */,
+				4DB299251C4E44AF009CE0E1 /* LaunchScreen.storyboard */,
+				4DB299281C4E44AF009CE0E1 /* Info.plist */,
+				4DB299171C4E44AF009CE0E1 /* Supporting Files */,
+			);
+			path = "么么嗖首页卡片滚动效果";
+			sourceTree = "<group>";
+		};
+		4DB299171C4E44AF009CE0E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DB299181C4E44AF009CE0E1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DB299301C4E44AF009CE0E1 /* 么么嗖首页卡片滚动效果Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4DB299311C4E44AF009CE0E1 /* ___________Tests.m */,
+				4DB299331C4E44AF009CE0E1 /* Info.plist */,
+			);
+			path = "么么嗖首页卡片滚动效果Tests";
+			sourceTree = "<group>";
+		};
+		4DB2993B1C4E44AF009CE0E1 /* 么么嗖首页卡片滚动效果UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DB2993C1C4E44AF009CE0E1 /* ___________UITests.m */,
+				4DB2993E1C4E44AF009CE0E1 /* Info.plist */,
+			);
+			path = "么么嗖首页卡片滚动效果UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DB299131C4E44AF009CE0E1 /* 么么嗖首页卡片滚动效果 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DB299411C4E44AF009CE0E1 /* Build configuration list for PBXNativeTarget "么么嗖首页卡片滚动效果" */;
+			buildPhases = (
+				4DB299101C4E44AF009CE0E1 /* Sources */,
+				4DB299111C4E44AF009CE0E1 /* Frameworks */,
+				4DB299121C4E44AF009CE0E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "么么嗖首页卡片滚动效果";
+			productName = "么么嗖首页卡片滚动效果";
+			productReference = 4DB299141C4E44AF009CE0E1 /* 么么嗖首页卡片滚动效果.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DB2992C1C4E44AF009CE0E1 /* 么么嗖首页卡片滚动效果Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DB299441C4E44AF009CE0E1 /* Build configuration list for PBXNativeTarget "么么嗖首页卡片滚动效果Tests" */;
+			buildPhases = (
+				4DB299291C4E44AF009CE0E1 /* Sources */,
+				4DB2992A1C4E44AF009CE0E1 /* Frameworks */,
+				4DB2992B1C4E44AF009CE0E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DB2992F1C4E44AF009CE0E1 /* PBXTargetDependency */,
+			);
+			name = "么么嗖首页卡片滚动效果Tests";
+			productName = "么么嗖首页卡片滚动效果Tests";
+			productReference = 4DB2992D1C4E44AF009CE0E1 /* 么么嗖首页卡片滚动效果Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DB299371C4E44AF009CE0E1 /* 么么嗖首页卡片滚动效果UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DB299471C4E44AF009CE0E1 /* Build configuration list for PBXNativeTarget "么么嗖首页卡片滚动效果UITests" */;
+			buildPhases = (
+				4DB299341C4E44AF009CE0E1 /* Sources */,
+				4DB299351C4E44AF009CE0E1 /* Frameworks */,
+				4DB299361C4E44AF009CE0E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DB2993A1C4E44AF009CE0E1 /* PBXTargetDependency */,
+			);
+			name = "么么嗖首页卡片滚动效果UITests";
+			productName = "么么嗖首页卡片滚动效果UITests";
+			productReference = 4DB299381C4E44AF009CE0E1 /* 么么嗖首页卡片滚动效果UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DB2990C1C4E44AF009CE0E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = huangchengdu;
+				TargetAttributes = {
+					4DB299131C4E44AF009CE0E1 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					4DB2992C1C4E44AF009CE0E1 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4DB299131C4E44AF009CE0E1;
+					};
+					4DB299371C4E44AF009CE0E1 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4DB299131C4E44AF009CE0E1;
+					};
+				};
+			};
+			buildConfigurationList = 4DB2990F1C4E44AF009CE0E1 /* Build configuration list for PBXProject "么么嗖首页卡片滚动效果" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DB2990B1C4E44AF009CE0E1;
+			productRefGroup = 4DB299151C4E44AF009CE0E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DB299131C4E44AF009CE0E1 /* 么么嗖首页卡片滚动效果 */,
+				4DB2992C1C4E44AF009CE0E1 /* 么么嗖首页卡片滚动效果Tests */,
+				4DB299371C4E44AF009CE0E1 /* 么么嗖首页卡片滚动效果UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DB299121C4E44AF009CE0E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB299271C4E44AF009CE0E1 /* LaunchScreen.storyboard in Resources */,
+				4DB299241C4E44AF009CE0E1 /* Assets.xcassets in Resources */,
+				4DB299221C4E44AF009CE0E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DB2992B1C4E44AF009CE0E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DB299361C4E44AF009CE0E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DB299101C4E44AF009CE0E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB2991F1C4E44AF009CE0E1 /* ViewController.m in Sources */,
+				4DB2991C1C4E44AF009CE0E1 /* AppDelegate.m in Sources */,
+				4DB299191C4E44AF009CE0E1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DB299291C4E44AF009CE0E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB299321C4E44AF009CE0E1 /* ___________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DB299341C4E44AF009CE0E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB2993D1C4E44AF009CE0E1 /* ___________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DB2992F1C4E44AF009CE0E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DB299131C4E44AF009CE0E1 /* 么么嗖首页卡片滚动效果 */;
+			targetProxy = 4DB2992E1C4E44AF009CE0E1 /* PBXContainerItemProxy */;
+		};
+		4DB2993A1C4E44AF009CE0E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DB299131C4E44AF009CE0E1 /* 么么嗖首页卡片滚动效果 */;
+			targetProxy = 4DB299391C4E44AF009CE0E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DB299201C4E44AF009CE0E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DB299211C4E44AF009CE0E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DB299251C4E44AF009CE0E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DB299261C4E44AF009CE0E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DB2993F1C4E44AF009CE0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DB299401C4E44AF009CE0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DB299421C4E44AF009CE0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "么么嗖首页卡片滚动效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4DB299431C4E44AF009CE0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "么么嗖首页卡片滚动效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4DB299451C4E44AF009CE0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "么么嗖首页卡片滚动效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.-----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/么么嗖首页卡片滚动效果.app/么么嗖首页卡片滚动效果";
+			};
+			name = Debug;
+		};
+		4DB299461C4E44AF009CE0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "么么嗖首页卡片滚动效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.-----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/么么嗖首页卡片滚动效果.app/么么嗖首页卡片滚动效果";
+			};
+			name = Release;
+		};
+		4DB299481C4E44AF009CE0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "么么嗖首页卡片滚动效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.-----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "么么嗖首页卡片滚动效果";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4DB299491C4E44AF009CE0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "么么嗖首页卡片滚动效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.-----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "么么嗖首页卡片滚动效果";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DB2990F1C4E44AF009CE0E1 /* Build configuration list for PBXProject "么么嗖首页卡片滚动效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB2993F1C4E44AF009CE0E1 /* Debug */,
+				4DB299401C4E44AF009CE0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DB299411C4E44AF009CE0E1 /* Build configuration list for PBXNativeTarget "么么嗖首页卡片滚动效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB299421C4E44AF009CE0E1 /* Debug */,
+				4DB299431C4E44AF009CE0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4DB299441C4E44AF009CE0E1 /* Build configuration list for PBXNativeTarget "么么嗖首页卡片滚动效果Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB299451C4E44AF009CE0E1 /* Debug */,
+				4DB299461C4E44AF009CE0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4DB299471C4E44AF009CE0E1 /* Build configuration list for PBXNativeTarget "么么嗖首页卡片滚动效果UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB299481C4E44AF009CE0E1 /* Debug */,
+				4DB299491C4E44AF009CE0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DB2990C1C4E44AF009CE0E1 /* Project object */;
+}
