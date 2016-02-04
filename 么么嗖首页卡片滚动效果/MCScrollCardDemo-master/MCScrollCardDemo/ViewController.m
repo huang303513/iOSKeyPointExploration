@@ -25,6 +25,7 @@
 
     
     _mastorBoard = [[MCMastorBoard alloc] init];
+    _mastorBoard.backgroundColor = [UIColor redColor];
     [self.view addSubview:_mastorBoard];
     [_mastorBoard mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.view).with.offset(0);

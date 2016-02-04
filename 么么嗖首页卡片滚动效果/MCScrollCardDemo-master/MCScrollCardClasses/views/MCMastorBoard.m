@@ -30,6 +30,7 @@
         
         _blurImgView = [[MCBlurImageView alloc] init];
         [self addSubview:_blurImgView];
+        _blurImgView.backgroundColor = [UIColor darkGrayColor];
         [_blurImgView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.left.bottom.right.mas_equalTo(self);
         }];
@@ -37,7 +38,7 @@
         
         _scBoard = [[MCScrollBoard alloc] init];
         _scBoard.mdelegate = self;
-        _scBoard.backgroundColor = [UIColor greenColor];
+        _scBoard.backgroundColor = [UIColor redColor];
         [self addSubview:_scBoard];
         [_scBoard mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(self).with.offset(60);
