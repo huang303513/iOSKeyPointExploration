@@ -1,0 +1,133 @@
+//URL Session 的生命周期
+
+你可以使用NSURLSession在两个方面:系统提供的代理和你自己的代理.一般来说,如果有下面的情况你必须使用自己的代理:
+1.使用后台下载或者上传内容，同时你的app没有运行。
+2.执行自定义的身份验证。
+3.执行自定义的SSL证书验证。
+4.决定是否应该下载到磁盘或者显示基于服务器返回的MIME类型或者其他的类似标准。
+5.从传输流中拿数据上传(而不是一个NSData对象)。
+6.以编程方式限制缓存。
+7.以编程方式限制HTTP重定向。
+
+如果你的应用程序不需要做这些事情，你的app可以使用系统提供的代理。这根据你选择的技术，你应该阅读下面的:
+1.URLSession的生命周期和系统提供的代理。提供了一个轻量级的代码如何去创建和使用一个URL.你应该阅读本章节，即使你打算自己编写代理。因为它给你了完整的图片代码示列以及必需做些什么配置对象，怎么去使用它。
+2.URLSession的生命周期和自定义代理，提供了一个完整的视图的每一步的操作URL。你应该阅读本章节，帮助你理解Session与它的代理。特别是解释了每一个代理方法。
+
+
+
+
+URLSession的生命周期和系统提供的代理
+如果你使用了NSURLSession类没有提供代理对象,那么系统提供了代理处理时的许多细节给你。这是基本的方法调用序列,app必须和完成处理程序调用app使用NSURLSession时接收系统提供的代理:
+1.创建一个Session configuration.后台处理session，这个配置里必须包含一个唯一标识符，如果你的app程序崩溃或终止暂停了，那么就能结合session使用。
+2.创建一个session，指定一个configuration对象和一个空代理。
+3.创建任务对象在一个session里，每个都代表一个资源请求。
+
+每个任务开始处于暂停状态。app调用恢复后的任务，开始下载指定的资源。
+
+任务对象的子类有: NSURLSessionTask—NSURLSessionDataTask, NSURLSessionUploadTask, 或 NSURLSessionDownloadTask,这取决于你要实现什么行为。这些对象类似于NSURLConnection对象，但是给你更多的控制和统一的代理模型。
+尽管app（通常应该）可以添加多个任务一个session，为了简单，剩下的步骤是描述生命周期的一个任务。
+
+重要的:如果您使用的是NSURLSession类没有提供的代理，你的app必须创建一个有completionHandler参数的任务，因为否则无法获取数据的类。
+
+
+4.对于一个下载任务，从服务器上调用，如果用户告诉app暂停下载，通过调用取消任务cancelByProducingResumeData:方法。之后，通过返回的数据恢复 downloadTaskWithResumeData:
+或downloadTaskWithResumeData:completionHandler:方法 创建一个新的下载任务继续下载。
+
+5.当任务完成时，NSURLSession对象调用任务的 completion handler.
+注意:NSURLSession不通过误差参数表示服务器出错。唯一的错误是通过错误参数也就是是客户端app接收的错误，如无法解决主机名或连接到主机。错误代码中描述 URL Loading System Error Codes.服务器端错误通过NSHTTPURLResponse对象报告HTTP状态代码。有关更多信息,请阅读文档NSHTTPURLResponse和NSURLResponse类。
+6.当你的应用程序不再需要一个会话,它通过调用invalidateAndCancel失效(取消未完成任务)或finishTasksAndInvalidate(允许任务完成之前无效的对象)。
+
+URLSession的生命周期和自定义代理
+
+
+你可以使用URLSession API 提供的代理。然而，如果你使用的是URLSession 进行后台下载和上传，或 如果你需要以默认的方式处理身份验证和缓存。你必须提供一个代理,符合Session代理协议,一个或多个任务代理协议，或这些协议的组合。这些代理有许多服务目的:
+
+当使用下载任务，NSURLSession对象使用代理来为你的app提供一个文件的URL,它可以获得下载的数据。
+代理需要后台下载和上传。这些代理们必须提供所有代理方法NSURLSessionDownloadDelegate的协议。
+
+代理可以处理特定身份验证的要求。
+代理提供传输流上传到基于数据流的远程服务器。
+代理可以决定是否遵循HTTP的重定向。
+NSURLSession对象使用代理来为app提供每个传输的状态。数据接收到任务代理的一个初始调用，你可以将请求转换成下载,和随后的调用。提供从远程服务器到达的数据。
+代理的一种方式NSURLSession，对象可以告诉app调用时完成。
+
+
+如果你正在使用自定义代理与一个NSURLSession(后台任务所需),完整生命周期的一个NSURLSession会更复杂。这是基本的方法调用,具体如下:
+
+1.创建一个session configuration,后台sessions，这个配置必须包含一个惟一的标识符。如果你的app程序崩溃或终止暂停了，那么就能结合session使用。
+
+2.创建一个session，指定一个configuration对象和一个可选的代理。
+
+3.创建任务对象在一个session里，每个都代表一个资源请求。
+
+每个任务开始处于暂停状态。应用程序调用恢复的任务后,它开始下载指定的资源。
+
+任务对象的子类NSURLSessionTask-NSURLSessionDataTask NSURLSessionUploadTask,或者NSURLSessionDownloadTask,取决于你想做什么。这些对象类似于NSURLConnection对象,但给你更多的控制和统一的代理模型。
+尽管应用程序(通常应该)可以添加多个任务一个会话,为简单起见,剩下的步骤描述生命周期的一个任务。
+
+
+4.如果远程服务器返回一个状态码,表明需要身份验证,如果验证需要一个连接(如SSL客户机证书),NSURLSession代理方法会调用身份验证。
+
+会话要求:NSURLAuthenticationMethodNTLM、NSURLAuthenticationMethodNegotiate NSURLAuthenticationMethodClientCertificate或NSURLAuthenticationMethodServerTrust-the NSURLSession对象调用会session代理的URLSession:didReceiveChallenge:completionHandler:方法。如果你的app没有提供一个session代理方法,NSURLSession对象调用任务代理URLSession:任务:didReceiveChallenge:completionHandler:方法处理的要求。
+
+
+会话要求:NSURLSession对象调用会话代表的URLSession:任务:didReceiveChallenge:completionHandler:方法处理的挑战。如果你的应用程序提供了一个session代理和你需要处理身份验证,那么你必须处理任务级别的认证或提供一个任务级别的处理程序显式地调用会话处理程序。会议代理的URLSession:didReceiveChallenge:completionHandler:方法不是呼吁non-session-level要求。
+
+
+注意:网络认证协议身份验证是透明的处理。
+
+如果身份验证失败的上传任务,如果任务从一个流中提供的数据,NSURLSession对象调用委托的URLSession:任务:needNewBodyStream:委托方法。代理必须提供一个新的NSInputStream对象提供数据的新请求。
+
+更多信息认证委托NSURLSession方法,阅读Authentication Challenges and TLS Chain Validation.
+5.在接收HTTP重定向响应,NSURLSession对象调用委托的
+URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler: 方法
+完成,委托方法调用所提供的处理程序与所提供的NSURLRequest对象(遵循重定向)，新的NSURLRequest对象(重定向到一个不同的URL),或(把重定向的响应主体作为有效响应并返回结果)。
+
+如果重定向之后,回到步骤4(身份验证要求处理)。
+如果代理没有实现这个方法,重定向之后的最大数量的重定向。
+
+6.(重新)下载任务由调用downloadTaskWithResumeData:或者downloadTaskWithResumeData:completionHandler:,NSURLSession调用委托的URLSession:downloadTask:didResumeAtOffset:expectedTotalBytes:方法与新任务对象。
+
+7.　　对于一个数据任务,NSURLSession对象调用委托的URLSession:dataTask:didReceiveResponse:completionHandler:方法。决定是否把任务的数据转换成一个下载任务,然后调用完成回调继续接收数据或下载数据。
+　　如果你的应用程序选择任务的数据转换为一个下载任务,NSURLSession调用委托的URLSession:dataTask:didBecomeDownloadTask:方法和新的下载任务作为一个参数。之后,代理没有收到进一步的回调数据的任务,并开始从下载任务中接受回调。
+8.如果uploadTaskWithStreamedRequest:任务被创建,NSURLSession调用委托的URLSession:任务:needNewBodyStream:提供传输流数据的方法。
+9.在最初向服务器上传的主体内容(如果适用),代理定期收到URLSession:任务:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:回调,上传的进度报告。
+10.在从服务器回调,任务委托定期接收一个回调转移的进展报告。一个下载任务,会话调用委托的URLSession:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite:方法成功地写入磁盘的字节数。对于数据的任务,会话调用委托的URLSession:dataTask:didReceiveData:方法与实际接收到的数据。
+
+对于一个下载任务,从服务器回调期间,如果用户告诉应用程序暂停下载,取消任务通过调用cancelByProducingResumeData:方法。
+
+
+之后,如果用户要求应用程序恢复下载,通过返回的摘要数据要么downloadTaskWithResumeData:或downloadTaskWithResumeData:completionHandler:方法创建一个新的下载任务,继续下载,然后转到步骤3(创建和恢复任务对象)。
+11.对于一个数据任务,NSURLSession对象调用委托的URLSession:dataTask:willCacheResponse:completionHandler:方法。应用程序然后决定是否应该允许缓存。如果你不实现这个方法,默认行为是使用会话缓存策略中指定的配置对象。
+12.如果一个下载任务成功完成,那么NSURLSession对象调用任务的URLSession:downloadTask:didFinishDownloadingToURL:方法一个临时文件的位置。您的应用程序必须从这个文件读取响应数据或将其移动到一个永久的位置在你的应用程序沙盒目录，在此之前委托方法返回。
+
+13.任何任务完成时,NSURLSession对象调用委托的URLSession:任务:didCompleteWithError:方法与一个错误对象或零(如果任务成功完成)。
+
+如果任务失败,大多数应用程序应重试请求,直到取消下载的用户或服务器返回一个错误表明请求永远不会成功。然而,应用程序不应该立即重试。相反,它应该使用可达性api来确定服务器是否可以,也应该做一个新请求,只有当它收到一个通知,可达性发生了变化。
+如果下载任务可以恢复,NSError对象的用户信息字典NSURLSessionDownloadTaskResumeData键包含一个值。您的应用程序应该将该值传递给调用downloadTaskWithResumeData:或downloadTaskWithResumeData:completionHandler:创建一个新的下载任务,继续现有的下载。
+如果不能恢复任务,应用程序应该创建一个新的下载任务,从一开始启动事务。
+
+在这两种情况下,如果转会失败以外的任何理由服务器错误,转到步骤3(创建和恢复任务对象)。
+
+
+注:NSURLSession不通过误差参数报表服务器错误。唯一的错误你代表接收通过客户端错误误差参数,如无法解决主机名或连接到主机。错误代码描述的URL加载系统错误代码。
+服务器端错误报告在NSHTTPURLResponse对象通过HTTP状态代码。有关更多信息,请阅读文档NSHTTPURLResponse和NSURLResponse类。
+
+14.如果响应是分多部分进行的,会话可能会再次调用委托的didReceiveResponse方法,其次是零个或多个附加didReceiveData调用。如果发生这种情况,转到步骤7(处理didReceiveResponse调用)。
+
+15.当你不再需要一个会话,它通过调用invalidateAndCancel失效(取消未完成任务)或finishTasksAndInvalidate(允许优秀任务完成之前无效的对象)。
+使会话失效后,当所有任务被取消或已经完成,会话发送委托URLSession:didBecomeInvalidWithError:消息。委派方法返回时,会话处理强引用的代理。
+
+重要:会话对象保持一个强引用代理,直到应用程序显式地会话无效。如果你不使会话无效,你的应用程序会内存泄漏。
+
+
+
+
+如果你的应用程序取消正在进行的下载,NSURLSession对象调用委托的URLSession:任务:didCompleteWithError:方法好像发生了错误。
+
+
+
+国内ios界最大的行动已经开始了。全面开始翻译ios开发者文档。
+欢迎加入，小伙伴们。有兴趣的，想要参加的赶紧来吧。
+https://github.com/wang820203420/IOS-Developer-library-Chinese/tree/master
+
