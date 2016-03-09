@@ -4,8 +4,10 @@
 
 ###我会持续更新这个仓库、欢迎关注和start
 
-[详解CALayer 和 UIView的区别和联系](http://www.jianshu.com/p/079e5cf0f014)
+[史上最详细的iOS之事件的传递和响应机制](http://www.jianshu.com/p/2e074db792ba)
 
+
+[详解CALayer 和 UIView的区别和联系](http://www.jianshu.com/p/079e5cf0f014)
 
 //=================自定义并发Operation实现对大文件的下载 Demo==========
 
