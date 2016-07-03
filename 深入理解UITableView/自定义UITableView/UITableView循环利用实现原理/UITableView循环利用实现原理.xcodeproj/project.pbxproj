@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC78DF741B76468A008A37A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC78DF731B76468A008A37A9 /* main.m */; };
+		EC78DF771B76468A008A37A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC78DF761B76468A008A37A9 /* AppDelegate.m */; };
+		EC78DF7A1B76468A008A37A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC78DF791B76468A008A37A9 /* ViewController.m */; };
+		EC78DF7D1B76468A008A37A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC78DF7B1B76468A008A37A9 /* Main.storyboard */; };
+		EC78DF7F1B76468A008A37A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC78DF7E1B76468A008A37A9 /* Images.xcassets */; };
+		EC78DF821B76468A008A37A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC78DF801B76468A008A37A9 /* LaunchScreen.xib */; };
+		EC78DF8E1B76468A008A37A9 /* UITableView________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC78DF8D1B76468A008A37A9 /* UITableView________Tests.m */; };
+		EC78DF991B765DB4008A37A9 /* YZTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC78DF981B765DB4008A37A9 /* YZTableView.m */; };
+		ECD576541B8053B5001C4091 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD576531B8053B5001C4091 /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC78DF881B76468A008A37A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC78DF661B76468A008A37A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC78DF6D1B76468A008A37A9;
+			remoteInfo = "UITableView循环利用实现原理";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC78DF6E1B76468A008A37A9 /* UITableView循环利用实现原理.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITableView循环利用实现原理.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC78DF721B76468A008A37A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC78DF731B76468A008A37A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC78DF751B76468A008A37A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC78DF761B76468A008A37A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC78DF781B76468A008A37A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC78DF791B76468A008A37A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC78DF7C1B76468A008A37A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC78DF7E1B76468A008A37A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC78DF811B76468A008A37A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EC78DF871B76468A008A37A9 /* UITableView循环利用实现原理Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableView循环利用实现原理Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC78DF8C1B76468A008A37A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC78DF8D1B76468A008A37A9 /* UITableView________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView________Tests.m"; sourceTree = "<group>"; };
+		EC78DF971B765DB4008A37A9 /* YZTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZTableView.h; sourceTree = "<group>"; };
+		EC78DF981B765DB4008A37A9 /* YZTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZTableView.m; sourceTree = "<group>"; };
+		ECD576521B8053B5001C4091 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		ECD576531B8053B5001C4091 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC78DF6B1B76468A008A37A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC78DF841B76468A008A37A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC78DF651B76468A008A37A9 = {
+			isa = PBXGroup;
+			children = (
+				EC78DF701B76468A008A37A9 /* UITableView循环利用实现原理 */,
+				EC78DF8A1B76468A008A37A9 /* UITableView循环利用实现原理Tests */,
+				EC78DF6F1B76468A008A37A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC78DF6F1B76468A008A37A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC78DF6E1B76468A008A37A9 /* UITableView循环利用实现原理.app */,
+				EC78DF871B76468A008A37A9 /* UITableView循环利用实现原理Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC78DF701B76468A008A37A9 /* UITableView循环利用实现原理 */ = {
+			isa = PBXGroup;
+			children = (
+				EC78DF751B76468A008A37A9 /* AppDelegate.h */,
+				EC78DF761B76468A008A37A9 /* AppDelegate.m */,
+				EC78DF781B76468A008A37A9 /* ViewController.h */,
+				EC78DF791B76468A008A37A9 /* ViewController.m */,
+				EC78DF7B1B76468A008A37A9 /* Main.storyboard */,
+				EC78DF7E1B76468A008A37A9 /* Images.xcassets */,
+				EC78DF801B76468A008A37A9 /* LaunchScreen.xib */,
+				EC78DF711B76468A008A37A9 /* Supporting Files */,
+				EC78DF971B765DB4008A37A9 /* YZTableView.h */,
+				EC78DF981B765DB4008A37A9 /* YZTableView.m */,
+				ECD576521B8053B5001C4091 /* Person.h */,
+				ECD576531B8053B5001C4091 /* Person.m */,
+			);
+			path = "UITableView循环利用实现原理";
+			sourceTree = "<group>";
+		};
+		EC78DF711B76468A008A37A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC78DF721B76468A008A37A9 /* Info.plist */,
+				EC78DF731B76468A008A37A9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC78DF8A1B76468A008A37A9 /* UITableView循环利用实现原理Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC78DF8D1B76468A008A37A9 /* UITableView________Tests.m */,
+				EC78DF8B1B76468A008A37A9 /* Supporting Files */,
+			);
+			path = "UITableView循环利用实现原理Tests";
+			sourceTree = "<group>";
+		};
+		EC78DF8B1B76468A008A37A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC78DF8C1B76468A008A37A9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC78DF6D1B76468A008A37A9 /* UITableView循环利用实现原理 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC78DF911B76468A008A37A9 /* Build configuration list for PBXNativeTarget "UITableView循环利用实现原理" */;
+			buildPhases = (
+				EC78DF6A1B76468A008A37A9 /* Sources */,
+				EC78DF6B1B76468A008A37A9 /* Frameworks */,
+				EC78DF6C1B76468A008A37A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UITableView循环利用实现原理";
+			productName = "UITableView循环利用实现原理";
+			productReference = EC78DF6E1B76468A008A37A9 /* UITableView循环利用实现原理.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC78DF861B76468A008A37A9 /* UITableView循环利用实现原理Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC78DF941B76468A008A37A9 /* Build configuration list for PBXNativeTarget "UITableView循环利用实现原理Tests" */;
+			buildPhases = (
+				EC78DF831B76468A008A37A9 /* Sources */,
+				EC78DF841B76468A008A37A9 /* Frameworks */,
+				EC78DF851B76468A008A37A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC78DF891B76468A008A37A9 /* PBXTargetDependency */,
+			);
+			name = "UITableView循环利用实现原理Tests";
+			productName = "UITableView循环利用实现原理Tests";
+			productReference = EC78DF871B76468A008A37A9 /* UITableView循环利用实现原理Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC78DF661B76468A008A37A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = yz;
+				TargetAttributes = {
+					EC78DF6D1B76468A008A37A9 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					EC78DF861B76468A008A37A9 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = EC78DF6D1B76468A008A37A9;
+					};
+				};
+			};
+			buildConfigurationList = EC78DF691B76468A008A37A9 /* Build configuration list for PBXProject "UITableView循环利用实现原理" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC78DF651B76468A008A37A9;
+			productRefGroup = EC78DF6F1B76468A008A37A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC78DF6D1B76468A008A37A9 /* UITableView循环利用实现原理 */,
+				EC78DF861B76468A008A37A9 /* UITableView循环利用实现原理Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC78DF6C1B76468A008A37A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC78DF7D1B76468A008A37A9 /* Main.storyboard in Resources */,
+				EC78DF821B76468A008A37A9 /* LaunchScreen.xib in Resources */,
+				EC78DF7F1B76468A008A37A9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC78DF851B76468A008A37A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC78DF6A1B76468A008A37A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC78DF7A1B76468A008A37A9 /* ViewController.m in Sources */,
+				EC78DF771B76468A008A37A9 /* AppDelegate.m in Sources */,
+				ECD576541B8053B5001C4091 /* Person.m in Sources */,
+				EC78DF991B765DB4008A37A9 /* YZTableView.m in Sources */,
+				EC78DF741B76468A008A37A9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC78DF831B76468A008A37A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC78DF8E1B76468A008A37A9 /* UITableView________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC78DF891B76468A008A37A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC78DF6D1B76468A008A37A9 /* UITableView循环利用实现原理 */;
+			targetProxy = EC78DF881B76468A008A37A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC78DF7B1B76468A008A37A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC78DF7C1B76468A008A37A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC78DF801B76468A008A37A9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC78DF811B76468A008A37A9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC78DF8F1B76468A008A37A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC78DF901B76468A008A37A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC78DF921B76468A008A37A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UITableView循环利用实现原理/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC78DF931B76468A008A37A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UITableView循环利用实现原理/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC78DF951B76468A008A37A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UITableView循环利用实现原理Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITableView循环利用实现原理.app/UITableView循环利用实现原理";
+			};
+			name = Debug;
+		};
+		EC78DF961B76468A008A37A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UITableView循环利用实现原理Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITableView循环利用实现原理.app/UITableView循环利用实现原理";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC78DF691B76468A008A37A9 /* Build configuration list for PBXProject "UITableView循环利用实现原理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC78DF8F1B76468A008A37A9 /* Debug */,
+				EC78DF901B76468A008A37A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC78DF911B76468A008A37A9 /* Build configuration list for PBXNativeTarget "UITableView循环利用实现原理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC78DF921B76468A008A37A9 /* Debug */,
+				EC78DF931B76468A008A37A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC78DF941B76468A008A37A9 /* Build configuration list for PBXNativeTarget "UITableView循环利用实现原理Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC78DF951B76468A008A37A9 /* Debug */,
+				EC78DF961B76468A008A37A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC78DF661B76468A008A37A9 /* Project object */;
+}

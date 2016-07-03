@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A32C8B3A-5D8A-4856-9CC3-25A94DC442D7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>理解UIScrollView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DE4B6D80A134F9F788D8EE7AF8D8CCAB07FCD4E9</key>
+		<string>https://github.com/huang303513/HCDCustomUITableview.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>理解UIScrollView/理解UIScrollView.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DE4B6D80A134F9F788D8EE7AF8D8CCAB07FCD4E9</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/huang303513/HCDCustomUITableview.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DE4B6D80A134F9F788D8EE7AF8D8CCAB07FCD4E9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DE4B6D80A134F9F788D8EE7AF8D8CCAB07FCD4E9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HCDCustomUITableview</string>
+		</dict>
+	</array>
+</dict>
+</plist>
