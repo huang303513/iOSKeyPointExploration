@@ -7,9 +7,8 @@
 
 [Java​Script​Core](http://nshipster.cn/javascriptcore/)</br>
 
-[史上最详细的iOS之事件的传递和响应机制](http://www.jianshu.com/p/2e074db792ba)
-
-
+[史上最详细的iOS之事件的传递和响应机制](http://www.jianshu.com/p/2e074db792ba)</br>
+[手把手教你使用UICollectionView写公司的项目](http://www.jianshu.com/p/cf616f73d596)</br>
 [详解CALayer 和 UIView的区别和联系](http://www.jianshu.com/p/079e5cf0f014)
 
 //=================自定义并发Operation实现对大文件的下载 Demo==========
