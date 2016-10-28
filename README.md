@@ -8,7 +8,7 @@
 [Java​Script​Core详解](http://nshipster.cn/javascriptcore/)</br>
 [截取本地URL请求(NSURLProtocol)](http://blog.csdn.net/majiakun1/article/details/46357359)</br>
 [客户端离线缓存策略(NSURLProtocol)](http://blog.csdn.net/majiakun1/article/details/46357409)</br>
-
+[25条提高iOS App性能的技巧和诀窍](http://www.open-open.com/lib/view/open1365861753734.html)</br>
 [史上最详细的iOS之事件的传递和响应机制](http://www.jianshu.com/p/2e074db792ba)</br>
 [手把手教你使用UICollectionView写公司的项目](http://www.jianshu.com/p/cf616f73d596)</br>
 [详解CALayer 和 UIView的区别和联系](http://www.jianshu.com/p/079e5cf0f014)
