@@ -5,6 +5,12 @@
 [参考Demo地址](https://github.com/iThinkerYZ/YZTableView)</br>
 [UITableView深入理解](http://blog.jobbole.com/70143/)</br>
 
+IOS的调试技巧和instruments的使用。
+[iOS各种调试技巧豪华套餐](http://www.cnblogs.com/daiweilai/p/4421340.html)</br>
+[LLDB调试命令初探](http://www.starfelix.com/blog/2014/03/17/lldbdiao-shi-ming-ling-chu-tan/)</br>
+[与调试器共舞 - LLDB 的华尔兹](http://objccn.io/issue-19-2/)</br>
+[iOS中教你快速掌握LLDB调试技巧](http://m.blog.csdn.net/article/details?id=51316510&from=timeline&isappinstalled=0)</br>
+
 [Java​Script​Core详解](http://nshipster.cn/javascriptcore/)</br>
 [截取本地URL请求(NSURLProtocol)](http://blog.csdn.net/majiakun1/article/details/46357359)</br>
 [客户端离线缓存策略(NSURLProtocol)](http://blog.csdn.net/majiakun1/article/details/46357409)</br>
