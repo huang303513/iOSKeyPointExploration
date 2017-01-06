@@ -1,5 +1,8 @@
 ### 这个仓库是关于iOS开发多线程方面的知识讨论意见基本的用法。主要包括GCD和Operation、KVO、KVC、通知中心、事件传递机制等几部分。demo中有完整的注释、保存在此、方便使用。
 
+套接字变成与音频处理(推荐)
+[套接字编程的简单实现](http://www.jianshu.com/p/2dbb360886a8)</br>
+
 深入理解UITableView
 [自定义UITableView](http://www.jianshu.com/p/bc0a55e9b09b)</br>
 [参考Demo地址](https://github.com/iThinkerYZ/YZTableView)</br>
@@ -10,7 +13,6 @@ IOS的调试技巧和instruments的使用。
 [LLDB调试命令初探](http://www.starfelix.com/blog/2014/03/17/lldbdiao-shi-ming-ling-chu-tan/)</br>
 [与调试器共舞 - LLDB 的华尔兹](http://objccn.io/issue-19-2/)</br>
 [iOS中教你快速掌握LLDB调试技巧](http://m.blog.csdn.net/article/details?id=51316510&from=timeline&isappinstalled=0)</br>
-
 [Java​Script​Core详解](http://nshipster.cn/javascriptcore/)</br>
 [截取本地URL请求(NSURLProtocol)](http://blog.csdn.net/majiakun1/article/details/46357359)</br>
 [客户端离线缓存策略(NSURLProtocol)](http://blog.csdn.net/majiakun1/article/details/46357409)</br>
