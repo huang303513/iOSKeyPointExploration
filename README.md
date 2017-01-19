@@ -71,7 +71,7 @@ IOS的调试技巧和instruments的使用。</br>
 
 //=================iOS事件传递机制以及相应函数==========
 
-[iOS事件传递机制以及相应函数](https://github.com/huang303513/GCD-OperationQueue-Exploration/tree/master/iOS%E4%BA%8B%E4%BB%B6%E4%BC%A0%E9%80%92%E6%9C%BA%E5%88%B6%E4%BB%A5%E5%8F%8A%E7%9B%B8%E5%BA%94%E5%87%BD%E6%95%B0)涉及到事件相应链的各方面以及相关函数的各种用法。参考地址Demo中AppDelegate有。参考博客地址:[参考博客地址1](http://www.superqq.com/blog/2015/04/23/iosyong-hu-dian-ji-shi-jian-chu-li/)[参考博客地址2](http://southpeak.github.io/blog/2015/03/07/uiresponder/)
+[iOS事件传递机制以及相应函数](https://github.com/huang303513/GCD-OperationQueue-Exploration/tree/master/iOS%E4%BA%8B%E4%BB%B6%E4%BC%A0%E9%80%92%E6%9C%BA%E5%88%B6%E4%BB%A5%E5%8F%8A%E7%9B%B8%E5%BA%94%E5%87%BD%E6%95%B0)涉及到事件相应链的各方面以及相关函数的各种用法。参考地址Demo中AppDelegate有。参考博客地址:[参考博客地址1](http://www.superqq.com/blog/2015/04/23/iosyong-hu-dian-ji-shi-jian-chu-li/)[参考博客地址2](http://southpeak.github.io/2015/03/07/cocoa-uikit-uiresponder/)
 
 
 //=================Dispatch Apply Demo==========
