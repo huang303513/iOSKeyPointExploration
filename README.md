@@ -4,6 +4,8 @@
 [套接字编程的简单实现](http://www.jianshu.com/p/2dbb360886a8)</br>
 [IM 即时通讯技术在多应用场景下的技术实现，以及性能调优（iOS视角](https://github.com/ChenYilong/iOSBlog/blob/master/Tips/%E5%9F%BA%E4%BA%8EWebsocket%E7%9A%84IM%E5%8D%B3%E6%97%B6%E9%80%9A%E8%AE%AF%E6%8A%80%E6%9C%AF/IM%20%E5%8D%B3%E6%97%B6%E9%80%9A%E8%AE%AF%E6%8A%80%E6%9C%AF%E5%9C%A8%E5%A4%9A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF%E4%B8%8B%E7%9A%84%E6%8A%80%E6%9C%AF%E5%AE%9E%E7%8E%B0%EF%BC%8C%E4%BB%A5%E5%8F%8A%E6%80%A7%E8%83%BD%E8%B0%83%E4%BC%98%EF%BC%88iOS%E8%A7%86%E8%A7%92%EF%BC%89.md)</br>
 
+[Xcode8调试黑科技：Memory Graph实战解决闭包引用循环问题](http://www.jianshu.com/p/f792f9aa2e45)</br>
+
 深入理解UITableView</br>
 [自定义UITableView](http://www.jianshu.com/p/bc0a55e9b09b)</br>
 [参考Demo地址](https://github.com/iThinkerYZ/YZTableView)</br>

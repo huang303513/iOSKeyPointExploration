@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DB41A7E1E6D13C600909743 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB41A7D1E6D13C600909743 /* main.m */; };
+		4DB41A811E6D13C600909743 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB41A801E6D13C600909743 /* AppDelegate.m */; };
+		4DB41A841E6D13C600909743 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB41A831E6D13C600909743 /* ViewController.m */; };
+		4DB41A871E6D13C600909743 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB41A851E6D13C600909743 /* Main.storyboard */; };
+		4DB41A891E6D13C600909743 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB41A881E6D13C600909743 /* Assets.xcassets */; };
+		4DB41A8C1E6D13C600909743 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB41A8A1E6D13C600909743 /* LaunchScreen.storyboard */; };
+		4DB41A971E6D13C600909743 /* Memory_Graph______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB41A961E6D13C600909743 /* Memory_Graph______Tests.m */; };
+		4DB41AA21E6D13C600909743 /* Memory_Graph______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB41AA11E6D13C600909743 /* Memory_Graph______UITests.m */; };
+		4DB41AB11E6D140200909743 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB41AB01E6D140200909743 /* MyView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DB41A931E6D13C600909743 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DB41A711E6D13C600909743 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DB41A781E6D13C600909743;
+			remoteInfo = "Memory Graph解决闭包引用";
+		};
+		4DB41A9E1E6D13C600909743 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DB41A711E6D13C600909743 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DB41A781E6D13C600909743;
+			remoteInfo = "Memory Graph解决闭包引用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DB41A791E6D13C600909743 /* Memory Graph解决闭包引用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memory Graph解决闭包引用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DB41A7D1E6D13C600909743 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DB41A7F1E6D13C600909743 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4DB41A801E6D13C600909743 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4DB41A821E6D13C600909743 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4DB41A831E6D13C600909743 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4DB41A861E6D13C600909743 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DB41A881E6D13C600909743 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DB41A8B1E6D13C600909743 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DB41A8D1E6D13C600909743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DB41A921E6D13C600909743 /* Memory Graph解决闭包引用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memory Graph解决闭包引用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DB41A961E6D13C600909743 /* Memory_Graph______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Memory_Graph______Tests.m"; sourceTree = "<group>"; };
+		4DB41A981E6D13C600909743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DB41A9D1E6D13C600909743 /* Memory Graph解决闭包引用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memory Graph解决闭包引用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DB41AA11E6D13C600909743 /* Memory_Graph______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Memory_Graph______UITests.m"; sourceTree = "<group>"; };
+		4DB41AA31E6D13C600909743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DB41AAF1E6D140200909743 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		4DB41AB01E6D140200909743 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DB41A761E6D13C600909743 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DB41A8F1E6D13C600909743 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DB41A9A1E6D13C600909743 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DB41A701E6D13C600909743 = {
+			isa = PBXGroup;
+			children = (
+				4DB41A7B1E6D13C600909743 /* Memory Graph解决闭包引用 */,
+				4DB41A951E6D13C600909743 /* Memory Graph解决闭包引用Tests */,
+				4DB41AA01E6D13C600909743 /* Memory Graph解决闭包引用UITests */,
+				4DB41A7A1E6D13C600909743 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DB41A7A1E6D13C600909743 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DB41A791E6D13C600909743 /* Memory Graph解决闭包引用.app */,
+				4DB41A921E6D13C600909743 /* Memory Graph解决闭包引用Tests.xctest */,
+				4DB41A9D1E6D13C600909743 /* Memory Graph解决闭包引用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DB41A7B1E6D13C600909743 /* Memory Graph解决闭包引用 */ = {
+			isa = PBXGroup;
+			children = (
+				4DB41A7F1E6D13C600909743 /* AppDelegate.h */,
+				4DB41A801E6D13C600909743 /* AppDelegate.m */,
+				4DB41A821E6D13C600909743 /* ViewController.h */,
+				4DB41A831E6D13C600909743 /* ViewController.m */,
+				4DB41A851E6D13C600909743 /* Main.storyboard */,
+				4DB41A881E6D13C600909743 /* Assets.xcassets */,
+				4DB41A8A1E6D13C600909743 /* LaunchScreen.storyboard */,
+				4DB41A8D1E6D13C600909743 /* Info.plist */,
+				4DB41A7C1E6D13C600909743 /* Supporting Files */,
+				4DB41AAF1E6D140200909743 /* MyView.h */,
+				4DB41AB01E6D140200909743 /* MyView.m */,
+			);
+			path = "Memory Graph解决闭包引用";
+			sourceTree = "<group>";
+		};
+		4DB41A7C1E6D13C600909743 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DB41A7D1E6D13C600909743 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DB41A951E6D13C600909743 /* Memory Graph解决闭包引用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4DB41A961E6D13C600909743 /* Memory_Graph______Tests.m */,
+				4DB41A981E6D13C600909743 /* Info.plist */,
+			);
+			path = "Memory Graph解决闭包引用Tests";
+			sourceTree = "<group>";
+		};
+		4DB41AA01E6D13C600909743 /* Memory Graph解决闭包引用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DB41AA11E6D13C600909743 /* Memory_Graph______UITests.m */,
+				4DB41AA31E6D13C600909743 /* Info.plist */,
+			);
+			path = "Memory Graph解决闭包引用UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DB41A781E6D13C600909743 /* Memory Graph解决闭包引用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DB41AA61E6D13C600909743 /* Build configuration list for PBXNativeTarget "Memory Graph解决闭包引用" */;
+			buildPhases = (
+				4DB41A751E6D13C600909743 /* Sources */,
+				4DB41A761E6D13C600909743 /* Frameworks */,
+				4DB41A771E6D13C600909743 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Memory Graph解决闭包引用";
+			productName = "Memory Graph解决闭包引用";
+			productReference = 4DB41A791E6D13C600909743 /* Memory Graph解决闭包引用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DB41A911E6D13C600909743 /* Memory Graph解决闭包引用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DB41AA91E6D13C600909743 /* Build configuration list for PBXNativeTarget "Memory Graph解决闭包引用Tests" */;
+			buildPhases = (
+				4DB41A8E1E6D13C600909743 /* Sources */,
+				4DB41A8F1E6D13C600909743 /* Frameworks */,
+				4DB41A901E6D13C600909743 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DB41A941E6D13C600909743 /* PBXTargetDependency */,
+			);
+			name = "Memory Graph解决闭包引用Tests";
+			productName = "Memory Graph解决闭包引用Tests";
+			productReference = 4DB41A921E6D13C600909743 /* Memory Graph解决闭包引用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DB41A9C1E6D13C600909743 /* Memory Graph解决闭包引用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DB41AAC1E6D13C600909743 /* Build configuration list for PBXNativeTarget "Memory Graph解决闭包引用UITests" */;
+			buildPhases = (
+				4DB41A991E6D13C600909743 /* Sources */,
+				4DB41A9A1E6D13C600909743 /* Frameworks */,
+				4DB41A9B1E6D13C600909743 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DB41A9F1E6D13C600909743 /* PBXTargetDependency */,
+			);
+			name = "Memory Graph解决闭包引用UITests";
+			productName = "Memory Graph解决闭包引用UITests";
+			productReference = 4DB41A9D1E6D13C600909743 /* Memory Graph解决闭包引用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DB41A711E6D13C600909743 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = huangchengdu;
+				TargetAttributes = {
+					4DB41A781E6D13C600909743 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					4DB41A911E6D13C600909743 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4DB41A781E6D13C600909743;
+					};
+					4DB41A9C1E6D13C600909743 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4DB41A781E6D13C600909743;
+					};
+				};
+			};
+			buildConfigurationList = 4DB41A741E6D13C600909743 /* Build configuration list for PBXProject "Memory Graph解决闭包引用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DB41A701E6D13C600909743;
+			productRefGroup = 4DB41A7A1E6D13C600909743 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DB41A781E6D13C600909743 /* Memory Graph解决闭包引用 */,
+				4DB41A911E6D13C600909743 /* Memory Graph解决闭包引用Tests */,
+				4DB41A9C1E6D13C600909743 /* Memory Graph解决闭包引用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DB41A771E6D13C600909743 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB41A8C1E6D13C600909743 /* LaunchScreen.storyboard in Resources */,
+				4DB41A891E6D13C600909743 /* Assets.xcassets in Resources */,
+				4DB41A871E6D13C600909743 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DB41A901E6D13C600909743 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DB41A9B1E6D13C600909743 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DB41A751E6D13C600909743 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB41AB11E6D140200909743 /* MyView.m in Sources */,
+				4DB41A841E6D13C600909743 /* ViewController.m in Sources */,
+				4DB41A811E6D13C600909743 /* AppDelegate.m in Sources */,
+				4DB41A7E1E6D13C600909743 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DB41A8E1E6D13C600909743 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB41A971E6D13C600909743 /* Memory_Graph______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DB41A991E6D13C600909743 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB41AA21E6D13C600909743 /* Memory_Graph______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DB41A941E6D13C600909743 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DB41A781E6D13C600909743 /* Memory Graph解决闭包引用 */;
+			targetProxy = 4DB41A931E6D13C600909743 /* PBXContainerItemProxy */;
+		};
+		4DB41A9F1E6D13C600909743 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DB41A781E6D13C600909743 /* Memory Graph解决闭包引用 */;
+			targetProxy = 4DB41A9E1E6D13C600909743 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DB41A851E6D13C600909743 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DB41A861E6D13C600909743 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DB41A8A1E6D13C600909743 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DB41A8B1E6D13C600909743 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DB41AA41E6D13C600909743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DB41AA51E6D13C600909743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DB41AA71E6D13C600909743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Memory Graph解决闭包引用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.ctrip.cpm.Memory-Graph------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4DB41AA81E6D13C600909743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Memory Graph解决闭包引用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.ctrip.cpm.Memory-Graph------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4DB41AAA1E6D13C600909743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Memory Graph解决闭包引用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.ctrip.cpm.Memory-Graph------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memory Graph解决闭包引用.app/Memory Graph解决闭包引用";
+			};
+			name = Debug;
+		};
+		4DB41AAB1E6D13C600909743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Memory Graph解决闭包引用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.ctrip.cpm.Memory-Graph------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memory Graph解决闭包引用.app/Memory Graph解决闭包引用";
+			};
+			name = Release;
+		};
+		4DB41AAD1E6D13C600909743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Memory Graph解决闭包引用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.ctrip.cpm.Memory-Graph------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Memory Graph解决闭包引用";
+			};
+			name = Debug;
+		};
+		4DB41AAE1E6D13C600909743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Memory Graph解决闭包引用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.ctrip.cpm.Memory-Graph------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Memory Graph解决闭包引用";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DB41A741E6D13C600909743 /* Build configuration list for PBXProject "Memory Graph解决闭包引用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB41AA41E6D13C600909743 /* Debug */,
+				4DB41AA51E6D13C600909743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DB41AA61E6D13C600909743 /* Build configuration list for PBXNativeTarget "Memory Graph解决闭包引用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB41AA71E6D13C600909743 /* Debug */,
+				4DB41AA81E6D13C600909743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4DB41AA91E6D13C600909743 /* Build configuration list for PBXNativeTarget "Memory Graph解决闭包引用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB41AAA1E6D13C600909743 /* Debug */,
+				4DB41AAB1E6D13C600909743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4DB41AAC1E6D13C600909743 /* Build configuration list for PBXNativeTarget "Memory Graph解决闭包引用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB41AAD1E6D13C600909743 /* Debug */,
+				4DB41AAE1E6D13C600909743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DB41A711E6D13C600909743 /* Project object */;
+}
