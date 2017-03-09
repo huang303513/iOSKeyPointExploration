@@ -1,5 +1,7 @@
 ### 这个仓库是关于iOS开发多线程方面的知识讨论意见基本的用法。主要包括GCD和Operation、KVO、KVC、通知中心、事件传递机制等几部分。demo中有完整的注释、保存在此、方便使用。
 
+[iOS 触摸事件的流动](https://juejin.im/entry/58bbb8528ac247359819e45d)</br>
+[iOS 程序执行顺序和 UIViewController 的生命周期 (整理)](https://juejin.im/entry/58b93b89a22b9d005ed8c58a)</br>
 套接字变成与音频处理(推荐)</br>
 [套接字编程的简单实现](http://www.jianshu.com/p/2dbb360886a8)</br>
 [IM 即时通讯技术在多应用场景下的技术实现，以及性能调优（iOS视角](https://github.com/ChenYilong/iOSBlog/blob/master/Tips/%E5%9F%BA%E4%BA%8EWebsocket%E7%9A%84IM%E5%8D%B3%E6%97%B6%E9%80%9A%E8%AE%AF%E6%8A%80%E6%9C%AF/IM%20%E5%8D%B3%E6%97%B6%E9%80%9A%E8%AE%AF%E6%8A%80%E6%9C%AF%E5%9C%A8%E5%A4%9A%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF%E4%B8%8B%E7%9A%84%E6%8A%80%E6%9C%AF%E5%AE%9E%E7%8E%B0%EF%BC%8C%E4%BB%A5%E5%8F%8A%E6%80%A7%E8%83%BD%E8%B0%83%E4%BC%98%EF%BC%88iOS%E8%A7%86%E8%A7%92%EF%BC%89.md)</br>
