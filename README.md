@@ -1,7 +1,8 @@
 ### 这个仓库是关于iOS开发多线程方面的知识讨论意见基本的用法。主要包括GCD和Operation、KVO、KVC、通知中心、事件传递机制等几部分。demo中有完整的注释、保存在此、方便使用。
 
 [iOS App 签名的原理 ](http://wereadteam.github.io/2017/03/13/Signature/)</br>
-
+[iOS的离屏渲染详解](http://www.imlifengfeng.com/blog/?p=593)</br>
+[iOS多线程安全详解](http://www.imlifengfeng.com/blog/?p=582)</br>
 [iOS 触摸事件的流动](https://juejin.im/entry/58bbb8528ac247359819e45d)</br>
 [iOS 程序执行顺序和 UIViewController 的生命周期 (整理)](https://juejin.im/entry/58b93b89a22b9d005ed8c58a)</br>
 套接字变成与音频处理(推荐)</br>
