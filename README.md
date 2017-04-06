@@ -30,6 +30,15 @@ IOS的调试技巧和instruments的使用。</br>
 [手把手教你使用UICollectionView写公司的项目](http://www.jianshu.com/p/cf616f73d596)</br>
 [详解CALayer 和 UIView的区别和联系](http://www.jianshu.com/p/079e5cf0f014)
 
+##iOS原生代码与html5交互
+
+![WebViewJavascriptBridge原理解析](http://huang303513.github.io/2017/04/01/WebViewJavascriptBridge%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90.html)</br>
+![iOS的WebView的Cookie使用](http://www.jianshu.com/p/d2c478bbcca5)</br>
+![如何准确判断 WebView 加载完成](http://www.cocoachina.com/ios/20170314/18881.html)</br>
+[WKWebView与Js实战(OC版)](http://www.henishuo.com/wkwebview-js-h5-oc/?utm_source=tuicool&utm_medium=referral)<br/>
+[WKWebView API精讲(OC)](http://www.henishuo.com/wkwebview-objc/?utm_source=tuicool&utm_medium=referral)<br/>
+[WKWebView那些坑](http://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=2653578513&idx=1&sn=961bf5394eecde40a43060550b81b0bb&chksm=84b3b716b3c43e00ee39de8cf12ff3f8d475096ffaa05de9c00ff65df62cd73aa1cff606057d&mpshare=1&scene=23&srcid=0119VtvRXXpX8zD7Hon2AcE0#rd)</br>
+
 //=================自定义并发Operation实现对大文件的下载 Demo==========
 
 [类似微博下拉图片放大、上拉隐藏的实现原理](https://github.com/huang303513/GCD-OperationQueue-Exploration/tree/master/KVC%E7%9A%84%E5%AE%9E%E7%8E%B0%E6%B5%81%E7%A8%8B%E4%BB%A5%E5%8F%8A%E6%AF%94%E7%89%B9%E7%94%A8%E6%B3%95)，自定义一个并发operation、类似与AFN的处理。参考博客地址:[参考博客地址1](http://www.jianshu.com/p/144cc0383daa)
