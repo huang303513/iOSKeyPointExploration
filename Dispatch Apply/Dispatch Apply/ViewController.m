@@ -17,13 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    //[self test_dispatch_semaphore];
-    [self test_dispatch_apply];
-    
-    
     
 }
 
+- (IBAction)button0:(id)sender {
+    [self test_dispatch_io];
+}
 
 -(void)test_dispatch_io{
     dispatch_fd_t fd;
@@ -33,6 +32,11 @@
     });
     //fdpir[1];
 
+}
+
+
+- (IBAction)button1:(id)sender {
+    [self downloadImageURLWithString:@"http://i4.buimg.com/567571/52c4cec9375c2ea7.png"];
 }
 
 /**
@@ -46,26 +50,46 @@
 {
     // 1
     dispatch_semaphore_t semaphore = dispatch_semaphore_create(0);
-    
+    dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
     NSURL *url = [NSURL URLWithString:URLString];
     
     [NSURLConnection sendAsynchronousRequest:[NSURLRequest requestWithURL:url] queue:[[NSOperationQueue alloc]init] completionHandler:^(NSURLResponse * _Nullable response, NSData * _Nullable data, NSError * _Nullable connectionError) {
+        
+        dispatch_async(queue, ^{
+            dispatch_time_t timeoutTime = dispatch_time(DISPATCH_TIME_NOW, DISPATCH_TIME_FOREVER);
+            long result = dispatch_semaphore_wait(semaphore, timeoutTime);
+            if (!result) {
+                NSLog(@"收到第二个信号量");
+            }
+        });
         // 2
         sleep(10);
         NSLog(@"不需要信号量了1111");
         dispatch_semaphore_signal(semaphore);
+        
+    
     }];
     
     [NSURLConnection sendAsynchronousRequest:[NSURLRequest requestWithURL:url] queue:[[NSOperationQueue alloc]init] completionHandler:^(NSURLResponse * _Nullable response, NSData * _Nullable data, NSError * _Nullable connectionError) {
         // 2
         NSLog(@"不需要信号量了2222");
         dispatch_semaphore_signal(semaphore);
+        
+        dispatch_async(queue, ^{
+            dispatch_time_t timeoutTime1 = dispatch_time(DISPATCH_TIME_NOW, DISPATCH_TIME_FOREVER);
+            long result1 = dispatch_semaphore_wait(semaphore, timeoutTime1);
+            if (!result1) {
+                NSLog(@"收到第一个信号量");
+            }
+        });
     }];
-    // 3
-    dispatch_time_t timeoutTime = dispatch_time(DISPATCH_TIME_NOW, 50);
-    if (dispatch_semaphore_wait(semaphore, timeoutTime)) {
-        NSLog(@"可以了");
-    }
+
+    
+}
+
+
+- (IBAction)button2:(id)sender {
+    [self test_dispatch_semaphore];
 }
 
 -(void)test_dispatch_semaphore{
@@ -95,23 +119,36 @@
     
 }
 
-
-
-
-
-
+- (IBAction)button3:(id)sender {
+    [self test_dispatch_suspend];
+}
 -(void)test_dispatch_suspend
 {
-    dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
-    //dispatch_suspend挂起指定的queue
-    dispatch_suspend(queue);
+    dispatch_queue_t queue = dispatch_queue_create("sdfsdf", NULL);
+    dispatch_async(queue, ^{
+        NSLog(@"%@",[NSDate date]);
+    });
+    dispatch_async(queue, ^{
+        //dispatch_suspend挂起指定的queue
+        dispatch_suspend(queue);
+        
+        dispatch_async(queue, ^{
+            NSLog(@"%@",[NSDate date]);
+        });
+        
+    });
+
     //dispatch_resume恢复指定的queue
-    dispatch_resume(queue);
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        dispatch_resume(queue);
+    });
+
 
 }
 
-
-
+- (IBAction)button4:(id)sender {
+    [self test_dispatch_apply];
+}
 -(void)test_dispatch_apply{
     dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
     //把指定的任务执行指定次数，直到执行完毕才函数才返回。
