@@ -14,8 +14,8 @@ int main() {
 //        // insert code here...
 //        NSLog(@"Hello, World!");
 //    }
-    void (^blk)(void) = ^{
-       // printf("Block\n");
+    void (^blk)(void) = ^void (void){
+        printf("Block\n");
         //printf("Block\n");
        // printf("%f\n",1.3);
 
