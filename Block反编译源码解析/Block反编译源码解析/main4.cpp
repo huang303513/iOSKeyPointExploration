@@ -91,13 +91,8 @@ struct __NSContainer_literal {
 	delete[] arr;
   }
 };
-#ifdef __OBJC_EXPORT_BLOCKS
 extern "C" __declspec(dllimport) void * objc_autoreleasePoolPush(void);
 extern "C" __declspec(dllimport) void objc_autoreleasePoolPop(void *);
-#else
-__OBJC_RW_DLLIMPORT void * objc_autoreleasePoolPush(void);
-__OBJC_RW_DLLIMPORT void objc_autoreleasePoolPop(void *);
-#endif
 
 struct __AtAutoreleasePool {
   __AtAutoreleasePool() {atautoreleasepoolobj = objc_autoreleasePoolPush();}
@@ -502,28 +497,24 @@ FILE *funopen(const void *,
                  int (* _Nullable)(void *));
 }
 
-
-//=================================================关键代码开始===============================================
-
-
-
-//#include "stdio.h"
-//
-//typedef void (^Block)();
-//
-//int main() {
-//    
-//    @autoreleasepool {
-//        __block int i = 1;
-//        Block block1 = ^(){
-//            i =  2;
-//            printf("%d",i);
-//        };
-//        block1();
-//    }
-//    return 0;
-//}
-
+//=================================================关键代码开始==========================================
+/*
+ 
+#include "stdio.h"
+int main() {
+    
+    @autoreleasepool {
+        __block int one = 1;
+        int two = 2;
+        Block block1 = ^(){
+            one =  2;
+            printf("%d--%d",one,two);
+        };
+        block1();
+    }
+    return 0;
+}
+ */
 
 typedef void (*Block)();
 
@@ -534,23 +525,20 @@ struct __block_impl {
     void *FuncPtr;
 };
 
-
-struct __Block_byref_i_0 {
+struct __Block_byref_one_0 {
   void *__isa;
-__Block_byref_i_0 *__forwarding;
+__Block_byref_one_0 *__forwarding;
  int __flags;
  int __size;
- int i;
+ int one;
 };
-
-
-
 
 struct __main_block_impl_0 {
   struct __block_impl impl;
   struct __main_block_desc_0* Desc;
-  __Block_byref_i_0 *i; // by ref
-  __main_block_impl_0(void *fp, struct __main_block_desc_0 *desc, __Block_byref_i_0 *_i, int flags=0) : i(_i->__forwarding) {
+  int two;
+  __Block_byref_one_0 *one; // by ref
+  __main_block_impl_0(void *fp, struct __main_block_desc_0 *desc, int _two, __Block_byref_one_0 *_one, int flags=0) : two(_two), one(_one->__forwarding) {
     impl.isa = &_NSConcreteStackBlock;
     impl.Flags = flags;
     impl.FuncPtr = fp;
@@ -558,62 +546,41 @@ struct __main_block_impl_0 {
   }
 };
 
-
-
-
 static void __main_block_func_0(struct __main_block_impl_0 *__cself) {
-  __Block_byref_i_0 *i = __cself->i; // bound by ref
+  __Block_byref_one_0 *one = __cself->one; // bound by ref
+  int two = __cself->two; // bound by copy
+  (one->__forwarding->one) = 2;
+  printf("%d--%d",(one->__forwarding->one),two);
+}
 
-            (i->__forwarding->i) = 2;
-            printf("%d",(i->__forwarding->i));
-        }
+static void __main_block_copy_0(struct __main_block_impl_0*dst, struct __main_block_impl_0*src) {
+    _Block_object_assign((void*)&dst->one, (void*)src->one, 8);
+}
 
-
-
-
-static void __main_block_copy_0(struct __main_block_impl_0*dst, struct __main_block_impl_0*src) {_Block_object_assign((void*)&dst->i, (void*)src->i, 8/*BLOCK_FIELD_IS_BYREF*/);}
-
-
-
-
-static void __main_block_dispose_0(struct __main_block_impl_0*src) {_Block_object_dispose((void*)src->i, 8/*BLOCK_FIELD_IS_BYREF*/);}
-
-
-
+static void __main_block_dispose_0(struct __main_block_impl_0*src) {
+    _Block_object_dispose((void*)src->one, 8);
+}
 
 static struct __main_block_desc_0 {
   size_t reserved;
   size_t Block_size;
   void (*copy)(struct __main_block_impl_0*, struct __main_block_impl_0*);
   void (*dispose)(struct __main_block_impl_0*);
-} __main_block_desc_0_DATA = { 0, sizeof(struct __main_block_impl_0), __main_block_copy_0, __main_block_dispose_0};
+}
 
-
+struct __main_block_desc_0 __main_block_desc_0_DATA = { 0, sizeof(struct __main_block_impl_0), __main_block_copy_0, __main_block_dispose_0};
 
 int main() {
-    //自动释放池开始
-     {__AtAutoreleasePool __autoreleasepool;
-         /*
-          
-          */
-        __attribute__((__blocks__(byref))) __Block_byref_i_0 i;
-        i = {(void*)0,(__Block_byref_i_0 *)&i, 0, sizeof(__Block_byref_i_0), 1};
-        /*
-         
-         */
-        //Block block1 = ((void (*)())&__main_block_impl_0((void *)__main_block_func_0, &__main_block_desc_0_DATA, (__Block_byref_i_0 *)&i, 570425344));
-         __main_block_impl_0 tmp = __main_block_impl_0((void *)__main_block_func_0, &__main_block_desc_0_DATA, (__Block_byref_i_0 *)&i, 570425344);
-         Block block1 = &tmp;
-         
-         /*
-          
-          */
+    /* @autoreleasepool */ { __AtAutoreleasePool __autoreleasepool; 
+        __attribute__((__blocks__(byref))) __Block_byref_one_0 one = {(void*)0,(__Block_byref_one_0 *)&one, 0, sizeof(__Block_byref_one_0), 1};
+        int two = 2;
+        
+        Block block1 = ((void (*)())&__main_block_impl_0((void *)__main_block_func_0, &__main_block_desc_0_DATA, two, (__Block_byref_one_0 *)&one, 570425344));
+        
         ((void (*)(__block_impl *))((__block_impl *)block1)->FuncPtr)((__block_impl *)block1);
     }
     return 0;
 }
-
-
 
 
 

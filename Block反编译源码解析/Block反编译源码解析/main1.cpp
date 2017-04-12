@@ -98,8 +98,13 @@ struct __NSContainer_literal {
 
 
 
+#ifdef __OBJC_EXPORT_BLOCKS
 extern "C" __declspec(dllimport) void * objc_autoreleasePoolPush(void);
 extern "C" __declspec(dllimport) void objc_autoreleasePoolPop(void *);
+#else
+__OBJC_RW_DLLIMPORT void * objc_autoreleasePoolPush(void);
+__OBJC_RW_DLLIMPORT void objc_autoreleasePoolPop(void *);
+#endif
 
 struct __AtAutoreleasePool {
   __AtAutoreleasePool() {atautoreleasepoolobj = objc_autoreleasePoolPush();}
@@ -121,51 +126,54 @@ struct __AtAutoreleasePool {
 //    return 0;
 //}
 
+/*
+ */
 struct __block_impl {
     void *isa;
     int Flags;
     int Reserved;
     void *FuncPtr;
 };
-
-struct __main_block_impl_0 {
-  struct __block_impl impl;
-  struct __main_block_desc_0* Desc;
-  __main_block_impl_0(void *fp, struct __main_block_desc_0 *desc, int flags=0) {
-    impl.isa = &_NSConcreteStackBlock;
-    impl.Flags = flags;
-    impl.FuncPtr = fp;
-    Desc = desc;
-  }
-};
-
-//__cself就是类似于OC的self，就是__main_block_impl_0结构体的指针
+/*__cself就是类似于OC的self，就是__main_block_impl_0结构体的指针。
+ 这个函数的实现其实就是block变量的具体实现
+ */
 static void __main_block_func_0(struct __main_block_impl_0 *__cself) {
 
         int i = 1;
 }
-
-
+/*
+ */
+struct __main_block_impl_0 {
+    struct __block_impl impl;
+    struct __main_block_desc_0* Desc;
+    __main_block_impl_0(void *fp, struct __main_block_desc_0 *desc, int flags=0) {
+        impl.isa = &_NSConcreteStackBlock;
+        impl.Flags = flags;
+        impl.FuncPtr = fp;
+        Desc = desc;
+    }
+};
+/*
+ 
+ */
 static struct __main_block_desc_0 {
   size_t reserved;
   size_t Block_size;
 } __main_block_desc_0_DATA = { 0, sizeof(struct __main_block_impl_0)};
-
-
-//这里是main函数的入口，这里没有变化。
+/*这里是main函数的入口，这里没有变化。
+ 
+*/
 int main() {
     
-    void (*blk)(void) = ((void (*)())&__main_block_impl_0((void *)__main_block_func_0, &__main_block_desc_0_DATA));
+//    void (*blk)(void) = ((void (*)())&__main_block_impl_0((void *)__main_block_func_0, &__main_block_desc_0_DATA));
+    //上面这句可以用下面这句替换
+    struct __main_block_impl_0 tmp = __main_block_impl_0((void *)__main_block_func_0, &__main_block_desc_0_DATA);
+    struct __main_block_impl_0 *blk = &tmp;
     
     ((void (*)(__block_impl *))((__block_impl *)blk)->FuncPtr)((__block_impl *)blk);
+
+    
     return 0;
 }
-
-
-
-
-
-
-
 
 static struct IMAGE_INFO { unsigned version; unsigned flag; } _OBJC_IMAGE_INFO = { 0, 2 };

@@ -78,6 +78,7 @@ __OBJC_RW_DLLIMPORT void *_NSConcreteStackBlock[32];
 
 #include <stdarg.h>
 #include <stddef.h>
+#include "stdio.h"
 
 struct __NSContainer_literal {
   void * *arr;
@@ -93,8 +94,13 @@ struct __NSContainer_literal {
 	delete[] arr;
   }
 };
+#ifdef __OBJC_EXPORT_BLOCKS
 extern "C" __declspec(dllimport) void * objc_autoreleasePoolPush(void);
 extern "C" __declspec(dllimport) void objc_autoreleasePoolPop(void *);
+#else
+__OBJC_RW_DLLIMPORT void * objc_autoreleasePoolPush(void);
+__OBJC_RW_DLLIMPORT void objc_autoreleasePoolPop(void *);
+#endif
 
 struct __AtAutoreleasePool {
   __AtAutoreleasePool() {atautoreleasepoolobj = objc_autoreleasePoolPush();}
@@ -148,7 +154,9 @@ static struct __main_block_desc_0 {
 
 
 int main() {
-    int (*blk)(int i) = ((int (*)(int))&__main_block_impl_0((void *)__main_block_func_0, &__main_block_desc_0_DATA));
+    //int (*blk)(int i) = ((int (*)(int))&__main_block_impl_0((void *)__main_block_func_0, &__main_block_desc_0_DATA));
+    struct __main_block_impl_0 tmp = __main_block_impl_0((void *)__main_block_func_0, &__main_block_desc_0_DATA);
+    struct __main_block_impl_0 *blk = &tmp;
     
     int blkRerurn = ((int (*)(__block_impl *, int))((__block_impl *)blk)->FuncPtr)((__block_impl *)blk, 3);
     return 0;

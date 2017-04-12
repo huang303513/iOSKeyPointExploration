@@ -11,6 +11,8 @@
 		4DDFEBB21E9DC5FC00003D44 /* main1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DDFEBAE1E9DC5FC00003D44 /* main1.cpp */; };
 		4DDFEBB31E9DC5FC00003D44 /* main2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DDFEBAF1E9DC5FC00003D44 /* main2.cpp */; };
 		4DDFEBB51E9DC5FC00003D44 /* main3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DDFEBB11E9DC5FC00003D44 /* main3.cpp */; };
+		4DDFEBB71E9DF29600003D44 /* main4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DDFEBB61E9DF29600003D44 /* main4.cpp */; };
+		4DDFEBB91E9DFAA800003D44 /* main5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DDFEBB81E9DFAA800003D44 /* main5.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,8 @@
 		4DDFEBAE1E9DC5FC00003D44 /* main1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main1.cpp; sourceTree = "<group>"; };
 		4DDFEBAF1E9DC5FC00003D44 /* main2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main2.cpp; sourceTree = "<group>"; };
 		4DDFEBB11E9DC5FC00003D44 /* main3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main3.cpp; sourceTree = "<group>"; };
+		4DDFEBB61E9DF29600003D44 /* main4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main4.cpp; sourceTree = "<group>"; };
+		4DDFEBB81E9DFAA800003D44 /* main5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main5.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 		4D0B1BF91E9D0BA500C8D906 /* Block反编译源码解析 */ = {
 			isa = PBXGroup;
 			children = (
+				4DDFEBB81E9DFAA800003D44 /* main5.cpp */,
+				4DDFEBB61E9DF29600003D44 /* main4.cpp */,
 				4DDFEBAE1E9DC5FC00003D44 /* main1.cpp */,
 				4DDFEBAF1E9DC5FC00003D44 /* main2.cpp */,
 				4DDFEBB11E9DC5FC00003D44 /* main3.cpp */,
@@ -128,9 +134,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DDFEBB91E9DFAA800003D44 /* main5.cpp in Sources */,
 				4DDFEBB31E9DC5FC00003D44 /* main2.cpp in Sources */,
 				4DDFEBB21E9DC5FC00003D44 /* main1.cpp in Sources */,
 				4DDFEBB51E9DC5FC00003D44 /* main3.cpp in Sources */,
+				4DDFEBB71E9DF29600003D44 /* main4.cpp in Sources */,
 				4D0B1BFB1E9D0BA500C8D906 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -13,13 +13,20 @@
 
 typedef void (^Block)();
 
+int global_val = 1;
+static int static_global_val = 2;
+
 int main() {
     
     @autoreleasepool {
-        __block int i = 1;
+        __block int one = 1;
+        static int static_val = 2;
         Block block1 = ^(){
-            i =  2;
-            printf("%d",i);
+            one =  2;
+            global_val = global_val + 1;
+            static_global_val = static_global_val + 1;
+            static_val = static_val + 1;
+            printf("%d--%d--%d--%d",one,global_val,static_global_val,static_val);
         };
         block1();
     }

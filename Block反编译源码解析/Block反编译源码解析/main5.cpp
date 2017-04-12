@@ -91,6 +91,7 @@ struct __NSContainer_literal {
 	delete[] arr;
   }
 };
+
 #ifdef __OBJC_EXPORT_BLOCKS
 extern "C" __declspec(dllimport) void * objc_autoreleasePoolPush(void);
 extern "C" __declspec(dllimport) void objc_autoreleasePoolPop(void *);
@@ -98,6 +99,7 @@ extern "C" __declspec(dllimport) void objc_autoreleasePoolPop(void *);
 __OBJC_RW_DLLIMPORT void * objc_autoreleasePoolPush(void);
 __OBJC_RW_DLLIMPORT void objc_autoreleasePoolPop(void *);
 #endif
+
 
 struct __AtAutoreleasePool {
   __AtAutoreleasePool() {atautoreleasepoolobj = objc_autoreleasePoolPush();}
@@ -501,31 +503,38 @@ FILE *funopen(const void *,
                  fpos_t (* _Nullable)(void *, fpos_t, int),
                  int (* _Nullable)(void *));
 }
+//=================================================关键代码开始==========================================
 
+/*
+#include "stdio.h"
 
-//=================================================关键代码开始===============================================
+typedef void (^Block)();
 
+int global_val = 1;
+static int static_global_val = 2;
 
-
-//#include "stdio.h"
-//
-//typedef void (^Block)();
-//
-//int main() {
-//    
-//    @autoreleasepool {
-//        __block int i = 1;
-//        Block block1 = ^(){
-//            i =  2;
-//            printf("%d",i);
-//        };
-//        block1();
-//    }
-//    return 0;
-//}
-
+int main() {
+    
+    @autoreleasepool {
+        __block int one = 1;
+        static int static_val = 2;
+        Block block1 = ^(){
+            one =  2;
+            global_val = global_val + 1;
+            static_global_val = static_global_val + 1;
+            static_val = static_val + 1;
+            printf("%d--%d--%d--%d",one,global_val,static_global_val,static_val);
+        };
+        block1();
+    }
+    return 0;
+}
+ */
 
 typedef void (*Block)();
+
+int global_val = 1;
+static int static_global_val = 2;
 
 struct __block_impl {
     void *isa;
@@ -534,23 +543,20 @@ struct __block_impl {
     void *FuncPtr;
 };
 
-
-struct __Block_byref_i_0 {
+struct __Block_byref_one_0 {
   void *__isa;
-__Block_byref_i_0 *__forwarding;
+__Block_byref_one_0 *__forwarding;
  int __flags;
  int __size;
- int i;
+ int one;
 };
-
-
-
 
 struct __main_block_impl_0 {
   struct __block_impl impl;
   struct __main_block_desc_0* Desc;
-  __Block_byref_i_0 *i; // by ref
-  __main_block_impl_0(void *fp, struct __main_block_desc_0 *desc, __Block_byref_i_0 *_i, int flags=0) : i(_i->__forwarding) {
+  int *static_val;
+  __Block_byref_one_0 *one; // by ref
+  __main_block_impl_0(void *fp, struct __main_block_desc_0 *desc, int *_static_val, __Block_byref_one_0 *_one, int flags=0) : static_val(_static_val), one(_one->__forwarding) {
     impl.isa = &_NSConcreteStackBlock;
     impl.Flags = flags;
     impl.FuncPtr = fp;
@@ -558,28 +564,23 @@ struct __main_block_impl_0 {
   }
 };
 
-
-
-
 static void __main_block_func_0(struct __main_block_impl_0 *__cself) {
-  __Block_byref_i_0 *i = __cself->i; // bound by ref
+  __Block_byref_one_0 *one = __cself->one; // bound by ref
+  int *static_val = __cself->static_val; // bound by copy
+    (one->__forwarding->one) = 2;
+    global_val = global_val + 1;
+    static_global_val = static_global_val + 1;
+    (*static_val) = (*static_val) + 1;
+    printf("%d--%d--%d--%d",(one->__forwarding->one),global_val,static_global_val,(*static_val));
+}
 
-            (i->__forwarding->i) = 2;
-            printf("%d",(i->__forwarding->i));
-        }
+static void __main_block_copy_0(struct __main_block_impl_0*dst, struct __main_block_impl_0*src) {
+    _Block_object_assign((void*)&dst->one, (void*)src->one, 8/*BLOCK_FIELD_IS_BYREF*/);
+}
 
-
-
-
-static void __main_block_copy_0(struct __main_block_impl_0*dst, struct __main_block_impl_0*src) {_Block_object_assign((void*)&dst->i, (void*)src->i, 8/*BLOCK_FIELD_IS_BYREF*/);}
-
-
-
-
-static void __main_block_dispose_0(struct __main_block_impl_0*src) {_Block_object_dispose((void*)src->i, 8/*BLOCK_FIELD_IS_BYREF*/);}
-
-
-
+static void __main_block_dispose_0(struct __main_block_impl_0*src) {
+    _Block_object_dispose((void*)src->one, 8/*BLOCK_FIELD_IS_BYREF*/);
+}
 
 static struct __main_block_desc_0 {
   size_t reserved;
@@ -589,32 +590,19 @@ static struct __main_block_desc_0 {
 } __main_block_desc_0_DATA = { 0, sizeof(struct __main_block_impl_0), __main_block_copy_0, __main_block_dispose_0};
 
 
-
 int main() {
-    //自动释放池开始
-     {__AtAutoreleasePool __autoreleasepool;
-         /*
-          
-          */
-        __attribute__((__blocks__(byref))) __Block_byref_i_0 i;
-        i = {(void*)0,(__Block_byref_i_0 *)&i, 0, sizeof(__Block_byref_i_0), 1};
-        /*
-         
-         */
-        //Block block1 = ((void (*)())&__main_block_impl_0((void *)__main_block_func_0, &__main_block_desc_0_DATA, (__Block_byref_i_0 *)&i, 570425344));
-         __main_block_impl_0 tmp = __main_block_impl_0((void *)__main_block_func_0, &__main_block_desc_0_DATA, (__Block_byref_i_0 *)&i, 570425344);
-         Block block1 = &tmp;
-         
-         /*
-          
-          */
+
+    /* @autoreleasepool */ { __AtAutoreleasePool __autoreleasepool; 
+        __attribute__((__blocks__(byref))) __Block_byref_one_0 one = {(void*)0,(__Block_byref_one_0 *)&one, 0, sizeof(__Block_byref_one_0), 1};
+        static int static_val = 2;
+        
+        //Block block1 = ((void (*)())&__main_block_impl_0((void *)__main_block_func_0, &__main_block_desc_0_DATA, &static_val, (__Block_byref_one_0 *)&one, 570425344));
+        //上面这行转换为下面这行
+        __main_block_impl_0 tmp = __main_block_impl_0((void *)__main_block_func_0, &__main_block_desc_0_DATA, &static_val, (__Block_byref_one_0 *)&one, 570425344);
+        Block block1 = (void (*)())&tmp;
+        
         ((void (*)(__block_impl *))((__block_impl *)block1)->FuncPtr)((__block_impl *)block1);
     }
     return 0;
 }
-
-
-
-
-
 static struct IMAGE_INFO { unsigned version; unsigned flag; } _OBJC_IMAGE_INFO = { 0, 2 };
