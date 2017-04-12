@@ -91,8 +91,14 @@ struct __NSContainer_literal {
 	delete[] arr;
   }
 };
+#ifdef __OBJC_EXPORT_BLOCKS
 extern "C" __declspec(dllimport) void * objc_autoreleasePoolPush(void);
 extern "C" __declspec(dllimport) void objc_autoreleasePoolPop(void *);
+#else
+__OBJC_RW_DLLIMPORT void * objc_autoreleasePoolPush(void);
+__OBJC_RW_DLLIMPORT void objc_autoreleasePoolPop(void *);
+#endif
+
 
 struct __AtAutoreleasePool {
   __AtAutoreleasePool() {atautoreleasepoolobj = objc_autoreleasePoolPush();}
@@ -553,10 +559,11 @@ static void __main_block_func_0(struct __main_block_impl_0 *__cself) {
   printf("%d--%d",(one->__forwarding->one),two);
 }
 
+//当我们复制block的时候。分别传入两个block的block变量的指针，然后做处理。
 static void __main_block_copy_0(struct __main_block_impl_0*dst, struct __main_block_impl_0*src) {
     _Block_object_assign((void*)&dst->one, (void*)src->one, 8);
 }
-
+//当我们销毁一个block后，估计会调用这个函数的block变量的指针，做销毁操作
 static void __main_block_dispose_0(struct __main_block_impl_0*src) {
     _Block_object_dispose((void*)src->one, 8);
 }
@@ -566,11 +573,11 @@ static struct __main_block_desc_0 {
   size_t Block_size;
   void (*copy)(struct __main_block_impl_0*, struct __main_block_impl_0*);
   void (*dispose)(struct __main_block_impl_0*);
-}
+};
 
 struct __main_block_desc_0 __main_block_desc_0_DATA = { 0, sizeof(struct __main_block_impl_0), __main_block_copy_0, __main_block_dispose_0};
 
-int main() {
+int main4() {
     /* @autoreleasepool */ { __AtAutoreleasePool __autoreleasepool; 
         __attribute__((__blocks__(byref))) __Block_byref_one_0 one = {(void*)0,(__Block_byref_one_0 *)&one, 0, sizeof(__Block_byref_one_0), 1};
         int two = 2;

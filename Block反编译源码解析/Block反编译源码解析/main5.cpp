@@ -505,14 +505,13 @@ FILE *funopen(const void *,
 }
 //=================================================关键代码开始==========================================
 
-/*
+
 #include "stdio.h"
 
 typedef void (^Block)();
 
 int global_val = 1;
 static int static_global_val = 2;
-
 int main() {
     
     @autoreleasepool {
@@ -529,10 +528,10 @@ int main() {
     }
     return 0;
 }
- */
+//==============上面是反编译以前的代码==================
 
 typedef void (*Block)();
-
+//全局变量和静态全局变量的用法没有任何转变。
 int global_val = 1;
 static int static_global_val = 2;
 
@@ -554,7 +553,7 @@ __Block_byref_one_0 *__forwarding;
 struct __main_block_impl_0 {
   struct __block_impl impl;
   struct __main_block_desc_0* Desc;
-  int *static_val;
+  int *static_val;//局部静态变量的指针作为结构体的一个属性
   __Block_byref_one_0 *one; // by ref
   __main_block_impl_0(void *fp, struct __main_block_desc_0 *desc, int *_static_val, __Block_byref_one_0 *_one, int flags=0) : static_val(_static_val), one(_one->__forwarding) {
     impl.isa = &_NSConcreteStackBlock;
@@ -589,9 +588,7 @@ static struct __main_block_desc_0 {
   void (*dispose)(struct __main_block_impl_0*);
 } __main_block_desc_0_DATA = { 0, sizeof(struct __main_block_impl_0), __main_block_copy_0, __main_block_dispose_0};
 
-
-int main() {
-
+int main5() {
     /* @autoreleasepool */ { __AtAutoreleasePool __autoreleasepool; 
         __attribute__((__blocks__(byref))) __Block_byref_one_0 one = {(void*)0,(__Block_byref_one_0 *)&one, 0, sizeof(__Block_byref_one_0), 1};
         static int static_val = 2;

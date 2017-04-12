@@ -507,24 +507,21 @@ FILE *funopen(const void *,
 
 
 
-//#include "stdio.h"
-//
-//typedef void (^Block)();
-//
-//int main() {
-//    
-//    @autoreleasepool {
-//        __block int i = 1;
-//        Block block1 = ^(){
-//            i =  2;
-//            printf("%d",i);
-//        };
-//        block1();
-//    }
-//    return 0;
-//}
-
-
+#include "stdio.h"
+#define NORMAL
+typedef void (^Block)();
+int main() {
+    @autoreleasepool {
+        __block int i = 1;
+        Block block1 = ^(){
+            i =  2;
+            printf("%d",i);
+        };
+        block1();
+    }
+    return 0;
+}
+//==============上面是反编译以前的代码==================
 typedef void (*Block)();
 
 struct __block_impl {
@@ -533,8 +530,7 @@ struct __block_impl {
     int Reserved;
     void *FuncPtr;
 };
-
-
+//这个结构体是专门为了__block变量i生成的。
 struct __Block_byref_i_0 {
   void *__isa;
 __Block_byref_i_0 *__forwarding;
@@ -542,14 +538,11 @@ __Block_byref_i_0 *__forwarding;
  int __size;
  int i;
 };
-
-
-
-
+//多了一个__Block_byref_i_0变量
 struct __main_block_impl_0 {
   struct __block_impl impl;
   struct __main_block_desc_0* Desc;
-  __Block_byref_i_0 *i; // by ref
+  __Block_byref_i_0 *i; // 多了一个i属性。block变量
   __main_block_impl_0(void *fp, struct __main_block_desc_0 *desc, __Block_byref_i_0 *_i, int flags=0) : i(_i->__forwarding) {
     impl.isa = &_NSConcreteStackBlock;
     impl.Flags = flags;
@@ -557,58 +550,54 @@ struct __main_block_impl_0 {
     Desc = desc;
   }
 };
-
-
-
-
+//Block的具体实现。从这里我们发现为啥改变i的值的猫腻。
 static void __main_block_func_0(struct __main_block_impl_0 *__cself) {
   __Block_byref_i_0 *i = __cself->i; // bound by ref
 
             (i->__forwarding->i) = 2;
             printf("%d",(i->__forwarding->i));
         }
-
-
-
-
-static void __main_block_copy_0(struct __main_block_impl_0*dst, struct __main_block_impl_0*src) {_Block_object_assign((void*)&dst->i, (void*)src->i, 8/*BLOCK_FIELD_IS_BYREF*/);}
-
-
-
-
-static void __main_block_dispose_0(struct __main_block_impl_0*src) {_Block_object_dispose((void*)src->i, 8/*BLOCK_FIELD_IS_BYREF*/);}
-
-
-
-
+//用于管理i变量的声明周期。复制一个block的时候，复制他对应的i变量。
+static void __main_block_copy_0(struct __main_block_impl_0*dst, struct __main_block_impl_0*src) {
+    
+    _Block_object_assign((void*)&dst->i, (void*)src->i, 8/*BLOCK_FIELD_IS_BYREF*/);
+}
+//用于管理i变量的声明周期
+static void __main_block_dispose_0(struct __main_block_impl_0*src) {
+    _Block_object_dispose((void*)src->i, 8/*BLOCK_FIELD_IS_BYREF*/);
+}
+//多了两个指针函数、
 static struct __main_block_desc_0 {
   size_t reserved;
   size_t Block_size;
   void (*copy)(struct __main_block_impl_0*, struct __main_block_impl_0*);
   void (*dispose)(struct __main_block_impl_0*);
-} __main_block_desc_0_DATA = { 0, sizeof(struct __main_block_impl_0), __main_block_copy_0, __main_block_dispose_0};
-
-
-
+};
+//实例变量
+ struct __main_block_desc_0 __main_block_desc_0_DATA = { 0, sizeof(struct __main_block_impl_0), __main_block_copy_0, __main_block_dispose_0};
+//入口
 int main() {
-    //自动释放池开始
+    //自动释放池，这里暂不管他
      {__AtAutoreleasePool __autoreleasepool;
-         /*
-          
-          */
-        __attribute__((__blocks__(byref))) __Block_byref_i_0 i;
-        i = {(void*)0,(__Block_byref_i_0 *)&i, 0, sizeof(__Block_byref_i_0), 1};
-        /*
          
-         */
-        //Block block1 = ((void (*)())&__main_block_impl_0((void *)__main_block_func_0, &__main_block_desc_0_DATA, (__Block_byref_i_0 *)&i, 570425344));
-         __main_block_impl_0 tmp = __main_block_impl_0((void *)__main_block_func_0, &__main_block_desc_0_DATA, (__Block_byref_i_0 *)&i, 570425344);
-         Block block1 = &tmp;
+#ifdef NORMAL
+     __attribute__((__blocks__(byref))) __Block_byref_i_0 i;
+     i = {(void*)0,(__Block_byref_i_0 *)&i, 0, sizeof(__Block_byref_i_0), 1};
          
-         /*
-          
-          */
-        ((void (*)(__block_impl *))((__block_impl *)block1)->FuncPtr)((__block_impl *)block1);
+      Block block1 = ((void (*)())&__main_block_impl_0((void *)__main_block_func_0, &__main_block_desc_0_DATA, (__Block_byref_i_0 *)&i, 570425344));
+         
+         ((void (*)(__block_impl *))((__block_impl *)block1)->FuncPtr)((__block_impl *)block1);
+#else
+         //定义一个__Block_byref_i_0结构体变量。并且初始化
+         __Block_byref_i_0 i;
+         i = {(void*)0,(__Block_byref_i_0 *)&i, 0, sizeof(__Block_byref_i_0), 1};
+       //定义一个__main_block_impl_0结构体变量，同时传入i的指针
+        __main_block_impl_0 tmp = __main_block_impl_0((void *)__main_block_func_0, &__main_block_desc_0_DATA, (__Block_byref_i_0 *)&i, 570425344);
+         //把结构体变量的指针赋值给block1对象
+        Block block1 = &tmp;
+         //调用解耦固体。就是OC里面的`block1()`
+         ((*block1->impl)->FuncPrt)(block1);
+#endif
     }
     return 0;
 }

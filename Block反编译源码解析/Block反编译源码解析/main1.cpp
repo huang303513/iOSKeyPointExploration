@@ -171,7 +171,8 @@ int main() {
     struct __main_block_impl_0 *blk = &tmp;
     
     ((void (*)(__block_impl *))((__block_impl *)blk)->FuncPtr)((__block_impl *)blk);
-
+    
+    //(*blk->impl.FuncPtr)(blk);
     
     return 0;
 }

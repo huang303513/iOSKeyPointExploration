@@ -114,51 +114,57 @@ struct __AtAutoreleasePool {
 
 //=================================================关键代码开始===============================================
 
-//
-//int main() {
-//    int (^blk)(int i) = ^(int i){
-//        int result =  i + 1;
-//        return result;
-//    };
-//    blk(3);
-//    return 0;
-//}
 
+int main() {
+    int (^blk)(int i) = ^(int i){
+        int result =  i + 1;
+        return result;
+    };
+    blk(3);
+    return 0;
+}
 
+//==============上面是反编译以前的代码==================
 struct __block_impl {
-    void *isa;
+    void *isa;//isa表明结构体类型。
     int Flags;
     int Reserved;
-    void *FuncPtr;
+    void *FuncPtr;//指向函数指针
 };
-
+//这个结构体及时Block反编译以后生成的主要结构。
 struct __main_block_impl_0 {
   struct __block_impl impl;
   struct __main_block_desc_0* Desc;
+    //初始化函数
   __main_block_impl_0(void *fp, struct __main_block_desc_0 *desc, int flags=0) {
-    impl.isa = &_NSConcreteStackBlock;
+    impl.isa = &_NSConcreteStackBlock;//表示这个Block是存储于栈上。
     impl.Flags = flags;
-    impl.FuncPtr = fp;
+    impl.FuncPtr = fp;//函数指针赋值
     Desc = desc;
   }
 };
+//这个函数就是Block的具体实现，并且添加了一个默认实现。
 static int __main_block_func_0(struct __main_block_impl_0 *__cself, int i) {
     int result = i + 1;
     return result;
 }
-
+//Block的描述信息
 static struct __main_block_desc_0 {
   size_t reserved;
   size_t Block_size;
-} __main_block_desc_0_DATA = { 0, sizeof(struct __main_block_impl_0)};
+};
+//__main_block_desc_0的一个实例，其中Block_size初始化为__main_block_impl_0结构体的大小。
+struct __main_block_desc_0 __main_block_desc_0_DATA = { 0, sizeof(struct __main_block_impl_0)};
 
-
-int main() {
+int main2() {
     //int (*blk)(int i) = ((int (*)(int))&__main_block_impl_0((void *)__main_block_func_0, &__main_block_desc_0_DATA));
+    //上面一行转换为下面两行等价
     struct __main_block_impl_0 tmp = __main_block_impl_0((void *)__main_block_func_0, &__main_block_desc_0_DATA);
     struct __main_block_impl_0 *blk = &tmp;
     
-    int blkRerurn = ((int (*)(__block_impl *, int))((__block_impl *)blk)->FuncPtr)((__block_impl *)blk, 3);
+    //int blkRerurn = ((int (*)(__block_impl *, int))((__block_impl *)blk)->FuncPtr)((__block_impl *)blk, 3);
+    //下面一行是上面一行的简化版
+    (*blk->impl.FuncPtr)(blk,3);
     return 0;
 }
 
