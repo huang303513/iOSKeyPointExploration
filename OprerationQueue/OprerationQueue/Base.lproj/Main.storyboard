@@ -1,25 +1,73 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uy9-1g-ao8">
+                                <rect key="frame" x="81.5" y="185" width="157" height="30"/>
+                                <state key="normal" title="NSBlockOperation调用"/>
+                                <connections>
+                                    <action selector="testNSBlockOperation:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gTj-Z2-2x0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sU4-PY-bpa">
+                                <rect key="frame" x="87.5" y="264" width="145" height="30"/>
+                                <state key="normal" title="自定义并发Operation"/>
+                                <connections>
+                                    <action selector="testCustomConcurrentOperation:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="iuI-dj-yMc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VXW-Ha-sFf">
+                                <rect key="frame" x="79.5" y="361" width="160" height="30"/>
+                                <state key="normal" title="自定义非并发Operation"/>
+                                <connections>
+                                    <action selector="testCustomNoConcurrentOperation:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="mac-3J-JAv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8LO-Gz-KnP">
+                                <rect key="frame" x="56" y="105" width="207" height="30"/>
+                                <state key="normal" title="NSInvocationOperation调用"/>
+                                <connections>
+                                    <action selector="testNSInvocationOperation:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="1Z5-08-pml"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="uy9-1g-ao8" firstAttribute="centerX" secondItem="8LO-Gz-KnP" secondAttribute="centerX" id="1Ay-ni-DeK"/>
+                            <constraint firstItem="VXW-Ha-sFf" firstAttribute="top" secondItem="sU4-PY-bpa" secondAttribute="bottom" constant="67" id="Fgz-6O-fBi"/>
+                            <constraint firstItem="8LO-Gz-KnP" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="89" id="MZU-vp-uvO"/>
+                            <constraint firstItem="sU4-PY-bpa" firstAttribute="top" secondItem="uy9-1g-ao8" secondAttribute="bottom" constant="49" id="ZB2-q8-3Pn"/>
+                            <constraint firstItem="sU4-PY-bpa" firstAttribute="centerX" secondItem="uy9-1g-ao8" secondAttribute="centerX" id="bFe-HT-SAP"/>
+                            <constraint firstItem="8LO-Gz-KnP" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="61" id="fFC-bC-8d3"/>
+                            <constraint firstItem="VXW-Ha-sFf" firstAttribute="centerX" secondItem="sU4-PY-bpa" secondAttribute="centerX" id="hWw-ja-J3Z"/>
+                            <constraint firstItem="8LO-Gz-KnP" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="kEd-s6-ODy"/>
+                            <constraint firstItem="uy9-1g-ao8" firstAttribute="top" secondItem="8LO-Gz-KnP" secondAttribute="bottom" constant="46" id="ojq-Ze-006"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-223.125" y="38.75"/>
         </scene>
     </scenes>
 </document>

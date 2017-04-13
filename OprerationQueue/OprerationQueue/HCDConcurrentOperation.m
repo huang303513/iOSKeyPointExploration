@@ -58,7 +58,6 @@
 - (void)main{
     @try {
         //NSLog(@"Start executing %@, mainThread: %@, currentThread: %@", NSStringFromSelector(_cmd), [NSThread mainThread], [NSThread currentThread]);
-        
         //异步请求并不会阻塞操作的完成。。
         [NSURLConnection sendAsynchronousRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://7xidnq.com1.z0.glb.clouddn.com/2015-09-24_16:52:41_3WvCCI5l.jpg"]] queue:[[NSOperationQueue alloc]init] completionHandler:^(NSURLResponse * _Nullable response, NSData * _Nullable data, NSError * _Nullable connectionError) {
             NSLog(@"网络异步请求结束");
@@ -69,16 +68,7 @@
             [self willChangeValueForKey:@"isFinished"];
             _finished  = YES;//只有这个属性是YES以后，这个并发操作才算完成了。
             [self didChangeValueForKey:@"isFinished"];
-
         }];
-        
-        //同步请求会阻塞操作的完成。
-        //        NSData *retureData = [NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://7xidnq.com1.z0.glb.clouddn.com/2015-09-24_16:52:41_3WvCCI5l.jpg"]];
-        //
-        //        if (retureData) {
-        //            NSLog(@"同步请求返回");
-        //        }
-
     }
     @catch (NSException *exception) {
         NSLog(@"Exception: %@", exception);

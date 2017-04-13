@@ -29,15 +29,25 @@
      
      只有第四种operaiton可以手动启动。
      */
-    //================================================
-    //[self FVC_excuteInvocationOperation];
-    //================================================
-    //[self FVC_excuteBlockOperation];
-    //===========================================
-    //[self FVC_excuteNonCurrentOperation];
-    //==========================================
+}
+
+- (IBAction)testNSInvocationOperation:(id)sender {
+    [self FVC_excuteInvocationOperation];
+}
+
+- (IBAction)testNSBlockOperation:(id)sender {
+    [self FVC_excuteBlockOperation];
+}
+
+- (IBAction)testCustomConcurrentOperation:(id)sender {
     [self FVC_executeCurrentOperation];
 }
+
+- (IBAction)testCustomNoConcurrentOperation:(id)sender {
+    [self FVC_excuteNonCurrentOperation];
+}
+
+
 
 /**
  *  ，如果你想要手动地执行一个 operation ，又想这个 operation 能够异步执行的话，你需要做一些额外的配置来让你的 operation 支持并发执行。
@@ -74,7 +84,7 @@
     NSOperationQueue *queue = [[NSOperationQueue alloc]init];
     [queue addOperation:blockOperation];
     [queue addOperationWithBlock:^{
-        NSLog(@"当前线程%@",[NSThread currentThread]);
+        NSLog(@"NSBlockOperation,执行完毕当前线程%@",[NSThread currentThread]);
     }];
     NSLog(@"NSBlockOperation是异步执行");
 }
@@ -84,16 +94,20 @@
     HCDCreateInvocationOperation *createInvocationOperation = [[HCDCreateInvocationOperation alloc] init];
     
     NSData *data = [@"hello world" dataUsingEncoding:NSUTF8StringEncoding];
-    NSInvocationOperation *invocationOperation = [createInvocationOperation invocationOperationWithData:data];
-    //NSInvocationOperation *invocationOperationWithSelecter = [createInvocationOperation invocationOperationWithData:data userInput:@"myTaskMethod2"];
+    //NSInvocationOperation *invocationOperation = [createInvocationOperation invocationOperationWithData:data];
+    NSInvocationOperation *invocationOperationWithSelecter = [createInvocationOperation invocationOperationWithData:data userInput:@"myTaskMethod1"];
     
     NSOperationQueue *queue = [[NSOperationQueue alloc]init];
-    [queue addOperation:invocationOperation];
-    //[queue addOperation:invocationOperationWithSelecter];
+    //[queue addOperation:invocationOperation];
+    [queue addOperation:invocationOperationWithSelecter];
     [queue addOperationWithBlock:^{
-        NSLog(@"当前线程%@",[NSThread currentThread]);
+        sleep(5);
+        NSLog(@"operation1执行完毕%@",[NSThread currentThread]);
     }];
-    NSLog(@"NSInvocationOperation是异步执行");
+    [queue addOperationWithBlock:^{
+        NSLog(@"operation2执行完毕%@",[NSThread currentThread]);
+    }];
+    NSLog(@"NSOperationQueue里面的NSInvocationOperation不会阻塞当前线程");
 }
 
 
