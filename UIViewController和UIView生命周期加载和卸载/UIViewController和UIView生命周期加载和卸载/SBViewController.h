@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface SBViewController : UIViewController
-
+-(instancetype)initWithCustom;
 @end

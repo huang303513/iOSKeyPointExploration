@@ -42,27 +42,22 @@
 
 
 - (IBAction)loadControllerWithNone:(id)sender {
-    CodeViewController *codeVC = [[CodeViewController alloc]init];
+    CodeViewController *codeVC = [[CodeViewController alloc]initWithNibName:nil bundle:nil];
     [self.navigationController pushViewController:codeVC animated:YES];
     
 }
 
 - (IBAction)loadViewFromXib:(id)sender {
-    
-    
     XibView *xibView = [[[NSBundle mainBundle]loadNibNamed:@"XIBView" owner:self options:nil] lastObject];
-    
     [self.view addSubview:xibView];
 }
 
 
 - (IBAction)loadViewWithNone:(id)sender {
-    
     CodeView *codeView = [[CodeView alloc]init];
     codeView.backgroundColor = [UIColor greenColor];
     codeView.frame = CGRectMake(0, 500, 100, 50);
     [self.view addSubview:codeView];
-    
 }
 
 

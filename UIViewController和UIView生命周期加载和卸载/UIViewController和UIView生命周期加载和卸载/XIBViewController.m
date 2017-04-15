@@ -37,12 +37,12 @@
     [super awakeFromNib];
     NSLog(@"awakeFromNib");
 }
-/*
+
 -(void)loadView{
     [super loadView];
     NSLog(@"loadView");
 }
- */
+
 
 -(void)loadViewIfNeeded{
     [super loadViewIfNeeded];

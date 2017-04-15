@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "UIViewController&#x548c;UIView&#x751f;&#x547d;&#x5468;&#x671f;&#x52a0;&#x8f7d;&#x548c;&#x5378;&#x8f7d;/ViewController.m"
-            timestampString = "513920689.033685"
+            timestampString = "513923738.48118"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
             landmarkName = "-loadViewFromXib:"
             landmarkType = "7">
          </BreakpointContent>

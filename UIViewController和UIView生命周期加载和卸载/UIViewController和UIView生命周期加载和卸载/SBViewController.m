@@ -14,6 +14,11 @@
 
 @implementation SBViewController
 
+-(instancetype)initWithCustom{
+    self = [super init];
+    return self;
+}
+
 -(instancetype)init{
     self =[super init];
     NSLog(@"init");

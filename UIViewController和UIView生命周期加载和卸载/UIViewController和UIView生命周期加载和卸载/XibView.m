@@ -32,6 +32,12 @@
 
 -(void)awakeFromNib{
     [super awakeFromNib];
+    UIView *view = [[UIView alloc]initWithFrame:CGRectMake(0, 100, 100, 50)];
+    view.backgroundColor = [UIColor greenColor];
+    [self addSubview:view];
+    UIView *view1 = [[UIView alloc]initWithFrame:CGRectMake(0, 200, 100, 50)];
+    view1.backgroundColor = [UIColor redColor];
+    [self addSubview:view1];
     NSLog(@"awakeFromNib");
 }
 
