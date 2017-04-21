@@ -32,6 +32,8 @@ IOS的调试技巧和instruments的使用。</br>
 
 ##iOS原生代码与html5交互
 
+[iOS的Cookie存取看我绝对够](http://www.jianshu.com/p/d2c478bbcca5)</br>
+[iOS之WKWebView 的Cookie读取与注入 同步登陆番外篇](http://www.jianshu.com/p/fd47847c53f9)</br>
 ![WebViewJavascriptBridge原理解析](http://huang303513.github.io/2017/04/01/WebViewJavascriptBridge%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90.html)</br>
 ![iOS的WebView的Cookie使用](http://www.jianshu.com/p/d2c478bbcca5)</br>
 ![如何准确判断 WebView 加载完成](http://www.cocoachina.com/ios/20170314/18881.html)</br>
