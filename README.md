@@ -9,6 +9,7 @@
 [利用Runtime自定义控制器POP手势动画1](http://www.jianshu.com/p/d39f7d22db6c#fn_link_1)</br>
 [利用Runtime自定义控制器POP手势动画2](https://github.com/forkingdog/FDFullscreenPopGesture)</br>
 [跟着MJExtension实现简单的字典转模型框架](http://www.jianshu.com/p/d2ecef03f19e)</br>
+[基于runloop的线程保活、销毁与通信](http://www.jianshu.com/p/4d5b6fc33519)</br>
 
 ###KVC&&KVO&&Notification</br>
 [KVC的实现流程以及比特用法1](http://www.jianshu.com/p/d12dba8d686c)</br>
