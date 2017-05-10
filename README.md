@@ -1,5 +1,5 @@
 ## GCD系列、Operation、内存管理、Block、H5交互、KVC、KVO、Notification、响应链、模型解析、图片缓存处理、UI优化、调试。</br>
-## 每一个Demo里面都包含了对于的参考博文或者资料地址。有些参考与书籍。</br>
+## 源码与博客有对应关系，建议通过源码和博客一起相互对比，效果更佳</br>
 
 ###综合</br>
 [iOS App 签名的原理 ](http://wereadteam.github.io/2017/03/13/Signature/)</br>
@@ -41,9 +41,9 @@
 [Java​Script​Core详解](http://nshipster.cn/javascriptcore/)</br>
 [截取本地URL请求(NSURLProtocol)](http://blog.csdn.net/majiakun1/article/details/46357359)</br>
 [客户端离线缓存策略(NSURLProtocol)](http://blog.csdn.net/majiakun1/article/details/46357409)</br>
-![WebViewJavascriptBridge原理解析](https://huang303513.github.io/2017/04/01/WebViewJavascriptBridge%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90.html)</br>
-![iOS的WebView的Cookie使用](http://www.jianshu.com/p/d2c478bbcca5)</br>
-![如何准确判断 WebView 加载完成](http://www.cocoachina.com/ios/20170314/18881.html)</br>
+[WebViewJavascriptBridge原理解析](https://huang303513.github.io/2017/04/01/WebViewJavascriptBridge%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90.html)</br>
+[iOS的WebView的Cookie使用](http://www.jianshu.com/p/d2c478bbcca5)</br>
+[如何准确判断 WebView 加载完成](http://www.cocoachina.com/ios/20170314/18881.html)</br>
 
 ##UI</br>
 [25条提高iOS App性能的技巧和诀窍](http://www.open-open.com/lib/view/open1365861753734.html)</br>
