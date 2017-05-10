@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D0DC8DF1EC2C3BB0001A883 /* Poster.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0DC8DE1EC2C3BB0001A883 /* Poster.m */; };
+		4D0DC8E21EC2C4570001A883 /* Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0DC8E11EC2C4570001A883 /* Observer.m */; };
 		DD219A441BA8199100BCB442 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD219A431BA8199100BCB442 /* main.m */; };
 		DD219A471BA8199100BCB442 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD219A461BA8199100BCB442 /* AppDelegate.m */; };
 		DD219A4A1BA8199100BCB442 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD219A491BA8199100BCB442 /* ViewController.m */; };
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D0DC8DD1EC2C3BB0001A883 /* Poster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Poster.h; sourceTree = "<group>"; };
+		4D0DC8DE1EC2C3BB0001A883 /* Poster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Poster.m; sourceTree = "<group>"; };
+		4D0DC8E01EC2C4570001A883 /* Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
+		4D0DC8E11EC2C4570001A883 /* Observer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Observer.m; sourceTree = "<group>"; };
 		DD219A3E1BA8199100BCB442 /* Notification与多线程以及Notification安全.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notification与多线程以及Notification安全.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD219A421BA8199100BCB442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD219A431BA8199100BCB442 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +95,10 @@
 				DD219A4E1BA8199100BCB442 /* Images.xcassets */,
 				DD219A501BA8199100BCB442 /* LaunchScreen.xib */,
 				DD219A411BA8199100BCB442 /* Supporting Files */,
+				4D0DC8DD1EC2C3BB0001A883 /* Poster.h */,
+				4D0DC8DE1EC2C3BB0001A883 /* Poster.m */,
+				4D0DC8E01EC2C4570001A883 /* Observer.h */,
+				4D0DC8E11EC2C4570001A883 /* Observer.m */,
 			);
 			path = "Notification与多线程以及Notification安全";
 			sourceTree = "<group>";
@@ -219,7 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D0DC8DF1EC2C3BB0001A883 /* Poster.m in Sources */,
 				DD219A4A1BA8199100BCB442 /* ViewController.m in Sources */,
+				4D0DC8E21EC2C4570001A883 /* Observer.m in Sources */,
 				DD219A471BA8199100BCB442 /* AppDelegate.m in Sources */,
 				DD219A441BA8199100BCB442 /* main.m in Sources */,
 			);
@@ -416,6 +428,7 @@
 				DD219A631BA8199100BCB442 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD219A641BA8199100BCB442 /* Build configuration list for PBXNativeTarget "Notification与多线程以及Notification安全Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				DD219A661BA8199100BCB442 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

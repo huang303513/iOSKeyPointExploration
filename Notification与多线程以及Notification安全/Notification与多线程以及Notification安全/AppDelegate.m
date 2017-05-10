@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#warning 参考博客地址：http://southpeak.github.io/blog/2015/03/14/nsnotificationyu-duo-xian-cheng/
+#warning 参考博客地址1：http://southpeak.github.io/2015/03/14/nsnotification-and-multithreading/
 
 
 @interface AppDelegate ()
