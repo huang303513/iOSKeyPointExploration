@@ -7,8 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#warning 参考博文地址：http://www.superqq.com/blog/2015/04/23/iosyong-hu-dian-ji-shi-jian-chu-li/
-#warning http://southpeak.github.io/blog/2015/03/07/uiresponder/
+
+
 @interface AppDelegate ()
 
 @end

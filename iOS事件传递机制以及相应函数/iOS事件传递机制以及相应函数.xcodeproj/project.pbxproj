@@ -7,17 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D0DC8E51EC313B10001A883 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0DC8E41EC313B10001A883 /* FirstViewController.m */; };
+		4D0DC8EB1EC313C90001A883 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0DC8EA1EC313C90001A883 /* ThirdViewController.m */; };
+		4D0DC8EE1EC314740001A883 /* WSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0DC8ED1EC314740001A883 /* WSView.m */; };
 		DDC397AA1BAC40F700C5A5F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC397A91BAC40F700C5A5F5 /* main.m */; };
 		DDC397AD1BAC40F700C5A5F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC397AC1BAC40F700C5A5F5 /* AppDelegate.m */; };
 		DDC397B01BAC40F700C5A5F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC397AF1BAC40F700C5A5F5 /* ViewController.m */; };
 		DDC397B31BAC40F700C5A5F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC397B11BAC40F700C5A5F5 /* Main.storyboard */; };
 		DDC397B51BAC40F700C5A5F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC397B41BAC40F700C5A5F5 /* Assets.xcassets */; };
 		DDC397B81BAC40F700C5A5F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC397B61BAC40F700C5A5F5 /* LaunchScreen.storyboard */; };
-		DDC397C11BAC486C00C5A5F5 /* LGSecondView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC397C01BAC486C00C5A5F5 /* LGSecondView.m */; settings = {ASSET_TAGS = (); }; };
-		DDC397C41BAC498200C5A5F5 /* LGFirstView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC397C31BAC498200C5A5F5 /* LGFirstView.m */; settings = {ASSET_TAGS = (); }; };
+		DDC397C11BAC486C00C5A5F5 /* LGSecondView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC397C01BAC486C00C5A5F5 /* LGSecondView.m */; };
+		DDC397C41BAC498200C5A5F5 /* LGFirstView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC397C31BAC498200C5A5F5 /* LGFirstView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D0DC8E31EC313B10001A883 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		4D0DC8E41EC313B10001A883 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		4D0DC8E91EC313C90001A883 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		4D0DC8EA1EC313C90001A883 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		4D0DC8EC1EC314740001A883 /* WSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSView.h; sourceTree = "<group>"; };
+		4D0DC8ED1EC314740001A883 /* WSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSView.m; sourceTree = "<group>"; };
 		DDC397A51BAC40F700C5A5F5 /* iOS事件传递机制以及相应函数.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS事件传递机制以及相应函数.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC397A91BAC40F700C5A5F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DDC397AB1BAC40F700C5A5F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -77,6 +86,12 @@
 				DDC397C01BAC486C00C5A5F5 /* LGSecondView.m */,
 				DDC397C21BAC498200C5A5F5 /* LGFirstView.h */,
 				DDC397C31BAC498200C5A5F5 /* LGFirstView.m */,
+				4D0DC8E31EC313B10001A883 /* FirstViewController.h */,
+				4D0DC8E41EC313B10001A883 /* FirstViewController.m */,
+				4D0DC8E91EC313C90001A883 /* ThirdViewController.h */,
+				4D0DC8EA1EC313C90001A883 /* ThirdViewController.m */,
+				4D0DC8EC1EC314740001A883 /* WSView.h */,
+				4D0DC8ED1EC314740001A883 /* WSView.m */,
 			);
 			path = "iOS事件传递机制以及相应函数";
 			sourceTree = "<group>";
@@ -160,6 +175,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDC397B01BAC40F700C5A5F5 /* ViewController.m in Sources */,
+				4D0DC8E51EC313B10001A883 /* FirstViewController.m in Sources */,
+				4D0DC8EE1EC314740001A883 /* WSView.m in Sources */,
+				4D0DC8EB1EC313C90001A883 /* ThirdViewController.m in Sources */,
 				DDC397C41BAC498200C5A5F5 /* LGFirstView.m in Sources */,
 				DDC397AD1BAC40F700C5A5F5 /* AppDelegate.m in Sources */,
 				DDC397AA1BAC40F700C5A5F5 /* main.m in Sources */,
@@ -310,6 +328,7 @@
 				DDC397BE1BAC40F700C5A5F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

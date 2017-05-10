@@ -16,10 +16,10 @@
 - (id)initWithFrame:(CGRect)frame
 {
     if (self = [super initWithFrame:frame]) {
-        UIButton *buttonFirst = [UIButton buttonWithType:UIButtonTypeCustom];
-        buttonFirst.frame = CGRectMake(20, 20, 100, 50);
-        [buttonFirst setTitle:@"first" forState:UIControlStateNormal];
-        [buttonFirst setBackgroundColor:[UIColor orangeColor]];
+        UIButton *buttonFirst = [[UIButton alloc]init];
+        buttonFirst.frame = CGRectMake(20, 20, 150, 50);
+        [buttonFirst setTitle:@"firstBUtton" forState:UIControlStateNormal];
+        [buttonFirst setBackgroundColor:[UIColor blueColor]];
         [buttonFirst setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [self addSubview:buttonFirst];
         [buttonFirst addTarget:self action:@selector(actionButtonFirstClick:) forControlEvents:UIControlEventTouchUpInside];
