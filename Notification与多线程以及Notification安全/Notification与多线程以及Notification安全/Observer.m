@@ -23,6 +23,15 @@
         //初始化一个Poster对象就会自动在非主线发送一个通知
         _poster = [[Poster alloc] init];
         
+        /*
+         notificationObserver不能为nil。
+         notificationSelector回调方法有且只有一个参数(NSNotification对象)。
+         如果notificationName为nil，则会接收所有的通知(如果notificationSender不为空，则接收所有来自于notificationSender的所有通知)。如代码清单1所示。
+         如果notificationSender为nil，则会接收所有notificationName定义的通知；否则，接收由notificationSender发送的通知。
+         监听同一条通知的多个观察者，在通知到达时，它们执行回调的顺序是不确定的，所以我们不能去假设操作的执行会按照添加观察者的顺序来执行
+         */
+        //这个对象为观察者、监听所有的通知
+
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleNotification:) name:TEST_NOTIFICATION object:nil];
         
     }

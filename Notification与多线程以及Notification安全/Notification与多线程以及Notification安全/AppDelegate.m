@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #warning 参考博客地址1：http://southpeak.github.io/2015/03/14/nsnotification-and-multithreading/
-
+#warning 参考博客地址2: http://southpeak.github.io/2015/03/20/cocoa-foundation-nsnotificationcenter/
 
 @interface AppDelegate ()
 

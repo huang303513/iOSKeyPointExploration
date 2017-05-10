@@ -37,6 +37,14 @@
                                     <action selector="clickButton2:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="YiD-72-UGC"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H9X-QB-fvx">
+                                <rect key="frame" x="110" y="274" width="115" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Block类型的通知"/>
+                                <connections>
+                                    <action selector="clickButton3:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Ngf-15-3pT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
