@@ -23,11 +23,10 @@
 [史上最详细的iOS之事件的传递和响应机制](http://www.jianshu.com/p/2e074db792ba)</br>
 [iOS 触摸事件的流动](https://juejin.im/entry/58bbb8528ac247359819e45d)</br>
 [iOS事件传递机制以及相应函数1](http://www.superqq.com/blog/2015/04/23/iosyong-hu-dian-ji-shi-jian-chu-li/)</br>
-[iOS事件传递机制以及相应函数2](http://southpeak.github.io/2015/03/07/cocoa-uikit-uiresponder/)</br>
+[UIControl的点击事件处理](http://southpeak.github.io/2015/12/13/cocoa-uikit-uicontrol/)</br>
 
-###深入理解UITableView</br>
+###UITableView</br>
 [自定义UITableView](http://www.jianshu.com/p/bc0a55e9b09b)</br>
-[参考Demo地址](https://github.com/iThinkerYZ/YZTableView)</br>
 [UITableView深入理解](http://blog.jobbole.com/70143/)</br>
 
 ###IOS的调试技巧和instruments的使用</br>
@@ -43,12 +42,12 @@
 [客户端离线缓存策略(NSURLProtocol)](http://blog.csdn.net/majiakun1/article/details/46357409)</br>
 [WebViewJavascriptBridge原理解析](https://huang303513.github.io/2017/04/01/WebViewJavascriptBridge%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90.html)</br>
 [iOS的WebView的Cookie使用](http://www.jianshu.com/p/d2c478bbcca5)</br>
-[如何准确判断 WebView 加载完成](http://www.cocoachina.com/ios/20170314/18881.html)</br>
+[如何准确判断WebView加载完成](http://www.cocoachina.com/ios/20170314/18881.html)</br>
 
 ##UI</br>
 [25条提高iOS App性能的技巧和诀窍](http://www.open-open.com/lib/view/open1365861753734.html)</br>
 [手把手教你使用UICollectionView写公司的项目](http://www.jianshu.com/p/cf616f73d596)</br>
-[详解CALayer 和 UIView的区别和联系](http://www.jianshu.com/p/079e5cf0f014)
+[详解CALayer 和 UIView的区别和联系](http://www.jianshu.com/p/079e5cf0f014)</br>
 [UIViewController和UIView不同加载方式的生命周期函数](http://www.jianshu.com/p/73879a117d2d)</br>
 [类似微博下拉图片放大、上拉隐藏的实现原理](http://www.jianshu.com/p/144cc0383daa)</br>
 
