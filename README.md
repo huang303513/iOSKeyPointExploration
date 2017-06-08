@@ -81,3 +81,33 @@
 ###Socket编程英文文档的翻译</br>
 [套接字基础](https://github.com/huang303513/translateOfAppleDocument/blob/master/%E5%A5%97%E6%8E%A5%E5%AD%97%E5%9F%BA%E7%A1%80.md)</br>
 [URLSession生命周期](https://github.com/huang303513/translateOfAppleDocument/blob/master/URLSession%20%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.md)
+
+
+## iOS动画相关
+
+[加载动画之牛顿摆的实现](http://lib.csdn.net/article/ios/36934)</br>
+
+##:关于图层
+</br>
+  ![image](https://github.com/huang303513/iOSKeyPointExploration/blob/master/screenshot/%E5%9B%BE%E5%B1%82%E7%9B%B8%E5%85%B3%E7%9F%A5%E8%AF%86%E2%80%94%E2%80%941%EF%BC%8C2%EF%BC%8C3%E7%AB%A0/%E5%9B%BE%E5%B1%82%E7%9B%B8%E5%85%B3123%E7%AB%A0.gif)
+</br>
+##:动画缓冲
+</br>
+ ![image](https://github.com/huang303513/iOSKeyPointExploration/blob/master/screenshot/%E5%8A%A8%E7%94%BB%E7%BC%93%E5%86%B2/%E5%8A%A8%E7%94%BB%E7%BC%93%E5%86%B2.gif)
+</br>
+##:专用图层
+</br>
+![image](https://github.com/huang303513/iOSKeyPointExploration/blob/master/screenshot/%E4%B8%93%E7%94%A8%E5%9B%BE%E5%B1%82.gif)
+</br>
+##:图片实现时钟
+</br>
+![image](https://github.com/huang303513/iOSKeyPointExploration/blob/master/screenshot/%E6%97%B6%E9%92%9F.gif)
+</br>
+##:显式动画
+</br>
+![image](https://github.com/huang303513/iOSKeyPointExploration/blob/master/screenshot/%E6%98%BE%E5%BC%8F%E5%8A%A8%E7%94%BB.gif)
+</br>
+##:视图动画
+</br>
+![image](https://github.com/huang303513/iOSKeyPointExploration/blob/master/screenshot/%E8%A7%86%E5%9B%BE%E5%8A%A8%E7%94%BB.gif)
+</br>
