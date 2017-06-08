@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B011851D-7A58-4E69-B9C3-F12334D1D357</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Care Animation实现时钟</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EBCF668A5D1AFBA8C4BDD7AEBBDCA7918188728F</key>
+		<string>https://github.com/huang303513/HCDClick.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Care Animation实现时钟/Care Animation实现时钟.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EBCF668A5D1AFBA8C4BDD7AEBBDCA7918188728F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/huang303513/HCDClick.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EBCF668A5D1AFBA8C4BDD7AEBBDCA7918188728F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EBCF668A5D1AFBA8C4BDD7AEBBDCA7918188728F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HCDClick</string>
+		</dict>
+	</array>
+</dict>
+</plist>

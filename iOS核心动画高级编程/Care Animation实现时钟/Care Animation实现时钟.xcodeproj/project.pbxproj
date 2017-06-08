@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B09D3E31B3BE12200C3F35B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B09D3E21B3BE12200C3F35B /* Main.storyboard */; };
+		7B17E9751B3BDEB4007F65F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B17E9741B3BDEB4007F65F7 /* main.m */; };
+		7B17E9781B3BDEB4007F65F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B17E9771B3BDEB4007F65F7 /* AppDelegate.m */; };
+		7B17E9801B3BDEB4007F65F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B17E97F1B3BDEB4007F65F7 /* Images.xcassets */; };
+		7B17E9831B3BDEB4007F65F7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B17E9811B3BDEB4007F65F7 /* LaunchScreen.xib */; };
+		7B17E98F1B3BDEB5007F65F7 /* Care_Animation____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B17E98E1B3BDEB5007F65F7 /* Care_Animation____Tests.m */; };
+		7B17E9A01B3BDEDE007F65F7 /* ClockFace.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B17E9981B3BDEDE007F65F7 /* ClockFace.png */; };
+		7B17E9A11B3BDEDE007F65F7 /* ClockFace@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B17E9991B3BDEDE007F65F7 /* ClockFace@2x.png */; };
+		7B17E9A21B3BDEDE007F65F7 /* HourHand.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B17E99A1B3BDEDE007F65F7 /* HourHand.png */; };
+		7B17E9A31B3BDEDE007F65F7 /* HourHand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B17E99B1B3BDEDE007F65F7 /* HourHand@2x.png */; };
+		7B17E9A41B3BDEDE007F65F7 /* MinuteHand.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B17E99C1B3BDEDE007F65F7 /* MinuteHand.png */; };
+		7B17E9A51B3BDEDE007F65F7 /* MinuteHand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B17E99D1B3BDEDE007F65F7 /* MinuteHand@2x.png */; };
+		7B17E9A61B3BDEDE007F65F7 /* SecondHand.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B17E99E1B3BDEDE007F65F7 /* SecondHand.png */; };
+		7B17E9A71B3BDEDE007F65F7 /* SecondHand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B17E99F1B3BDEDE007F65F7 /* SecondHand@2x.png */; };
+		7B17E9AB1B3BDEFA007F65F7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B17E9A91B3BDEFA007F65F7 /* SecondViewController.m */; };
+		7B17E9AC1B3BDEFA007F65F7 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B17E9AA1B3BDEFA007F65F7 /* SecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B17E9891B3BDEB5007F65F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B17E9671B3BDEB4007F65F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B17E96E1B3BDEB4007F65F7;
+			remoteInfo = "Care Animation实现时钟";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B09D3E21B3BE12200C3F35B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7B17E96F1B3BDEB4007F65F7 /* Care Animation实现时钟.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Care Animation实现时钟.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B17E9731B3BDEB4007F65F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B17E9741B3BDEB4007F65F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B17E9761B3BDEB4007F65F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7B17E9771B3BDEB4007F65F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7B17E97F1B3BDEB4007F65F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7B17E9821B3BDEB4007F65F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7B17E9881B3BDEB5007F65F7 /* Care Animation实现时钟Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Care Animation实现时钟Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B17E98D1B3BDEB5007F65F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B17E98E1B3BDEB5007F65F7 /* Care_Animation____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Care_Animation____Tests.m"; sourceTree = "<group>"; };
+		7B17E9981B3BDEDE007F65F7 /* ClockFace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ClockFace.png; sourceTree = "<group>"; };
+		7B17E9991B3BDEDE007F65F7 /* ClockFace@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ClockFace@2x.png"; sourceTree = "<group>"; };
+		7B17E99A1B3BDEDE007F65F7 /* HourHand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HourHand.png; sourceTree = "<group>"; };
+		7B17E99B1B3BDEDE007F65F7 /* HourHand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HourHand@2x.png"; sourceTree = "<group>"; };
+		7B17E99C1B3BDEDE007F65F7 /* MinuteHand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MinuteHand.png; sourceTree = "<group>"; };
+		7B17E99D1B3BDEDE007F65F7 /* MinuteHand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MinuteHand@2x.png"; sourceTree = "<group>"; };
+		7B17E99E1B3BDEDE007F65F7 /* SecondHand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SecondHand.png; sourceTree = "<group>"; };
+		7B17E99F1B3BDEDE007F65F7 /* SecondHand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SecondHand@2x.png"; sourceTree = "<group>"; };
+		7B17E9A81B3BDEFA007F65F7 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		7B17E9A91B3BDEFA007F65F7 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		7B17E9AA1B3BDEFA007F65F7 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B17E96C1B3BDEB4007F65F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B17E9851B3BDEB5007F65F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B17E9661B3BDEB4007F65F7 = {
+			isa = PBXGroup;
+			children = (
+				7B17E9711B3BDEB4007F65F7 /* Care Animation实现时钟 */,
+				7B17E98B1B3BDEB5007F65F7 /* Care Animation实现时钟Tests */,
+				7B17E9701B3BDEB4007F65F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B17E9701B3BDEB4007F65F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B17E96F1B3BDEB4007F65F7 /* Care Animation实现时钟.app */,
+				7B17E9881B3BDEB5007F65F7 /* Care Animation实现时钟Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B17E9711B3BDEB4007F65F7 /* Care Animation实现时钟 */ = {
+			isa = PBXGroup;
+			children = (
+				7B17E9A81B3BDEFA007F65F7 /* SecondViewController.h */,
+				7B17E9A91B3BDEFA007F65F7 /* SecondViewController.m */,
+				7B17E9AA1B3BDEFA007F65F7 /* SecondViewController.xib */,
+				7B17E9761B3BDEB4007F65F7 /* AppDelegate.h */,
+				7B17E9771B3BDEB4007F65F7 /* AppDelegate.m */,
+				7B17E97F1B3BDEB4007F65F7 /* Images.xcassets */,
+				7B17E9811B3BDEB4007F65F7 /* LaunchScreen.xib */,
+				7B17E9721B3BDEB4007F65F7 /* Supporting Files */,
+				7B09D3E21B3BE12200C3F35B /* Main.storyboard */,
+			);
+			path = "Care Animation实现时钟";
+			sourceTree = "<group>";
+		};
+		7B17E9721B3BDEB4007F65F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B17E9981B3BDEDE007F65F7 /* ClockFace.png */,
+				7B17E9991B3BDEDE007F65F7 /* ClockFace@2x.png */,
+				7B17E99A1B3BDEDE007F65F7 /* HourHand.png */,
+				7B17E99B1B3BDEDE007F65F7 /* HourHand@2x.png */,
+				7B17E99C1B3BDEDE007F65F7 /* MinuteHand.png */,
+				7B17E99D1B3BDEDE007F65F7 /* MinuteHand@2x.png */,
+				7B17E99E1B3BDEDE007F65F7 /* SecondHand.png */,
+				7B17E99F1B3BDEDE007F65F7 /* SecondHand@2x.png */,
+				7B17E9731B3BDEB4007F65F7 /* Info.plist */,
+				7B17E9741B3BDEB4007F65F7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B17E98B1B3BDEB5007F65F7 /* Care Animation实现时钟Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7B17E98E1B3BDEB5007F65F7 /* Care_Animation____Tests.m */,
+				7B17E98C1B3BDEB5007F65F7 /* Supporting Files */,
+			);
+			path = "Care Animation实现时钟Tests";
+			sourceTree = "<group>";
+		};
+		7B17E98C1B3BDEB5007F65F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B17E98D1B3BDEB5007F65F7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B17E96E1B3BDEB4007F65F7 /* Care Animation实现时钟 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B17E9921B3BDEB5007F65F7 /* Build configuration list for PBXNativeTarget "Care Animation实现时钟" */;
+			buildPhases = (
+				7B17E96B1B3BDEB4007F65F7 /* Sources */,
+				7B17E96C1B3BDEB4007F65F7 /* Frameworks */,
+				7B17E96D1B3BDEB4007F65F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Care Animation实现时钟";
+			productName = "Care Animation实现时钟";
+			productReference = 7B17E96F1B3BDEB4007F65F7 /* Care Animation实现时钟.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B17E9871B3BDEB5007F65F7 /* Care Animation实现时钟Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B17E9951B3BDEB5007F65F7 /* Build configuration list for PBXNativeTarget "Care Animation实现时钟Tests" */;
+			buildPhases = (
+				7B17E9841B3BDEB5007F65F7 /* Sources */,
+				7B17E9851B3BDEB5007F65F7 /* Frameworks */,
+				7B17E9861B3BDEB5007F65F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B17E98A1B3BDEB5007F65F7 /* PBXTargetDependency */,
+			);
+			name = "Care Animation实现时钟Tests";
+			productName = "Care Animation实现时钟Tests";
+			productReference = 7B17E9881B3BDEB5007F65F7 /* Care Animation实现时钟Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B17E9671B3BDEB4007F65F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "黄成都";
+				TargetAttributes = {
+					7B17E96E1B3BDEB4007F65F7 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					7B17E9871B3BDEB5007F65F7 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 7B17E96E1B3BDEB4007F65F7;
+					};
+				};
+			};
+			buildConfigurationList = 7B17E96A1B3BDEB4007F65F7 /* Build configuration list for PBXProject "Care Animation实现时钟" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B17E9661B3BDEB4007F65F7;
+			productRefGroup = 7B17E9701B3BDEB4007F65F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B17E96E1B3BDEB4007F65F7 /* Care Animation实现时钟 */,
+				7B17E9871B3BDEB5007F65F7 /* Care Animation实现时钟Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B17E96D1B3BDEB4007F65F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B17E9A61B3BDEDE007F65F7 /* SecondHand.png in Resources */,
+				7B17E9831B3BDEB4007F65F7 /* LaunchScreen.xib in Resources */,
+				7B17E9A51B3BDEDE007F65F7 /* MinuteHand@2x.png in Resources */,
+				7B09D3E31B3BE12200C3F35B /* Main.storyboard in Resources */,
+				7B17E9A21B3BDEDE007F65F7 /* HourHand.png in Resources */,
+				7B17E9A11B3BDEDE007F65F7 /* ClockFace@2x.png in Resources */,
+				7B17E9A31B3BDEDE007F65F7 /* HourHand@2x.png in Resources */,
+				7B17E9801B3BDEB4007F65F7 /* Images.xcassets in Resources */,
+				7B17E9AC1B3BDEFA007F65F7 /* SecondViewController.xib in Resources */,
+				7B17E9A41B3BDEDE007F65F7 /* MinuteHand.png in Resources */,
+				7B17E9A01B3BDEDE007F65F7 /* ClockFace.png in Resources */,
+				7B17E9A71B3BDEDE007F65F7 /* SecondHand@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B17E9861B3BDEB5007F65F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B17E96B1B3BDEB4007F65F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B17E9AB1B3BDEFA007F65F7 /* SecondViewController.m in Sources */,
+				7B17E9781B3BDEB4007F65F7 /* AppDelegate.m in Sources */,
+				7B17E9751B3BDEB4007F65F7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B17E9841B3BDEB5007F65F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B17E98F1B3BDEB5007F65F7 /* Care_Animation____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B17E98A1B3BDEB5007F65F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B17E96E1B3BDEB4007F65F7 /* Care Animation实现时钟 */;
+			targetProxy = 7B17E9891B3BDEB5007F65F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B17E9811B3BDEB4007F65F7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B17E9821B3BDEB4007F65F7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B17E9901B3BDEB5007F65F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7B17E9911B3BDEB5007F65F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B17E9931B3BDEB5007F65F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Care Animation实现时钟/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7B17E9941B3BDEB5007F65F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Care Animation实现时钟/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7B17E9961B3BDEB5007F65F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Care Animation实现时钟Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Care Animation实现时钟.app/Care Animation实现时钟";
+			};
+			name = Debug;
+		};
+		7B17E9971B3BDEB5007F65F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Care Animation实现时钟Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Care Animation实现时钟.app/Care Animation实现时钟";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B17E96A1B3BDEB4007F65F7 /* Build configuration list for PBXProject "Care Animation实现时钟" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B17E9901B3BDEB5007F65F7 /* Debug */,
+				7B17E9911B3BDEB5007F65F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B17E9921B3BDEB5007F65F7 /* Build configuration list for PBXNativeTarget "Care Animation实现时钟" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B17E9931B3BDEB5007F65F7 /* Debug */,
+				7B17E9941B3BDEB5007F65F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B17E9951B3BDEB5007F65F7 /* Build configuration list for PBXNativeTarget "Care Animation实现时钟Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B17E9961B3BDEB5007F65F7 /* Debug */,
+				7B17E9971B3BDEB5007F65F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B17E9671B3BDEB4007F65F7 /* Project object */;
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>02122934-30CB-463A-A8E3-371DD2107D46</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Graphics</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BC5394D8F1190DA0E0710C1F6472CC1025079B40</key>
+		<string>https://github.com/huang303513/HCDCoreAnimation.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Graphics-and-Animation-on-iOS/把字符串绘制到屏幕上、得到颜色的各组成部分/Graphics.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BC5394D8F1190DA0E0710C1F6472CC1025079B40</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/huang303513/HCDCoreAnimation.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BC5394D8F1190DA0E0710C1F6472CC1025079B40</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BC5394D8F1190DA0E0710C1F6472CC1025079B40</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HCDCoreAnimation</string>
+		</dict>
+	</array>
+</dict>
+</plist>

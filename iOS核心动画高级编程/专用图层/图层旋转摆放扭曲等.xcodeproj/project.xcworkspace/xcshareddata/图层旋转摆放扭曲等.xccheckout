@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8C0710B9-F94B-485D-8C8F-5836B16F8FAB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>图层旋转摆放扭曲等</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BC5394D8F1190DA0E0710C1F6472CC1025079B40</key>
+		<string>https://github.com/huang303513/HCDCoreAnimation.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>专用图层/图层旋转摆放扭曲等.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BC5394D8F1190DA0E0710C1F6472CC1025079B40</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/huang303513/HCDCoreAnimation.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BC5394D8F1190DA0E0710C1F6472CC1025079B40</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BC5394D8F1190DA0E0710C1F6472CC1025079B40</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HCDCoreAnimation</string>
+		</dict>
+	</array>
+</dict>
+</plist>

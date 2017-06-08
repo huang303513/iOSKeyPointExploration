@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x663e;&#x5f0f;&#x52a8;&#x753b;/FirstViewController.m"
+            timestampString = "463980237.428848"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "-animationDidStop:finished:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x663e;&#x5f0f;&#x52a8;&#x753b;/SixViewController.m"
+            timestampString = "463987844.624517"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "-switchImage:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SixViewController switchImage:]"
+                  moduleName = "&#x663e;&#x5f0f;&#x52a8;&#x753b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yifan/Desktop/github/HCDCoreAnimation/%E6%98%BE%E5%BC%8F%E5%8A%A8%E7%94%BB/%E6%98%BE%E5%BC%8F%E5%8A%A8%E7%94%BB/SixViewController.m"
+                  timestampString = "463987844.665692"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "46">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__33-[SixViewController switchImage:]_block_invoke"
+                  moduleName = "&#x663e;&#x5f0f;&#x52a8;&#x753b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yifan/Desktop/github/HCDCoreAnimation/%E6%98%BE%E5%BC%8F%E5%8A%A8%E7%94%BB/%E6%98%BE%E5%BC%8F%E5%8A%A8%E7%94%BB/SixViewController.m"
+                  timestampString = "463987844.665865"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
