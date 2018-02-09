@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+            <title>测试</title>
+    </head>
+    <body>
+        <div style="margin-top: 20px">
+            <h2>JS与OC交互</h2>
+            <input type="button" value="唤起本地方法(call)" onclick="call()">
+        </div>
+        <script>
+            
+            var call = function()
+            {
+                var callInfo = JSON.stringify("www.jianshu.com");//此处参数可自定义
+                //这里的内容差不多全部一样 只是调用的方法有区别 一定要注意区分
+                //这个是用UIWebView时调用的方法 JSObjec.getCall(callInfo);
+                //下面是用WKWebView调用的方法
+                window.webkit.messageHandlers.JSObjec.postMessage(callInfo);
+            }
+        </script>
+    </body>
+</html>
+
