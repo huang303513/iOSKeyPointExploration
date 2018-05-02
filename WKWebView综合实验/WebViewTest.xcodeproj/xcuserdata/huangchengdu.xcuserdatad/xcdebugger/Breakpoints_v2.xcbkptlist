@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WebViewTest/ViewController.m"
-            timestampString = "539850624.489128"
+            timestampString = "544847283.792473"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "78"
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WebViewTest/ViewController.m"
-            timestampString = "539850624.489966"
+            timestampString = "544847283.808899"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "84"
@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WebViewTest/ViewController.m"
-            timestampString = "539850624.490449"
+            timestampString = "544847283.810668"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "101"
@@ -58,7 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WebViewTest/ViewController.m"
-            timestampString = "539850624.4915659"
+            timestampString = "544847283.812448"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "92"
@@ -74,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WebViewTest/ViewController.m"
-            timestampString = "539850624.4934191"
+            timestampString = "544847283.814216"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "109"
@@ -90,13 +90,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WebViewTest/ViewController.m"
-            timestampString = "539850624.494043"
+            timestampString = "544847283.816147"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "108"
             endingLineNumber = "108"
-            landmarkName = "-userContentController:didReceiveScriptMessage:"
-            landmarkType = "7">
+            landmarkName = "ViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -106,12 +106,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WebViewTest/ViewController.m"
-            timestampString = "539850624.4945461"
+            timestampString = "544847283.817445"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "106"
             endingLineNumber = "106"
-            landmarkName = "-userContentController:didReceiveScriptMessage:"
+            landmarkName = "-webView:didCommitNavigation:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

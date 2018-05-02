@@ -73,6 +73,7 @@
 //https://www.jianshu.com/p/3b958272bb2f
 //http://blog.csdn.net/tencent_bugly/article/details/54668721
 //https://www.jianshu.com/p/253e76a74b38
+//https://www.jianshu.com/p/8d416628e3fe
 - (void)webView:(WKWebView *)webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler{
     NSString *url = navigationAction.request.URL.absoluteString;
     
@@ -97,6 +98,9 @@
 }
 
 -(void)webView:(WKWebView *)webView didReceiveServerRedirectForProvisionalNavigation:(WKNavigation *)navigation{
+    [webView evaluateJavaScript:@"let obj = {name:'huang',age:123};console.log(obj)" completionHandler:^(id _Nullable xx, NSError * _Nullable error) {
+        
+    }];
     
 }
 - (void)webView:(WKWebView *)webView didCommitNavigation:(null_unspecified WKNavigation *)navigation{
