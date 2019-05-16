@@ -72,6 +72,7 @@
 [Cocoa深入学习:NSOperationQueue&NSOperation](http://www.jianshu.com/p/fe1fec3d198f)</br>
 [GCD 深入理解：第一部分](https://github.com/nixzhu/dev-blog/blob/master/2014-04-19-grand-central-dispatch-in-depth-part-1.md)</br>
 [GCD 深入理解：第二部分](https://github.com/nixzhu/dev-blog/blob/master/2014-05-14-grand-central-dispatch-in-depth-part-2.md)</br>
+[GDC详解/线程安全](https://www.jianshu.com/p/2d57c72016c6)</br>
 
 
 ###套接字编程与音频处理(还未了解)</br>
