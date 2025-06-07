@@ -10,6 +10,7 @@
 [利用Runtime自定义控制器POP手势动画2](https://github.com/forkingdog/FDFullscreenPopGesture)</br>
 [跟着MJExtension实现简单的字典转模型框架](http://www.jianshu.com/p/d2ecef03f19e)</br>
 [基于runloop的线程保活、销毁与通信](http://www.jianshu.com/p/4d5b6fc33519)</br>
+[iOS 多线程：『RunLoop』详尽总结](https://www.jianshu.com/p/d260d18dd551)</br>
 
 ###KVC&&KVO&&Notification</br>
 [KVC的实现流程以及比特用法1](http://www.jianshu.com/p/d12dba8d686c)</br>
@@ -74,6 +75,8 @@
 [GCD 深入理解：第二部分](https://github.com/nixzhu/dev-blog/blob/master/2014-05-14-grand-central-dispatch-in-depth-part-2.md)</br>
 [GDC详解/线程安全](https://www.jianshu.com/p/2d57c72016c6)</br>
 [iOS 多线程：「GCD」详尽总结](https://www.jianshu.com/p/2d57c72016c6)</br>
+[iOS 多线程：『NSOperation、NSOperationQueue』详尽总结](https://www.jianshu.com/p/4b1d77054b35)</br>
+[iOS 多线程：『pthread、NSThread』详尽总结](https://www.jianshu.com/p/cbaeea5368b1)</br>
 
 
 ###套接字编程与音频处理(还未了解)</br>
